@@ -1,0 +1,36 @@
+{
+  "name": "Carotte cake sans gluten",
+  "ingredients": [
+    "Carottes rapees",
+    "Oeufs",
+    "Cassonade",
+    "Poudre amande",
+    "Farine de riz",
+    "Fondre et lever",
+    "Cannelle",
+    "Gingembre",
+    "Zeste d'orange",
+    "Noix, mixe ou peco"
+  ],
+  "steps": [
+    "Monter",
+    "Ajouter les ingredients secs",
+    "Peser a 2800gr par cadre",
+    "Cuire a 160 35min",
+    "Couper a 5x5cm"
+  ],
+  "other_details": {
+    "portions": "Pour 3 cadres",
+    "quantities": {
+      "Carottes rapees": "1205 gr",
+      "Oeufs": "1800 gr",
+      "Cassonade": "1759 gr",
+      "Poudre amande": "368 gr",
+      "Fondre et lever": "486 gr",
+      "Cannelle": "10 gr",
+      "Gingembre": "10 gr",
+      "Zeste d'orange": "10 gr",
+      "Noix, mixe ou peco": "420 gr"
+    }
+  }
+}

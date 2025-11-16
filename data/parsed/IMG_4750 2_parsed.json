@@ -1,0 +1,29 @@
+{
+  "name": "Financier",
+  "ingredients": [
+    "2100 gr beurre",
+    "710 gr farine",
+    "1200 gr sucre glace",
+    "220 gr poudre d'amande",
+    "345 gr trimoline",
+    "2200 gr blanc d'oeufs",
+    "Sel"
+  ],
+  "steps": [
+    "Faire bouillir le beurre",
+    "Melanger tous les ingredients sauf au fouet",
+    "Ajouter les blancs d'oeufs",
+    "Ajouter le beurre",
+    "Diviser en 4 x 2.2kg",
+    "Cuire a 170°C 13 min"
+  ],
+  "other_details": {
+    "notes": [
+      "Pate de noisette pour 2kg = 250gr",
+      "Pate de pistache pour 2kg = 250gr",
+      "Fleur d'oranger pour 2kg = 150gr",
+      "The matcha pour 2kg = 25gr",
+      "Arome panettone pour 2kg = 10gr"
+    ]
+  }
+}

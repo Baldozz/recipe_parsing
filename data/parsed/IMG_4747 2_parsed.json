@@ -1,0 +1,16 @@
+{
+  "name": "Crumble Chocolat",
+  "ingredients": [
+    "Beurre 300 gr",
+    "Farine 355 gr",
+    "Poudre amande 235 gr",
+    "Poudre de cacao 140 gr",
+    "Grué de cacao 265 gr",
+    "Fleur de sel 10 gr"
+  ],
+  "steps": [],
+  "other_details": {
+    "temperature": "155°C",
+    "cook_time": "20 min"
+  }
+}

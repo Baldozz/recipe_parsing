@@ -1,0 +1,26 @@
+{
+  "name": "Pate a Cookies",
+  "ingredients": [
+    "1000 gr Beurre",
+    "1500 gr Cassonade",
+    "2000 gr Melanger au fouet et ajouter",
+    "470 gr Oeufs",
+    "2500 gr Melanger a la feuille",
+    "25 gr Fleur de sel",
+    "20 gr Bicarbonate"
+  ],
+  "steps": [
+    "Melanger au fouet et ajouter les oeufs.",
+    "Melanger a la feuille.",
+    "Rouler a 250 gr longuer 20 cm.",
+    "10 gr par cookie.",
+    "Rouler a 280 gr longuer 20 cm.",
+    "5 gr par cookies.",
+    "Cuire a 165°C 8 min."
+  ],
+  "other_details": {
+    "note": "Cookies boil 16 gr par sphere",
+    "temperature": "180°C",
+    "time": "12 min"
+  }
+}

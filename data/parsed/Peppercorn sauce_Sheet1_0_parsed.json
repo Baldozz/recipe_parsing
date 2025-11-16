@@ -1,0 +1,23 @@
+{
+  "name": "Peppercorn Sauce",
+  "ingredients": [
+    "100g Shallot",
+    "10g Garlic",
+    "20g Black Peppercorns",
+    "60g Dark Soy",
+    "80g Oyster sauce",
+    "80g Honey",
+    "1L Beef Stock",
+    "20g Chinkaing Vinegar"
+  ],
+  "steps": [
+    "Sweat shallot and garlic",
+    "Toast Peppercorns, add to shallots",
+    "Deglaze with vinegar until dry",
+    "Add all other ingredients bring to boil",
+    "Blend all ingredients and pass through sieve"
+  ],
+  "other_details": {
+    "notes": "Ensure its thickened enough for the service, peppercorn must be toasted"
+  }
+}

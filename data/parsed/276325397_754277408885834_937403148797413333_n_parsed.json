@@ -1,0 +1,25 @@
+{
+  "name": "Souffle chocolat",
+  "ingredients": [
+    "Beurre 50",
+    "Farine 57",
+    "Sel 1",
+    "Lait 270",
+    "Sucre 50",
+    "Chocolat noir 195",
+    "Jaune d'oeufs 114",
+    "Blancs d'oeufs 180",
+    "Blancs secs 9",
+    "Creme de tartre 0.5",
+    "Sucre 70"
+  ],
+  "steps": [
+    "Moule beurrer au beurre clarifier et sucre semoule",
+    "Bien mixer le cremeux au mixeur plongeant ou thermomix"
+  ],
+  "other_details": {
+    "cook_time": "10 min",
+    "temperature": "170°C",
+    "ventilation": "50%"
+  }
+}

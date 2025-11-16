@@ -1,0 +1,1984 @@
+[
+  {
+    "source_file": "IMG_1493.JPG",
+    "output_file": "IMG_1493_parsed.json",
+    "status": "success",
+    "recipe_name": "Arroz pulido cremoso semiabual con setas"
+  },
+  {
+    "source_file": "IMG_5722.jpeg",
+    "output_file": "IMG_5722_parsed.json",
+    "status": "success",
+    "recipe_name": "Cottura delle uova a bassa temperatura"
+  },
+  {
+    "source_file": "IMG_4758.jpeg",
+    "output_file": "IMG_4758_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Pistache"
+  },
+  {
+    "source_file": "IMG_4762 2.jpeg",
+    "output_file": "IMG_4762 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Muffin PDJ"
+  },
+  {
+    "source_file": "IMG_5775.jpeg",
+    "output_file": "IMG_5775_parsed.json",
+    "status": "success",
+    "recipe_name": "gelato al cocco"
+  },
+  {
+    "source_file": "IMG_5763.jpeg",
+    "output_file": "IMG_5763_parsed.json",
+    "status": "success",
+    "recipe_name": "confettura alle ciliegie"
+  },
+  {
+    "source_file": "IMG_4770 2.jpeg",
+    "output_file": "IMG_4770 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate Olive Pour Sucette Parmesan"
+  },
+  {
+    "source_file": "IMG_5734.jpeg",
+    "output_file": "IMG_5734_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta al limoncello (x trafila)"
+  },
+  {
+    "source_file": "IMG_4758 2.jpeg",
+    "output_file": "IMG_4758 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Pistache"
+  },
+  {
+    "source_file": "IMG_4762.jpeg",
+    "output_file": "IMG_4762_parsed.json",
+    "status": "success",
+    "recipe_name": "Muffin PDJ"
+  },
+  {
+    "source_file": "IMG_4746 2.jpeg",
+    "output_file": "IMG_4746 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme brulee"
+  },
+  {
+    "source_file": "IMG_3789.jpeg",
+    "output_file": "IMG_3789_parsed.json",
+    "status": "success",
+    "recipe_name": "Chocolate, Passion Fruit and Summer Savory"
+  },
+  {
+    "source_file": "IMG_5718.jpeg",
+    "output_file": "IMG_5718_parsed.json",
+    "status": "success",
+    "recipe_name": "Fagottino di patata ripieno di ragusano con guanciale e cipollotto croccante"
+  },
+  {
+    "source_file": "IMG_4822 2.jpeg",
+    "output_file": "IMG_4822 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sauce Caesar"
+  },
+  {
+    "source_file": "IMG_3770.jpeg",
+    "output_file": "IMG_3770_parsed.json",
+    "status": "success",
+    "recipe_name": "Crispy Leaves"
+  },
+  {
+    "source_file": "IMG_4754 2.jpeg",
+    "output_file": "IMG_4754 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Cafe"
+  },
+  {
+    "source_file": "IMG_4774.jpeg",
+    "output_file": "IMG_4774_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Fraise"
+  },
+  {
+    "source_file": "IMG_5759.jpeg",
+    "output_file": "IMG_5759_parsed.json",
+    "status": "success",
+    "recipe_name": "Biscotto al the verde 'Matcha'"
+  },
+  {
+    "source_file": "IMG_2136.jpeg",
+    "output_file": "IMG_2136_parsed.json",
+    "status": "success",
+    "recipe_name": "Lobster and Pistachio"
+  },
+  {
+    "source_file": "IMG_4783 2.jpeg",
+    "output_file": "IMG_4783 2_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_5811.jpeg",
+    "output_file": "IMG_5811_parsed.json",
+    "status": "success",
+    "recipe_name": "Nocciole Caramellate"
+  },
+  {
+    "source_file": "IMG_5779.jpeg",
+    "output_file": "IMG_5779_parsed.json",
+    "status": "success",
+    "recipe_name": "gelato al mango"
+  },
+  {
+    "source_file": "IMG_5796.jpeg",
+    "output_file": "IMG_5796_parsed.json",
+    "status": "success",
+    "recipe_name": "Coconut Macaron"
+  },
+  {
+    "source_file": "IMG_4754.jpeg",
+    "output_file": "IMG_4754_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Cafe"
+  },
+  {
+    "source_file": "IMG_5780.jpeg",
+    "output_file": "IMG_5780_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbetto alla Barbabietola"
+  },
+  {
+    "source_file": "IMG_4742.jpeg",
+    "output_file": "IMG_4742_parsed.json",
+    "status": "success",
+    "recipe_name": "Brownies"
+  },
+  {
+    "source_file": "IMG_5738.jpeg",
+    "output_file": "IMG_5738_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta all'uovo"
+  },
+  {
+    "source_file": "IMG_5807.jpeg",
+    "output_file": "IMG_5807_parsed.json",
+    "status": "success",
+    "recipe_name": "Colombe 1° impasto"
+  },
+  {
+    "source_file": "IMG_5743.jpeg",
+    "output_file": "IMG_5743_parsed.json",
+    "status": "success",
+    "recipe_name": "Crema di cioccolato"
+  },
+  {
+    "source_file": "IMG_4781.jpeg",
+    "output_file": "IMG_4781_parsed.json",
+    "status": "success",
+    "recipe_name": "Vacherin exotique"
+  },
+  {
+    "source_file": "IMG_3802.jpeg",
+    "output_file": "IMG_3802_parsed.json",
+    "status": "success",
+    "recipe_name": "Pork Cheek and Onion"
+  },
+  {
+    "source_file": "IMG_3785.jpeg",
+    "output_file": "IMG_3785_parsed.json",
+    "status": "success",
+    "recipe_name": "Artichoke Preparation"
+  },
+  {
+    "source_file": "IMG_5714.jpeg",
+    "output_file": "IMG_5714_parsed.json",
+    "status": "success",
+    "recipe_name": "Flan al gorgonzola"
+  },
+  {
+    "source_file": "IMG_3793.jpeg",
+    "output_file": "IMG_3793_parsed.json",
+    "status": "success",
+    "recipe_name": "Pear, Fig Leaf and Blackcurrant Sage"
+  },
+  {
+    "source_file": "IMG_5702.jpeg",
+    "output_file": "IMG_5702_parsed.json",
+    "status": "success",
+    "recipe_name": "Pan Brioche"
+  },
+  {
+    "source_file": "IMG_5755.jpeg",
+    "output_file": "IMG_5755_parsed.json",
+    "status": "success",
+    "recipe_name": "Torta Linzer"
+  },
+  {
+    "source_file": "IMG_5885.jpeg",
+    "output_file": "IMG_5885_parsed.json",
+    "status": "success",
+    "recipe_name": "Leche de Tigre Clasica"
+  },
+  {
+    "source_file": "IMG_3814.jpeg",
+    "output_file": "IMG_3814_parsed.json",
+    "status": "success",
+    "recipe_name": "Razor Clam, Tamarind"
+  },
+  {
+    "source_file": "IMG_4778.jpeg",
+    "output_file": "IMG_4778_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Orange Sanguine"
+  },
+  {
+    "source_file": "IMG_1495.JPG",
+    "output_file": "IMG_1495_parsed.json",
+    "status": "success",
+    "recipe_name": "Criadillas Cremosas"
+  },
+  {
+    "source_file": "IMG_3815.jpeg",
+    "output_file": "IMG_3815_parsed.json",
+    "status": "success",
+    "recipe_name": "Potato and Yeast"
+  },
+  {
+    "source_file": "IMG_4779.jpeg",
+    "output_file": "IMG_4779_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Menthe"
+  },
+  {
+    "source_file": "IMG_5754.jpeg",
+    "output_file": "IMG_5754_parsed.json",
+    "status": "success",
+    "recipe_name": "Coffee macaron"
+  },
+  {
+    "source_file": "IMG_3792.jpeg",
+    "output_file": "IMG_3792_parsed.json",
+    "status": "success",
+    "recipe_name": "Plum Petite Four"
+  },
+  {
+    "source_file": "IMG_5703.jpeg",
+    "output_file": "IMG_5703_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta per Agnolotti, Ravioli e Cappellacci"
+  },
+  {
+    "source_file": "IMG_3784.jpeg",
+    "output_file": "IMG_3784_parsed.json",
+    "status": "success",
+    "recipe_name": "Manhatten Pigs Tails"
+  },
+  {
+    "source_file": "IMG_5715.jpeg",
+    "output_file": "IMG_5715_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme brulee di zucca"
+  },
+  {
+    "source_file": "IMG_4780.jpeg",
+    "output_file": "IMG_4780_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Pomme Verte"
+  },
+  {
+    "source_file": "IMG_3803.jpeg",
+    "output_file": "IMG_3803_parsed.json",
+    "status": "success",
+    "recipe_name": "Pork Cheek and Onion"
+  },
+  {
+    "source_file": "IMG_5742.jpeg",
+    "output_file": "IMG_5742_parsed.json",
+    "status": "success",
+    "recipe_name": "Pinoli sabbiati"
+  },
+  {
+    "source_file": "IMG_4781 2.jpeg",
+    "output_file": "IMG_4781 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Vacherin exotique"
+  },
+  {
+    "source_file": "IMG_5806.jpeg",
+    "output_file": "IMG_5806_parsed.json",
+    "status": "success",
+    "recipe_name": "Colombe"
+  },
+  {
+    "source_file": "IMG_5739.jpeg",
+    "output_file": "IMG_5739_parsed.json",
+    "status": "success",
+    "recipe_name": "Focaccia genovese"
+  },
+  {
+    "source_file": "IMG_5693.jpeg",
+    "output_file": "IMG_5693_parsed.json",
+    "status": "success",
+    "recipe_name": "Semifreddo Nocciole"
+  },
+  {
+    "source_file": "IMG_4743.jpeg",
+    "output_file": "IMG_4743_parsed.json",
+    "status": "success",
+    "recipe_name": "Biscuit Moelleux Amande"
+  },
+  {
+    "source_file": "IMG_5781.jpeg",
+    "output_file": "IMG_5781_parsed.json",
+    "status": "success",
+    "recipe_name": "Gelato al Limone e Basilico"
+  },
+  {
+    "source_file": "IMG_4755.jpeg",
+    "output_file": "IMG_4755_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Vanille"
+  },
+  {
+    "source_file": "IMG_5778.jpeg",
+    "output_file": "IMG_5778_parsed.json",
+    "status": "success",
+    "recipe_name": "Gelato al mascarpone e gorgonzola (paco jet)"
+  },
+  {
+    "source_file": "IMG_5797.jpeg",
+    "output_file": "IMG_5797_parsed.json",
+    "status": "success",
+    "recipe_name": "Panisse"
+  },
+  {
+    "source_file": "IMG_5810.jpeg",
+    "output_file": "IMG_5810_parsed.json",
+    "status": "success",
+    "recipe_name": "Tortino Cioccolato e Pere"
+  },
+  {
+    "source_file": "IMG_1494.JPG",
+    "output_file": "IMG_1494_parsed.json",
+    "status": "success",
+    "recipe_name": "Civet de sangacho"
+  },
+  {
+    "source_file": "IMG_1496.JPG",
+    "output_file": "IMG_1496_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_5758.jpeg",
+    "output_file": "IMG_5758_parsed.json",
+    "status": "success",
+    "recipe_name": "Pere cotte"
+  },
+  {
+    "source_file": "IMG_4775.jpeg",
+    "output_file": "IMG_4775_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Citron"
+  },
+  {
+    "source_file": "IMG_3771.jpeg",
+    "output_file": "IMG_3771_parsed.json",
+    "status": "success",
+    "recipe_name": "Corn Tostada"
+  },
+  {
+    "source_file": "IMG_3788.jpeg",
+    "output_file": "IMG_3788_parsed.json",
+    "status": "success",
+    "recipe_name": "Grape, Bee Pollen and Yogurt"
+  },
+  {
+    "source_file": "IMG_4760 2.jpeg",
+    "output_file": "IMG_4760 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Madeleine"
+  },
+  {
+    "source_file": "IMG_5719.jpeg",
+    "output_file": "IMG_5719_parsed.json",
+    "status": "success",
+    "recipe_name": "Burro acido"
+  },
+  {
+    "source_file": "IMG_3767.jpeg",
+    "output_file": "IMG_3767_parsed.json",
+    "status": "success",
+    "recipe_name": "Mushroom Crisps"
+  },
+  {
+    "source_file": "IMG_1509.JPG",
+    "output_file": "IMG_1509_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_4763.jpeg",
+    "output_file": "IMG_4763_parsed.json",
+    "status": "success",
+    "recipe_name": "Mousse de base"
+  },
+  {
+    "source_file": "IMG_1508.JPG",
+    "output_file": "IMG_1508_parsed.json",
+    "status": "success",
+    "recipe_name": "Tuetano negro"
+  },
+  {
+    "source_file": "IMG_5735.jpeg",
+    "output_file": "IMG_5735_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta al kamut (impasto diretto)"
+  },
+  {
+    "source_file": "IMG_4756 2.jpeg",
+    "output_file": "IMG_4756 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Vanille"
+  },
+  {
+    "source_file": "IMG_5762.jpeg",
+    "output_file": "IMG_5762_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta brise"
+  },
+  {
+    "source_file": "IMG_4748 2.jpeg",
+    "output_file": "IMG_4748 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Crepes Suzette"
+  },
+  {
+    "source_file": "IMG_5774.jpeg",
+    "output_file": "IMG_5774_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbetto Mojito alla fragola (paco jet)"
+  },
+  {
+    "source_file": "IMG_4744 2.jpeg",
+    "output_file": "IMG_4744 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Coulis cacao"
+  },
+  {
+    "source_file": "IMG_4759.jpeg",
+    "output_file": "IMG_4759_parsed.json",
+    "status": "success",
+    "recipe_name": "Macarons Italienne"
+  },
+  {
+    "source_file": "IMG_5723.jpeg",
+    "output_file": "IMG_5723_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme caramel di foie gras"
+  },
+  {
+    "source_file": "IMG_5728.jpeg",
+    "output_file": "IMG_5728_parsed.json",
+    "status": "success",
+    "recipe_name": "Horseradish Cream"
+  },
+  {
+    "source_file": "IMG_2106.JPG",
+    "output_file": "IMG_2106_parsed.json",
+    "status": "success",
+    "recipe_name": "Manzana/Peras Fermentadas"
+  },
+  {
+    "source_file": "IMG_2112.JPG",
+    "output_file": "IMG_2112_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Rabito"
+  },
+  {
+    "source_file": "IMG_5790.jpeg",
+    "output_file": "IMG_5790_parsed.json",
+    "status": "success",
+    "recipe_name": "Victoria Pineapple"
+  },
+  {
+    "source_file": "IMG_4752.jpeg",
+    "output_file": "IMG_4752_parsed.json",
+    "status": "success",
+    "recipe_name": "Ganache Passion"
+  },
+  {
+    "source_file": "IMG_5769.jpeg",
+    "output_file": "IMG_5769_parsed.json",
+    "status": "success",
+    "recipe_name": "Salsa al caffe"
+  },
+  {
+    "source_file": "IMG_5786.jpeg",
+    "output_file": "IMG_5786_parsed.json",
+    "status": "success",
+    "recipe_name": "Semifreddo ai lamponi"
+  },
+  {
+    "source_file": "IMG_4744.jpeg",
+    "output_file": "IMG_4744_parsed.json",
+    "status": "success",
+    "recipe_name": "Coulis cacao"
+  },
+  {
+    "source_file": "IMG_5694.jpeg",
+    "output_file": "IMG_5694_parsed.json",
+    "status": "success",
+    "recipe_name": "Croccantino"
+  },
+  {
+    "source_file": "IMG_2099.JPG",
+    "output_file": "IMG_2099_parsed.json",
+    "status": "success",
+    "recipe_name": "Pastel de arroz negro fermentado con Koshu"
+  },
+  {
+    "source_file": "IMG_5801.jpeg",
+    "output_file": "IMG_5801_parsed.json",
+    "status": "success",
+    "recipe_name": "Gelatine alla frutta"
+  },
+  {
+    "source_file": "IMG_5745.jpeg",
+    "output_file": "IMG_5745_parsed.json",
+    "status": "success",
+    "recipe_name": "Meringa all'italiana"
+  },
+  {
+    "source_file": "IMG_2098.JPG",
+    "output_file": "IMG_2098_parsed.json",
+    "status": "success",
+    "recipe_name": "El acabado"
+  },
+  {
+    "source_file": "IMG_3804.jpeg",
+    "output_file": "IMG_3804_parsed.json",
+    "status": "success",
+    "recipe_name": "Mackerel and Tomato"
+  },
+  {
+    "source_file": "IMG_4768.jpeg",
+    "output_file": "IMG_4768_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Cookies"
+  },
+  {
+    "source_file": "IMG_3783.jpeg",
+    "output_file": "IMG_3783_parsed.json",
+    "status": "success",
+    "recipe_name": "Turbot with Sea Herbs"
+  },
+  {
+    "source_file": "IMG_5712.jpeg",
+    "output_file": "IMG_5712_parsed.json",
+    "status": "success",
+    "recipe_name": "Salsa Gorgonzola"
+  },
+  {
+    "source_file": "IMG_3795.jpeg",
+    "output_file": "IMG_3795_parsed.json",
+    "status": "success",
+    "recipe_name": "Goats Cheese, Peanut and Soy Sauce"
+  },
+  {
+    "source_file": "IMG_5704.jpeg",
+    "output_file": "IMG_5704_parsed.json",
+    "status": "success",
+    "recipe_name": "Grissini al Burro"
+  },
+  {
+    "source_file": "IMG_2113.JPG",
+    "output_file": "IMG_2113_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Carabinero"
+  },
+  {
+    "source_file": "IMG_5753.jpeg",
+    "output_file": "IMG_5753_parsed.json",
+    "status": "success",
+    "recipe_name": "Macarons al Cacao"
+  },
+  {
+    "source_file": "IMG_2107.JPG",
+    "output_file": "IMG_2107_parsed.json",
+    "status": "success",
+    "recipe_name": "Fermentos"
+  },
+  {
+    "source_file": "IMG_3812.jpeg",
+    "output_file": "IMG_3812_parsed.json",
+    "status": "success",
+    "recipe_name": "Halibut, Toasted Rice"
+  },
+  {
+    "source_file": "IMG_2111.JPG",
+    "output_file": "IMG_2111_parsed.json",
+    "status": "success",
+    "recipe_name": "Sopa de ajos"
+  },
+  {
+    "source_file": "IMG_5724.jpeg",
+    "output_file": "IMG_5724_parsed.json",
+    "status": "success",
+    "recipe_name": "Granola"
+  },
+  {
+    "source_file": "IMG_2105.JPG",
+    "output_file": "IMG_2105_parsed.json",
+    "status": "success",
+    "recipe_name": "Cendre des pres tibio: para todos"
+  },
+  {
+    "source_file": "IMG_4740 2.jpeg",
+    "output_file": "IMG_4740 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Carotte cake sans gluten"
+  },
+  {
+    "source_file": "IMG_5773.jpeg",
+    "output_file": "IMG_5773_parsed.json",
+    "status": "success",
+    "recipe_name": "Spuma alle fragole"
+  },
+  {
+    "source_file": "IMG_4748.jpeg",
+    "output_file": "IMG_4748_parsed.json",
+    "status": "success",
+    "recipe_name": "Crepes Suzette"
+  },
+  {
+    "source_file": "IMG_5765.jpeg",
+    "output_file": "IMG_5765_parsed.json",
+    "status": "success",
+    "recipe_name": "Crema bavarese alla vaniglia"
+  },
+  {
+    "source_file": "IMG_5698.jpeg",
+    "status": "error",
+    "error": "the JSON object must be str, bytes or bytearray, not NoneType"
+  },
+  {
+    "source_file": "IMG_5732.jpeg",
+    "output_file": "IMG_5732_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta alle erbe"
+  },
+  {
+    "source_file": "IMG_4764.jpeg",
+    "output_file": "IMG_4764_parsed.json",
+    "status": "success",
+    "recipe_name": "Panacotta"
+  },
+  {
+    "source_file": "IMG_3808.jpeg",
+    "output_file": "IMG_3808_parsed.json",
+    "status": "success",
+    "recipe_name": "Sea Urchin and Coffee"
+  },
+  {
+    "source_file": "IMG_4764 2.jpeg",
+    "output_file": "IMG_4764 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Panacotta"
+  },
+  {
+    "source_file": "IMG_5749.jpeg",
+    "output_file": "IMG_5749_parsed.json",
+    "status": "success",
+    "recipe_name": "Bisquit savoiardo"
+  },
+  {
+    "source_file": "IMG_4776 2.jpeg",
+    "output_file": "IMG_4776 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Exotique"
+  },
+  {
+    "source_file": "IMG_5708.jpeg",
+    "output_file": "IMG_5708_parsed.json",
+    "status": "success",
+    "recipe_name": "Biscotto Sacher"
+  },
+  {
+    "source_file": "IMG_3776.jpeg",
+    "output_file": "IMG_3776_parsed.json",
+    "status": "success",
+    "recipe_name": "Halibut and Activated Charcoal"
+  },
+  {
+    "source_file": "IMG_2104.JPG",
+    "output_file": "IMG_2104_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_4772.jpeg",
+    "output_file": "IMG_4772_parsed.json",
+    "status": "success",
+    "recipe_name": "Sauce Caramel"
+  },
+  {
+    "source_file": "IMG_2110.JPG",
+    "output_file": "IMG_2110_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Txipiron"
+  },
+  {
+    "source_file": "IMG_4768 2.jpeg",
+    "output_file": "IMG_4768 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Cookies"
+  },
+  {
+    "source_file": "IMG_2114.JPG",
+    "output_file": "IMG_2114_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Callos"
+  },
+  {
+    "source_file": "IMG_4773.jpeg",
+    "output_file": "IMG_4773_parsed.json",
+    "status": "success",
+    "recipe_name": "Sable Breton"
+  },
+  {
+    "source_file": "IMG_2100.JPG",
+    "output_file": "IMG_2100_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_5709.jpeg",
+    "output_file": "IMG_5709_parsed.json",
+    "status": "success",
+    "recipe_name": "Sesame Ice Cream"
+  },
+  {
+    "source_file": "IMG_3777.jpeg",
+    "output_file": "IMG_3777_parsed.json",
+    "status": "success",
+    "recipe_name": "Squid, Pork and Mushroom"
+  },
+  {
+    "source_file": "IMG_4750 2.jpeg",
+    "output_file": "IMG_4750 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Financier"
+  },
+  {
+    "source_file": "IMG_5748.jpeg",
+    "output_file": "IMG_5748_parsed.json",
+    "status": "success",
+    "recipe_name": "Gelatina neutra"
+  },
+  {
+    "source_file": "IMG_4742 2.jpeg",
+    "output_file": "IMG_4742 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Brownies"
+  },
+  {
+    "source_file": "IMG_4765.jpeg",
+    "output_file": "IMG_4765_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Choux"
+  },
+  {
+    "source_file": "IMG_2074.JPG",
+    "output_file": "IMG_2074_parsed.json",
+    "status": "success",
+    "recipe_name": "El Rebozado"
+  },
+  {
+    "source_file": "IMG_5699.jpeg",
+    "output_file": "IMG_5699_parsed.json",
+    "status": "success",
+    "recipe_name": "Ananas al kirsch"
+  },
+  {
+    "source_file": "IMG_5733.jpeg",
+    "output_file": "IMG_5733_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta al vino rosso"
+  },
+  {
+    "source_file": "IMG_2075.JPG",
+    "output_file": "IMG_2075_parsed.json",
+    "status": "success",
+    "recipe_name": "Pastelillo de arroz"
+  },
+  {
+    "source_file": "IMG_5764.jpeg",
+    "output_file": "IMG_5764_parsed.json",
+    "status": "success",
+    "recipe_name": "Crema al mascarpone"
+  },
+  {
+    "source_file": "IMG_4749.jpeg",
+    "output_file": "IMG_4749_parsed.json",
+    "status": "success",
+    "recipe_name": "Crumble Nature et Sans Gluten"
+  },
+  {
+    "source_file": "IMG_4774 2.jpeg",
+    "output_file": "IMG_4774 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Fraise"
+  },
+  {
+    "source_file": "IMG_5772.jpeg",
+    "output_file": "IMG_5772_parsed.json",
+    "status": "success",
+    "recipe_name": "Crem brulee alla nocciola"
+  },
+  {
+    "source_file": "276325397_754277408885834_937403148797413333_n.jpg",
+    "output_file": "276325397_754277408885834_937403148797413333_n_parsed.json",
+    "status": "success",
+    "recipe_name": "Souffle chocolat"
+  },
+  {
+    "source_file": "IMG_4778 2.jpeg",
+    "output_file": "IMG_4778 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Orange Sanguine"
+  },
+  {
+    "source_file": "IMG_2101.JPG",
+    "output_file": "IMG_2101_parsed.json",
+    "status": "success",
+    "recipe_name": "Entre Puebla y Askola, viili con crema de aguacate"
+  },
+  {
+    "source_file": "IMG_2115.JPG",
+    "output_file": "IMG_2115_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Cordero"
+  },
+  {
+    "source_file": "IMG_5725.jpeg",
+    "output_file": "IMG_5725_parsed.json",
+    "status": "success",
+    "recipe_name": "Spuma di pecorino"
+  },
+  {
+    "source_file": "IMG_4766 2.jpeg",
+    "output_file": "IMG_4766 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Cake"
+  },
+  {
+    "source_file": "IMG_3813.jpeg",
+    "output_file": "IMG_3813_parsed.json",
+    "status": "success",
+    "recipe_name": "Mackerel, Wasabi"
+  },
+  {
+    "source_file": "IMG_2103.JPG",
+    "output_file": "IMG_2103_parsed.json",
+    "status": "success",
+    "recipe_name": "Nata con Fresas"
+  },
+  {
+    "source_file": "IMG_5752.jpeg",
+    "output_file": "IMG_5752_parsed.json",
+    "status": "success",
+    "recipe_name": "Glassa a specchio"
+  },
+  {
+    "source_file": "IMG_2117.JPG",
+    "output_file": "IMG_2117_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo ajo negro (Sopa de ajos)"
+  },
+  {
+    "source_file": "IMG_3794.jpeg",
+    "output_file": "IMG_3794_parsed.json",
+    "status": "success",
+    "recipe_name": "Blackcurrant Sage Leaf Oil"
+  },
+  {
+    "source_file": "IMG_5705.jpeg",
+    "output_file": "IMG_5705_parsed.json",
+    "status": "success",
+    "recipe_name": "Pizza"
+  },
+  {
+    "source_file": "IMG_3782.jpeg",
+    "output_file": "IMG_3782_parsed.json",
+    "status": "success",
+    "recipe_name": "Wagu and Salted Plum"
+  },
+  {
+    "source_file": "IMG_5713.jpeg",
+    "output_file": "IMG_5713_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme brulee al gorgonzola"
+  },
+  {
+    "source_file": "IMG_2088.JPG",
+    "output_file": "IMG_2088_parsed.json",
+    "status": "success",
+    "recipe_name": "El garum"
+  },
+  {
+    "source_file": "IMG_3805.jpeg",
+    "output_file": "IMG_3805_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Base"
+  },
+  {
+    "source_file": "IMG_4769.jpeg",
+    "output_file": "IMG_4769_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Scone Chocolat"
+  },
+  {
+    "source_file": "IMG_2077.JPG",
+    "output_file": "IMG_2077_parsed.json",
+    "status": "success",
+    "recipe_name": "Masa madre de arroz"
+  },
+  {
+    "source_file": "IMG_5744.jpeg",
+    "output_file": "IMG_5744_parsed.json",
+    "status": "success",
+    "recipe_name": "Bigne n° 1"
+  },
+  {
+    "source_file": "IMG_5800.jpeg",
+    "output_file": "IMG_5800_parsed.json",
+    "status": "success",
+    "recipe_name": "Sentimiento Passion"
+  },
+  {
+    "source_file": "IMG_5695.jpeg",
+    "output_file": "IMG_5695_parsed.json",
+    "status": "success",
+    "recipe_name": "Ricette Masti Pasticceria"
+  },
+  {
+    "source_file": "IMG_2089.JPG",
+    "output_file": "IMG_2089_parsed.json",
+    "status": "success",
+    "recipe_name": "Infusion de pino y vainilla ahumada"
+  },
+  {
+    "source_file": "IMG_4745.jpeg",
+    "output_file": "IMG_4745_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme anglaise"
+  },
+  {
+    "source_file": "IMG_5768.jpeg",
+    "output_file": "IMG_5768_parsed.json",
+    "status": "success",
+    "recipe_name": "spuma al latte di mandorle"
+  },
+  {
+    "source_file": "IMG_5787.jpeg",
+    "output_file": "IMG_5787_parsed.json",
+    "status": "success",
+    "recipe_name": "Semifreddo al Mango"
+  },
+  {
+    "source_file": "IMG_5791.jpeg",
+    "output_file": "IMG_5791_parsed.json",
+    "status": "success",
+    "recipe_name": "Dry Pineapple Slice"
+  },
+  {
+    "source_file": "IMG_2116.JPG",
+    "output_file": "IMG_2116_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Gallina"
+  },
+  {
+    "source_file": "IMG_2102.JPG",
+    "output_file": "IMG_2102_parsed.json",
+    "status": "success",
+    "recipe_name": "Masa madre de arroz"
+  },
+  {
+    "source_file": "IMG_5729.jpeg",
+    "output_file": "IMG_5729_parsed.json",
+    "status": "success",
+    "recipe_name": "Mostarda di mele"
+  },
+  {
+    "source_file": "IMG_3810.jpeg",
+    "output_file": "IMG_3810_parsed.json",
+    "status": "success",
+    "recipe_name": "Consomme"
+  },
+  {
+    "source_file": "IMG_2127.JPG",
+    "output_file": "IMG_2127_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de malviz"
+  },
+  {
+    "source_file": "IMG_5751.jpeg",
+    "output_file": "IMG_5751_parsed.json",
+    "status": "success",
+    "recipe_name": "Pan di spagna al cioccolato"
+  },
+  {
+    "source_file": "IMG_5706.jpeg",
+    "output_file": "IMG_5706_parsed.json",
+    "status": "success",
+    "recipe_name": "Biscotto Nero"
+  },
+  {
+    "source_file": "IMG_3778.jpeg",
+    "output_file": "IMG_3778_parsed.json",
+    "status": "success",
+    "recipe_name": "Leek, Chicken and Chive"
+  },
+  {
+    "source_file": "IMG_3797.jpeg",
+    "output_file": "IMG_3797_parsed.json",
+    "status": "success",
+    "recipe_name": "Butters"
+  },
+  {
+    "source_file": "IMG_5710.jpeg",
+    "output_file": "IMG_5710_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet"
+  },
+  {
+    "source_file": "IMG_3781.jpeg",
+    "output_file": "IMG_3781_parsed.json",
+    "status": "success",
+    "recipe_name": "Mole Mancho"
+  },
+  {
+    "source_file": "IMG_2090.JPG",
+    "output_file": "IMG_2090_parsed.json",
+    "status": "success",
+    "recipe_name": "Kombucha de menta"
+  },
+  {
+    "source_file": "IMG_2084.JPG",
+    "output_file": "IMG_2084_parsed.json",
+    "status": "success",
+    "recipe_name": "Tomates"
+  },
+  {
+    "source_file": "IMG_3806.jpeg",
+    "output_file": "IMG_3806_parsed.json",
+    "status": "success",
+    "recipe_name": "Bread"
+  },
+  {
+    "source_file": "IMG_5747.jpeg",
+    "output_file": "IMG_5747_parsed.json",
+    "status": "success",
+    "recipe_name": "Crema allo zabajone"
+  },
+  {
+    "source_file": "IMG_5803.jpeg",
+    "output_file": "IMG_5803_parsed.json",
+    "status": "success",
+    "recipe_name": "Biscotto al cioccolato"
+  },
+  {
+    "source_file": "IMG_2085.JPG",
+    "output_file": "IMG_2085_parsed.json",
+    "status": "success",
+    "recipe_name": "Ostra y velo madre de arroz"
+  },
+  {
+    "source_file": "IMG_5696.jpeg",
+    "output_file": "IMG_5696_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_2091.JPG",
+    "output_file": "IMG_2091_parsed.json",
+    "status": "success",
+    "recipe_name": "Kombucha de licuados"
+  },
+  {
+    "source_file": "IMG_4782 2.jpeg",
+    "output_file": "IMG_4782 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Vacherin exotique"
+  },
+  {
+    "source_file": "IMG_4746.jpeg",
+    "output_file": "IMG_4746_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme brulee"
+  },
+  {
+    "source_file": "IMG_5784.jpeg",
+    "output_file": "IMG_5784_parsed.json",
+    "status": "success",
+    "recipe_name": "gelato di ricotta di capra"
+  },
+  {
+    "source_file": "IMG_4750.jpeg",
+    "output_file": "IMG_4750_parsed.json",
+    "status": "success",
+    "recipe_name": "Financier"
+  },
+  {
+    "source_file": "IMG_5792.jpeg",
+    "output_file": "IMG_5792_parsed.json",
+    "status": "success",
+    "recipe_name": "Marinated Pineapple into Coriander, Ginger and Mint Syrup"
+  },
+  {
+    "source_file": "IMG_2126.JPG",
+    "output_file": "IMG_2126_parsed.json",
+    "status": "success",
+    "recipe_name": "Néctar de Pimiento Rojo"
+  },
+  {
+    "source_file": "IMG_4770.jpeg",
+    "output_file": "IMG_4770_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate Olive Pour Sucette Parmesan"
+  },
+  {
+    "source_file": "IMG_4747 2.jpeg",
+    "output_file": "IMG_4747 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Crumble Chocolat"
+  },
+  {
+    "source_file": "IMG_2124.JPG",
+    "output_file": "IMG_2124_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Tomate-Calabaza"
+  },
+  {
+    "source_file": "IMG_2118.JPG",
+    "output_file": "IMG_2118_parsed.json",
+    "status": "success",
+    "recipe_name": "Yamaimo Ice"
+  },
+  {
+    "source_file": "IMG_3774.jpeg",
+    "output_file": "IMG_3774_parsed.json",
+    "status": "success",
+    "recipe_name": "Savoury Fruit Salad"
+  },
+  {
+    "source_file": "IMG_4759 2.jpeg",
+    "output_file": "IMG_4759 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Macarons Italienne"
+  },
+  {
+    "source_file": "IMG_3762.jpeg",
+    "output_file": "IMG_3762_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_4755 2.jpeg",
+    "output_file": "IMG_4755 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Vanille"
+  },
+  {
+    "source_file": "IMG_2087.JPG",
+    "output_file": "IMG_2087_parsed.json",
+    "status": "success",
+    "recipe_name": "Chucrut"
+  },
+  {
+    "source_file": "IMG_2093.JPG",
+    "output_file": "IMG_2093_parsed.json",
+    "status": "success",
+    "recipe_name": "Kombucha de fresa"
+  },
+  {
+    "source_file": "IMG_4766.jpeg",
+    "output_file": "IMG_4766_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Cake"
+  },
+  {
+    "source_file": "IMG_2078.JPG",
+    "output_file": "IMG_2078_parsed.json",
+    "status": "success",
+    "recipe_name": "La crema de avellanas"
+  },
+  {
+    "source_file": "IMG_2079.JPG",
+    "output_file": "IMG_2079_parsed.json",
+    "status": "success",
+    "recipe_name": "Viili"
+  },
+  {
+    "source_file": "IMG_5730.jpeg",
+    "output_file": "IMG_5730_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta per sportivi"
+  },
+  {
+    "source_file": "IMG_4822.jpeg",
+    "output_file": "IMG_4822_parsed.json",
+    "status": "success",
+    "recipe_name": "Sauce Caesar"
+  },
+  {
+    "source_file": "IMG_2092.JPG",
+    "output_file": "IMG_2092_parsed.json",
+    "status": "success",
+    "recipe_name": "Kombucha de lemongrass"
+  },
+  {
+    "source_file": "IMG_2086.JPG",
+    "output_file": "IMG_2086_parsed.json",
+    "status": "success",
+    "recipe_name": "Garum de pepino de mar"
+  },
+  {
+    "source_file": "IMG_5788.jpeg",
+    "output_file": "IMG_5788_parsed.json",
+    "status": "success",
+    "recipe_name": "Crystallised Chocolate Truffles"
+  },
+  {
+    "source_file": "IMG_5767.jpeg",
+    "output_file": "IMG_5767_parsed.json",
+    "status": "success",
+    "recipe_name": "Spuma al cocco"
+  },
+  {
+    "source_file": "IMG_5771.jpeg",
+    "output_file": "IMG_5771_parsed.json",
+    "status": "success",
+    "recipe_name": "Pralina al mango e lime"
+  },
+  {
+    "source_file": "IMG_4771 2.jpeg",
+    "output_file": "IMG_4771 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate de Fruits"
+  },
+  {
+    "source_file": "IMG_2119.JPG",
+    "output_file": "IMG_2119_parsed.json",
+    "status": "success",
+    "recipe_name": "Armagnac de Liebre"
+  },
+  {
+    "source_file": "IMG_2125.JPG",
+    "output_file": "IMG_2125_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Ave"
+  },
+  {
+    "source_file": "IMG_5726.jpeg",
+    "output_file": "IMG_5726_parsed.json",
+    "status": "success",
+    "recipe_name": "Acqua di nocciole"
+  },
+  {
+    "source_file": "IMG_4749 2.jpeg",
+    "output_file": "IMG_4749 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Crumble Nature et Sans Gluten"
+  },
+  {
+    "source_file": "IMG_2109.JPG",
+    "output_file": "IMG_2109_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de gamba tostadas"
+  },
+  {
+    "source_file": "IMG_5727.jpeg",
+    "output_file": "IMG_5727_parsed.json",
+    "status": "success",
+    "recipe_name": "Crosta alle erbe (x carni)"
+  },
+  {
+    "source_file": "IMG_2121.JPG",
+    "output_file": "IMG_2121_parsed.json",
+    "status": "success",
+    "recipe_name": "Crio-Concentrado de Manzana"
+  },
+  {
+    "source_file": "IMG_4757 2.jpeg",
+    "output_file": "IMG_4757 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Chocolat Noir"
+  },
+  {
+    "source_file": "IMG_5770.jpeg",
+    "output_file": "IMG_5770_parsed.json",
+    "status": "success",
+    "recipe_name": "Sacher"
+  },
+  {
+    "source_file": "IMG_5789.jpeg",
+    "output_file": "IMG_5789_parsed.json",
+    "status": "success",
+    "recipe_name": "Crystallised Chocolate"
+  },
+  {
+    "source_file": "IMG_5766.jpeg",
+    "output_file": "IMG_5766_parsed.json",
+    "status": "success",
+    "recipe_name": "Salsa al caffe"
+  },
+  {
+    "source_file": "IMG_2082.JPG",
+    "output_file": "IMG_2082_parsed.json",
+    "status": "success",
+    "recipe_name": "Velo cremoso de patata acida"
+  },
+  {
+    "source_file": "IMG_2096.JPG",
+    "output_file": "IMG_2096_parsed.json",
+    "status": "success",
+    "recipe_name": "Manzanas Fermentadas"
+  },
+  {
+    "source_file": "IMG_4745 2.jpeg",
+    "output_file": "IMG_4745 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Creme anglaise"
+  },
+  {
+    "source_file": "IMG_5731.jpeg",
+    "output_file": "IMG_5731_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_4767.jpeg",
+    "output_file": "IMG_4767_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Scone"
+  },
+  {
+    "source_file": "IMG_2097.JPG",
+    "output_file": "IMG_2097_parsed.json",
+    "status": "success",
+    "recipe_name": "Podredumbres nobles"
+  },
+  {
+    "source_file": "IMG_2083.JPG",
+    "output_file": "IMG_2083_parsed.json",
+    "status": "success",
+    "recipe_name": "Los tomates en aceite"
+  },
+  {
+    "source_file": "IMG_3763.jpeg",
+    "output_file": "IMG_3763_parsed.json",
+    "status": "success",
+    "recipe_name": "Spicy Tuna"
+  },
+  {
+    "source_file": "IMG_4773 2.jpeg",
+    "output_file": "IMG_4773 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sable Breton"
+  },
+  {
+    "source_file": "IMG_3775.jpeg",
+    "output_file": "IMG_3775_parsed.json",
+    "status": "success",
+    "recipe_name": "Parmesan, Herb and Anchovy"
+  },
+  {
+    "source_file": "IMG_4771.jpeg",
+    "output_file": "IMG_4771_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate de Fruits"
+  },
+  {
+    "source_file": "IMG_2120.JPG",
+    "output_file": "IMG_2120_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de conejo"
+  },
+  {
+    "source_file": "IMG_2108.JPG",
+    "output_file": "IMG_2108_parsed.json",
+    "status": "success",
+    "recipe_name": "Kombucha"
+  },
+  {
+    "source_file": "IMG_4761 2.jpeg",
+    "output_file": "IMG_4761 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Meringue"
+  },
+  {
+    "source_file": "IMG_5793.jpeg",
+    "output_file": "IMG_5793_parsed.json",
+    "status": "success",
+    "recipe_name": "Gingerbread"
+  },
+  {
+    "source_file": "IMG_4751.jpeg",
+    "output_file": "IMG_4751_parsed.json",
+    "status": "success",
+    "recipe_name": "Fruits Secs Caramelisee"
+  },
+  {
+    "source_file": "IMG_5785.jpeg",
+    "output_file": "IMG_5785_parsed.json",
+    "status": "success",
+    "recipe_name": "Mascarpone Ice Cream"
+  },
+  {
+    "source_file": "IMG_4747.jpeg",
+    "output_file": "IMG_4747_parsed.json",
+    "status": "success",
+    "recipe_name": "Crumble Chocolat"
+  },
+  {
+    "source_file": "IMG_2095.JPG",
+    "output_file": "IMG_2095_parsed.json",
+    "status": "success",
+    "recipe_name": "Velo cremoso de patata acida"
+  },
+  {
+    "source_file": "IMG_5697.jpeg",
+    "output_file": "IMG_5697_parsed.json",
+    "status": "success",
+    "recipe_name": "Cookies 2"
+  },
+  {
+    "source_file": "IMG_2081.JPG",
+    "output_file": "IMG_2081_parsed.json",
+    "status": "success",
+    "recipe_name": "Ventresca de bonito/garum/halofilas"
+  },
+  {
+    "source_file": "IMG_5802.jpeg",
+    "output_file": "IMG_5802_parsed.json",
+    "status": "success",
+    "recipe_name": "Cremoso di cioccolato caraibe"
+  },
+  {
+    "source_file": "IMG_5746.jpeg",
+    "output_file": "IMG_5746_parsed.json",
+    "status": "success",
+    "recipe_name": "Ovis al cacao"
+  },
+  {
+    "source_file": "IMG_2080.JPG",
+    "output_file": "IMG_2080_parsed.json",
+    "status": "success",
+    "recipe_name": "Crema acida de maiz majado y avellanas"
+  },
+  {
+    "source_file": "IMG_2094.JPG",
+    "output_file": "IMG_2094_parsed.json",
+    "status": "success",
+    "recipe_name": "Reproducción y cuidado de madres de Kombucha"
+  },
+  {
+    "source_file": "IMG_3807.jpeg",
+    "output_file": "IMG_3807_parsed.json",
+    "status": "success",
+    "recipe_name": "Black Sesame Custard Bun"
+  },
+  {
+    "source_file": "IMG_4784.jpeg",
+    "output_file": "IMG_4784_parsed.json",
+    "status": "success",
+    "recipe_name": "Poire Dulcey caramel"
+  },
+  {
+    "source_file": "IMG_5711.jpeg",
+    "status": "error",
+    "error": "the JSON object must be str, bytes or bytearray, not NoneType"
+  },
+  {
+    "source_file": "IMG_3780.jpeg",
+    "output_file": "IMG_3780_parsed.json",
+    "status": "success",
+    "recipe_name": "Monkfish and Pistachio"
+  },
+  {
+    "source_file": "IMG_5707.jpeg",
+    "output_file": "IMG_5707_parsed.json",
+    "status": "success",
+    "recipe_name": "Torta di Rose"
+  },
+  {
+    "source_file": "IMG_3779.jpeg",
+    "output_file": "IMG_3779_parsed.json",
+    "status": "success",
+    "recipe_name": "Presa and Salted Carrots"
+  },
+  {
+    "source_file": "IMG_3796.jpeg",
+    "output_file": "IMG_3796_parsed.json",
+    "status": "success",
+    "recipe_name": "Rhubarb Soy Sauce Powder"
+  },
+  {
+    "source_file": "IMG_4780 2.jpeg",
+    "output_file": "IMG_4780 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Pomme Verte"
+  },
+  {
+    "source_file": "IMG_2123.JPG",
+    "output_file": "IMG_2123_parsed.json",
+    "status": "success",
+    "recipe_name": "Caldo de Cuellos de Pato"
+  },
+  {
+    "source_file": "IMG_5750.jpeg",
+    "output_file": "IMG_5750_parsed.json",
+    "status": "success",
+    "recipe_name": "Sables al cocco"
+  },
+  {
+    "source_file": "IMG_3811.jpeg",
+    "output_file": "IMG_3811_parsed.json",
+    "status": "success",
+    "recipe_name": "Beetroot with Yuzu"
+  },
+  {
+    "source_file": "IMG_4776.jpeg",
+    "output_file": "IMG_4776_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Exotique"
+  },
+  {
+    "source_file": "IMG_4765 2.jpeg",
+    "output_file": "IMG_4765 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Choux"
+  },
+  {
+    "source_file": "IMG_3772.jpeg",
+    "output_file": "IMG_3772_parsed.json",
+    "status": "success",
+    "recipe_name": "Oblixio"
+  },
+  {
+    "source_file": "IMG_3764.jpeg",
+    "output_file": "IMG_3764_parsed.json",
+    "status": "success",
+    "recipe_name": "Yeast Sandwich"
+  },
+  {
+    "source_file": "IMG_4769 2.jpeg",
+    "output_file": "IMG_4769 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Scone Chocolat"
+  },
+  {
+    "source_file": "IMG_4777 2.jpeg",
+    "output_file": "IMG_4777 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Fruits Rouge"
+  },
+  {
+    "source_file": "IMG_4760.jpeg",
+    "output_file": "IMG_4760_parsed.json",
+    "status": "success",
+    "recipe_name": "Madeleine"
+  },
+  {
+    "source_file": "IMG_1505.JPG",
+    "output_file": "IMG_1505_parsed.json",
+    "status": "success",
+    "recipe_name": "La emulsion en tendon y grasas"
+  },
+  {
+    "source_file": "IMG_1511.JPG",
+    "output_file": "IMG_1511_parsed.json",
+    "status": "success",
+    "recipe_name": "Importa realmente la verdad?"
+  },
+  {
+    "source_file": "IMG_1510.JPG",
+    "output_file": "IMG_1510_parsed.json",
+    "status": "success",
+    "recipe_name": "Bestiario de pepino de mar"
+  },
+  {
+    "source_file": "IMG_1504.JPG",
+    "output_file": "IMG_1504_parsed.json",
+    "status": "success",
+    "recipe_name": "Tocino de ternera asado \"al hueso\""
+  },
+  {
+    "source_file": "IMG_5736.jpeg",
+    "output_file": "IMG_5736_parsed.json",
+    "status": "success",
+    "recipe_name": "Pasta ai pomodorini datterino (x trafila)"
+  },
+  {
+    "source_file": "IMG_4824.jpeg",
+    "output_file": "IMG_4824_parsed.json",
+    "status": "success",
+    "recipe_name": "Pain Pita"
+  },
+  {
+    "source_file": "IMG_5809.jpeg",
+    "output_file": "IMG_5809_parsed.json",
+    "status": "success",
+    "recipe_name": "Colombe 2° Impasto"
+  },
+  {
+    "source_file": "IMG_4741 2.jpeg",
+    "output_file": "IMG_4741 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Carrot Cake Sans Gluten"
+  },
+  {
+    "source_file": "IMG_5761.jpeg",
+    "output_file": "IMG_5761_parsed.json",
+    "status": "success",
+    "recipe_name": "Finanzieri"
+  },
+  {
+    "source_file": "IMG_5798.jpeg",
+    "output_file": "IMG_5798_parsed.json",
+    "status": "success",
+    "recipe_name": "Salsa vaniglia"
+  },
+  {
+    "source_file": "IMG_5777.jpeg",
+    "output_file": "IMG_5777_parsed.json",
+    "status": "success",
+    "recipe_name": "gelato al miele d'arancia"
+  },
+  {
+    "source_file": "IMG_5720.jpeg",
+    "output_file": "IMG_5720_parsed.json",
+    "status": "success",
+    "recipe_name": "Salsa parmigiano 30 mesi"
+  },
+  {
+    "source_file": "IMG_1499.JPG",
+    "output_file": "IMG_1499_parsed.json",
+    "status": "success",
+    "recipe_name": "Bombón de salmón, curado en casa"
+  },
+  {
+    "source_file": "IMG_3816.jpeg",
+    "output_file": "IMG_3816_parsed.json",
+    "status": "success",
+    "recipe_name": "Kale and Radicchio Salad"
+  },
+  {
+    "source_file": "IMG_5757.jpeg",
+    "output_file": "IMG_5757_parsed.json",
+    "status": "success",
+    "recipe_name": "Panna cotta"
+  },
+  {
+    "source_file": "IMG_4784 2.jpeg",
+    "output_file": "IMG_4784 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Poire Dulcey caramel"
+  },
+  {
+    "source_file": "IMG_5700.jpeg",
+    "status": "error",
+    "error": "the JSON object must be str, bytes or bytearray, not NoneType"
+  },
+  {
+    "source_file": "IMG_3791.jpeg",
+    "output_file": "IMG_3791_parsed.json",
+    "status": "success",
+    "recipe_name": "Cucumber, Coconut and Caviar"
+  },
+  {
+    "source_file": "IMG_5716.jpeg",
+    "output_file": "IMG_5716_parsed.json",
+    "status": "success",
+    "recipe_name": "Spuma di patata soffice"
+  },
+  {
+    "source_file": "IMG_3768.jpeg",
+    "output_file": "IMG_3768_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_3787.jpeg",
+    "output_file": "IMG_3787_parsed.json",
+    "status": "success",
+    "recipe_name": "White Chocolate and Matcha"
+  },
+  {
+    "source_file": "IMG_3800.jpeg",
+    "output_file": "IMG_3800_parsed.json",
+    "status": "success",
+    "recipe_name": "Duck Egg and Smoked Potato"
+  },
+  {
+    "source_file": "IMG_4783.jpeg",
+    "output_file": "IMG_4783_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_5741.jpeg",
+    "output_file": "IMG_5741_parsed.json",
+    "status": "success",
+    "recipe_name": "Brutti ma buoni (La casa degli spiriti)"
+  },
+  {
+    "source_file": "IMG_1512.JPG",
+    "output_file": "IMG_1512_parsed.json",
+    "status": "success",
+    "recipe_name": "Patatillas con pato"
+  },
+  {
+    "source_file": "IMG_1513.JPG",
+    "output_file": "IMG_1513_parsed.json",
+    "status": "success",
+    "recipe_name": "Tupinambo asado"
+  },
+  {
+    "source_file": "IMG_5805.jpeg",
+    "output_file": "IMG_5805_parsed.json",
+    "status": "success",
+    "recipe_name": "Tropical pina colada (terrazza 2010)"
+  },
+  {
+    "source_file": "IMG_4740.jpeg",
+    "output_file": "IMG_4740_parsed.json",
+    "status": "success",
+    "recipe_name": "Carotte cake sans gluten"
+  },
+  {
+    "source_file": "IMG_5782.jpeg",
+    "output_file": "IMG_5782_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbetto alla menta rossa"
+  },
+  {
+    "source_file": "IMG_4756.jpeg",
+    "output_file": "IMG_4756_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Vanille"
+  },
+  {
+    "source_file": "IMG_5794.jpeg",
+    "output_file": "IMG_5794_parsed.json",
+    "status": "success",
+    "recipe_name": "Peanut Brittle and Chocolate and Galabé Sugar Crèmeux"
+  },
+  {
+    "source_file": "IMG_5813.jpeg",
+    "status": "error",
+    "error": "the JSON object must be str, bytes or bytearray, not NoneType"
+  },
+  {
+    "source_file": "IMG_5812.jpeg",
+    "output_file": "IMG_5812_parsed.json",
+    "status": "success",
+    "recipe_name": "Cremoso Nocciola"
+  },
+  {
+    "source_file": "IMG_5795.jpeg",
+    "output_file": "IMG_5795_parsed.json",
+    "status": "success",
+    "recipe_name": "Baba' limoncello di capri"
+  },
+  {
+    "source_file": "IMG_4757.jpeg",
+    "output_file": "IMG_4757_parsed.json",
+    "status": "success",
+    "recipe_name": "Glace Chocolat Noir"
+  },
+  {
+    "source_file": "IMG_5783.jpeg",
+    "output_file": "IMG_5783_parsed.json",
+    "status": "success",
+    "recipe_name": "gelato alla nocciola"
+  },
+  {
+    "source_file": "IMG_4741.jpeg",
+    "output_file": "IMG_4741_parsed.json",
+    "status": "success",
+    "recipe_name": "Carotte cake sans gluten"
+  },
+  {
+    "source_file": "IMG_5804.jpeg",
+    "output_file": "IMG_5804_parsed.json",
+    "status": "success",
+    "recipe_name": "Mousse ai frutti"
+  },
+  {
+    "source_file": "IMG_5740.jpeg",
+    "output_file": "IMG_5740_parsed.json",
+    "status": "success",
+    "recipe_name": "Grissini stirati"
+  },
+  {
+    "source_file": "IMG_1502.JPG",
+    "output_file": "IMG_1502_parsed.json",
+    "status": "success",
+    "recipe_name": "Pastel de arroz negro fermentado con koshu"
+  },
+  {
+    "source_file": "IMG_3801.jpeg",
+    "output_file": "IMG_3801_parsed.json",
+    "status": "success",
+    "recipe_name": "Yogurt, Granola and Carrot Jam"
+  },
+  {
+    "source_file": "IMG_4782.jpeg",
+    "output_file": "IMG_4782_parsed.json",
+    "status": "success",
+    "recipe_name": "Vacherin exotique"
+  },
+  {
+    "source_file": "IMG_5717.jpeg",
+    "output_file": "IMG_5717_parsed.json",
+    "status": "success",
+    "recipe_name": "Biscotto al parmigiano e saba"
+  },
+  {
+    "source_file": "IMG_3769.jpeg",
+    "output_file": "IMG_3769_parsed.json",
+    "status": "success",
+    "recipe_name": "Oyster Strawberry"
+  },
+  {
+    "source_file": "IMG_3786.jpeg",
+    "output_file": "IMG_3786_parsed.json",
+    "status": "success",
+    "recipe_name": "Burnt Seed Sauce"
+  },
+  {
+    "source_file": "IMG_5701.jpeg",
+    "output_file": "IMG_5701_parsed.json",
+    "status": "success",
+    "recipe_name": "Nidi di cioccolato"
+  },
+  {
+    "source_file": "IMG_3790.jpeg",
+    "output_file": "IMG_3790_parsed.json",
+    "status": "success",
+    "recipe_name": "Passion Fruit Puree and Mousse"
+  },
+  {
+    "source_file": "IMG_5756.jpeg",
+    "output_file": "IMG_5756_parsed.json",
+    "status": "success",
+    "recipe_name": "Sacher"
+  },
+  {
+    "source_file": "IMG_5886.jpeg",
+    "output_file": "IMG_5886_parsed.json",
+    "status": "success",
+    "recipe_name": "Leche de Tigre Aguacate y Jalapeño"
+  },
+  {
+    "source_file": "IMG_4775 2.jpeg",
+    "output_file": "IMG_4775 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Citron"
+  },
+  {
+    "source_file": "IMG_5721.jpeg",
+    "output_file": "IMG_5721_parsed.json",
+    "status": "success",
+    "recipe_name": "ripieno di zucca"
+  },
+  {
+    "source_file": "IMG_5799.jpeg",
+    "output_file": "IMG_5799_parsed.json",
+    "status": "success",
+    "recipe_name": "Spuma alle mandorle"
+  },
+  {
+    "source_file": "IMG_5776.jpeg",
+    "output_file": "IMG_5776_parsed.json",
+    "status": "success",
+    "recipe_name": "gelato allo yogurt"
+  },
+  {
+    "source_file": "IMG_4767 2.jpeg",
+    "output_file": "IMG_4767 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Pate a Scone"
+  },
+  {
+    "source_file": "IMG_5760.jpeg",
+    "output_file": "IMG_5760_parsed.json",
+    "status": "success",
+    "recipe_name": "Torta Stroiser"
+  },
+  {
+    "source_file": "IMG_4779 2.jpeg",
+    "output_file": "IMG_4779 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Menthe"
+  },
+  {
+    "source_file": "IMG_5808.jpeg",
+    "output_file": "IMG_5808_parsed.json",
+    "status": "success",
+    "recipe_name": "Colombe 2° impasto"
+  },
+  {
+    "source_file": "IMG_1500.JPG",
+    "output_file": "IMG_1500_parsed.json",
+    "status": "success",
+    "recipe_name": "Acabado y Presentación"
+  },
+  {
+    "source_file": "IMG_5737.jpeg",
+    "output_file": "IMG_5737_parsed.json",
+    "status": "success",
+    "recipe_name": ""
+  },
+  {
+    "source_file": "IMG_4761.jpeg",
+    "output_file": "IMG_4761_parsed.json",
+    "status": "success",
+    "recipe_name": "Meringue"
+  },
+  {
+    "source_file": "IMG_4751 2.jpeg",
+    "output_file": "IMG_4751 2_parsed.json",
+    "status": "success",
+    "recipe_name": "Fruits Secs Caramelisee"
+  },
+  {
+    "source_file": "IMG_1501.JPG",
+    "output_file": "IMG_1501_parsed.json",
+    "status": "success",
+    "recipe_name": "Cristales de tierra con queso de un dia"
+  },
+  {
+    "source_file": "IMG_3765.jpeg",
+    "output_file": "IMG_3765_parsed.json",
+    "status": "success",
+    "recipe_name": "Layers of Mushroom"
+  },
+  {
+    "source_file": "IMG_3773.jpeg",
+    "output_file": "IMG_3773_parsed.json",
+    "status": "success",
+    "recipe_name": "Mushroom, Pine Nut and Garlic"
+  },
+  {
+    "source_file": "IMG_4777.jpeg",
+    "output_file": "IMG_4777_parsed.json",
+    "status": "success",
+    "recipe_name": "Sorbet Fruits Rouge"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "Sorbet Fruits Rouge",
+  "ingredients": [
+    "3000 gr Puree fruits rouge",
+    "250 gr Eau",
+    "385 gr Sucre",
+    "10 gr Dextrose",
+    "10 gr Stabilisateur"
+  ],
+  "steps": [
+    "Dans l'eau tiede ajouter les ingredients secs en agitant ensemble.",
+    "Pasteuriser a 85°C.",
+    "Refroidir rapidement a 4°C.",
+    "Ajouter la puree.",
+    "Mixer.",
+    "Couler 700g par paco."
+  ],
+  "other_details": {
+    "note": "Pour 6 paco"
+  }
+}

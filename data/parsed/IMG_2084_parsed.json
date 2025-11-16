@@ -1,0 +1,22 @@
+{
+  "name": "Tomates",
+  "ingredients": [
+    "El tomate fermentado",
+    "Tomates maduros",
+    "Sal"
+  ],
+  "steps": [
+    "Lavar los tomates, eliminar las partes podridas que pueda tener.",
+    "Esguarzar con las manos en un gastronorm alto.",
+    "La fermentacion empezara al cabo de unas horas, espumeara y se hara alcoholica.",
+    "El gas carbonico se desprendera y las burbujas de aire se amplian.",
+    "Remover ocasionalmente el metodo con el tomate en fermentacion.",
+    "Despues de 4 o 5 dias, dependiendo de la temperatura, el tomate estara completamente fermentado.",
+    "Recuperar la pasta de tomate del interior y prensar.",
+    "Servir sobre un tamiz fino para que pierda el liquido y se obtenga una masa firme."
+  ],
+  "other_details": {
+    "annotation": "El tomate fermentado ha sido durante cientos de anos un manjar. Se preparan en la epoca con mas produccion de tomate.",
+    "source": "The art of fermentation, Sandor Ellix Katz, Pag. 117"
+  }
+}

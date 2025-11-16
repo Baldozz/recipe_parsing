@@ -1,0 +1,21 @@
+{
+  "name": "Glace Vanille",
+  "ingredients": [
+    "Lait",
+    "Creme",
+    "Jaunes d'oeufs",
+    "Sucre",
+    "Stabilisateur",
+    "Gousse de vanille"
+  ],
+  "steps": [
+    "Mixer au bamix",
+    "Refroidir et couler a 600gr",
+    "10 gr par pochet"
+  ],
+  "other_details": {
+    "portions": "Pour 4 ltr (boi pochet)",
+    "temperature": "85°C four vapeur",
+    "additional_info": "Pour l'asse meringue: Ajouter 53 gr de jus de gingembre par pochet de 700gr"
+  }
+}

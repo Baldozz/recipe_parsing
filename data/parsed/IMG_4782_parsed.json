@@ -1,0 +1,37 @@
+{
+  "name": "Vacherin exotique",
+  "ingredients": [
+    "Sucre glace",
+    "Eau",
+    "Gelatine poudre",
+    "Jus citron",
+    "Poudre d'amande",
+    "Beurre fondu",
+    "Farine de riz",
+    "Levure chimique",
+    "Blanc d'oeufs",
+    "Sucre",
+    "Puree coco",
+    "Eau",
+    "Sucre",
+    "Dextrose",
+    "Stabilisateur",
+    "Puree passion",
+    "Puree mangue"
+  ],
+  "steps": [
+    "Confire la gelatine et l'eau",
+    "Fondre avec le jus de citron",
+    "Verser sur le sucre glace",
+    "Melanger la poudre d'amande",
+    "Ajouter la meringue en trois fois",
+    "Cuire a 85C l'eau le sucre le dextrose et le stabilisateur",
+    "Ajouter la puree coco",
+    "Peser 1400gr par cadre",
+    "Couper des finger de 1000gr"
+  ],
+  "other_details": {
+    "portions": "5",
+    "biscuit sans gluten": "Pour 3 plaques, Peser 730gr par plaques, Cuire a 170C 15 min"
+  }
+}

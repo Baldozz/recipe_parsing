@@ -1,0 +1,27 @@
+{
+  "name": "Crepes Suzette",
+  "ingredients": [
+    "2000 gr Pate a crepe",
+    "Beurre suzette",
+    "Lait",
+    "Sucre",
+    "Farine",
+    "Oeufs",
+    "Beurre fondu",
+    "Zeste orange",
+    "Zeste citron",
+    "Arome vanille",
+    "Beurre pommade",
+    "Zeste orange"
+  ],
+  "steps": [
+    "Peser et tout mixer",
+    "Cuire dans les petites poeles",
+    "Flamber et congeler par 3",
+    "Mouler dans les moules a mini madeleines",
+    "Congeler et demouler et stocker"
+  ],
+  "other_details": {
+    "portions": "Cette recette fait 30 portions"
+  }
+}

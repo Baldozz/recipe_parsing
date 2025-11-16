@@ -1,0 +1,26 @@
+{
+  "name": "Creme brulee",
+  "ingredients": [
+    "900 gr Creme",
+    "100 gr Lait",
+    "100 gr Cassonade",
+    "7 gr Pectine NH",
+    "100 gr Jaunes d'oeufs",
+    "200 gr Pamplemousse"
+  ],
+  "steps": [
+    "Bouillir la creme le lait",
+    "Verser sur les jaunes d'oeufs",
+    "Ajouter la cassonade et pectine NH",
+    "CHINOISER",
+    "Peser 150 gr par assiette"
+  ],
+  "other_details": {
+    "portions": "8 assiettes",
+    "pour_creme_mille_feuille_ou_fraiser": [
+      "Appareil creme brulee",
+      "Mascarpone",
+      "Mascarpone"
+    ]
+  }
+}

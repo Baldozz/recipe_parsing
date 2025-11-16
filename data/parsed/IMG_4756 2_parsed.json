@@ -1,0 +1,21 @@
+{
+  "name": "Glace Vanille",
+  "ingredients": [
+    "Lait 500 gr",
+    "Creme 150 gr",
+    "Jaunes d'oeufs 120 gr",
+    "Sucre 125 gr",
+    "Stabilisateur 2 gr",
+    "Gousse de vanille",
+    "Vanilline"
+  ],
+  "steps": [
+    "Mixer 10 min au bain-marie",
+    "Refroidir et couler a 600 gr",
+    "Pocher a 83°C pour pasteuriser",
+    "10 gr par pacotjet"
+  ],
+  "other_details": {
+    "Pour glace gingembre": "Ajouter 35 gr de jus de gingembre pour pacotjet de 700 gr"
+  }
+}

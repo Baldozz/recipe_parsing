@@ -1,0 +1,39 @@
+{
+  "name": "Vacherin exotique",
+  "ingredients": [
+    "1000 gr Sucre glace",
+    "40 gr Gelatine poudre",
+    "Jus citron",
+    "510 gr Poudre amande",
+    "215 gr Farine de riz",
+    "25 gr Levure chimique",
+    "155 gr Beurre fondu",
+    "800 gr Blanc d'oeufs",
+    "300 gr Eau",
+    "750 gr Glucose",
+    "300 gr Sucre",
+    "200 gr Puree coco",
+    "1000 gr Puree passion",
+    "200 gr Sucre",
+    "40 gr Stabilisateur",
+    "200 gr Pectin NH"
+  ],
+  "steps": [
+    "Gonfler la gelatine et l'eau",
+    "Fondre avec le jus de citron",
+    "Verser le sucre glace",
+    "Emulsionner",
+    "Etaler a la machine a pate",
+    "Emporte pieces",
+    "Mettre en gouttiere a secher",
+    "Melanger la poudre amande",
+    "Cuire a 85°C l'eau et sucre",
+    "Ajouter la meringue en 3 fois"
+  ],
+  "other_details": {
+    "Portions": "16",
+    "Biscuit sans gluten": "Pour 3 plaques a plaques, Peser 370g, Cuire a 170°C, 15min",
+    "Sorbet coco": "Puree coco, Eau, Sucre, Dextrose, Stabilisateur",
+    "Coulis passion": "Puree passion, Sucre, Pectin NH"
+  }
+}

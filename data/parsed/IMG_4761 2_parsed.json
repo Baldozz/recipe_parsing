@@ -1,0 +1,17 @@
+{
+  "name": "Meringue",
+  "ingredients": [
+    "1000 gr blancs d'oeufs pasteurises",
+    "1000 gr sucre semoule",
+    "20 gr fécule/creme de tarte",
+    "1000 gr sucre glace"
+  ],
+  "steps": [
+    "Mixer tout sauf le sucre glace",
+    "Monter au batteur avec le fouet",
+    "Ajouter le sucre glace tamise a la maryse"
+  ],
+  "other_details": {
+    "notes": "Four: 80°C sans humidite ventilation 3 continue"
+  }
+}

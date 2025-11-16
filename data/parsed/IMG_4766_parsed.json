@@ -1,0 +1,28 @@
+{
+  "name": "Pate a Cake",
+  "ingredients": [
+    "1200 gr Oeufs",
+    "240 gr Sucre glace",
+    "960 gr Creme",
+    "1300 gr Farine",
+    "60 gr Levure chimique",
+    "600 gr Beurre fondu froid"
+  ],
+  "steps": [
+    "Dans la batteuse (les oeufs)",
+    "Ajouter sucre glace",
+    "Ajouter la creme",
+    "Ajouter farine et la levure",
+    "Ajouter le beurre fondu froid",
+    "Peser a 850 gr par moule",
+    "Cuire a 160°C 45 min"
+  ],
+  "other_details": {
+    "portions": "6 moules",
+    "notes": [
+      "Ajouter 80 gr de pate de pistache au kilo",
+      "Ajouter 5 zeste de citron au kilo",
+      "Ajouter 50 gr de poudre de cacao au kilo"
+    ]
+  }
+}

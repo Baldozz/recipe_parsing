@@ -1,0 +1,21 @@
+{
+  "name": "Kombucha de menta",
+  "ingredients": [
+    "2.5 l agua",
+    "2 bolsitas de menta",
+    "150 g azucar blanco",
+    "Trozo de kombucha"
+  ],
+  "steps": [
+    "Hervir el agua y anadir la menta deshojada.",
+    "Quitar del fuego, colar y anadir el azucar.",
+    "Dejar infusionar 15 minutos.",
+    "Pasado el tiempo, colar y dejar enfriar.",
+    "Anadir el trozo de kombucha al liquido previamente fermentado.",
+    "Tapar el frasco y dejar fermentar hasta el punto de embotellar.",
+    "Si llega a ese punto, embotellar y dejar en nevera una semana antes de usar."
+  ],
+  "other_details": {
+    "author": "Maggie, 2017"
+  }
+}

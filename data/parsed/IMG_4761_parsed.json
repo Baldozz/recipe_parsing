@@ -1,0 +1,18 @@
+{
+  "name": "Meringue",
+  "ingredients": [
+    "Blanc d'oeufs pasteurises",
+    "Sucre semoule",
+    "Sucre glace",
+    "Acide/creme de tarte"
+  ],
+  "steps": [
+    "Mixer tout sauf le sucre glace",
+    "Monter au batteur avec le fouet",
+    "Ajouter le sucre glace tamise a la maryse"
+  ],
+  "other_details": {
+    "temperature": "Four: 80°C",
+    "notes": "Sans humidite, ventilation 3 continue"
+  }
+}

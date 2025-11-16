@@ -1,0 +1,23 @@
+{
+  "name": "Biscuit Moelleux Amande",
+  "ingredients": [
+    "300 gr Blanc",
+    "340 gr Jaune",
+    "170 gr Sucre glace",
+    "600 gr Poudre amande",
+    "240 gr Farine",
+    "290 gr Beurre fondu"
+  ],
+  "steps": [
+    "Monter les blancs et sucre",
+    "Melanger les ingredients secs ensemble",
+    "Ajouter les oeufs et les jaunes",
+    "Ajouter le beurre fondu",
+    "370 gr avant d'ajouter la meringue"
+  ],
+  "other_details": {
+    "portions": "3 plaque de 900gr",
+    "note": "Moelleux, puree amande",
+    "cuire": "160°C, 15min"
+  }
+}

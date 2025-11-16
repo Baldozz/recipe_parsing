@@ -1,0 +1,23 @@
+{
+  "name": "Madeleine",
+  "ingredients": [
+    "1000 gr Farine",
+    "32 gr Levure chimique",
+    "1000 gr Sucre",
+    "110 gr Zeste de citron vert",
+    "3 gr Gousse de vanille",
+    "1000 gr Oeufs de volaille",
+    "1200 gr Beurre clarifie",
+    "50 gr Beurre chaud"
+  ],
+  "steps": [
+    "Faire bouillir le beurre",
+    "Melanger tous les ingredients",
+    "Ajouter les blancs d'oeufs",
+    "Ajouter le beurre"
+  ],
+  "other_details": {
+    "servings": "x3",
+    "notes": "Portion: 600"
+  }
+}

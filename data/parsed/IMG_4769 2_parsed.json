@@ -1,0 +1,19 @@
+{
+  "name": "Pate a Scone Chocolat",
+  "ingredients": [
+    "1000 gr Farine",
+    "250 gr Sucre",
+    "50 gr Beurre",
+    "80 gr Levure chimique",
+    "Cacao poudre",
+    "Lait",
+    "Oeufs",
+    "Drops chocolat"
+  ],
+  "steps": [
+    "Sabler la farine le sucre et le cacao poudre",
+    "Ajouter les liquides",
+    "Ajouter les drops"
+  ],
+  "other_details": {}
+}

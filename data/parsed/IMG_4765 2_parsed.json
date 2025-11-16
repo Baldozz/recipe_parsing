@@ -1,0 +1,29 @@
+{
+  "name": "Pate a Choux",
+  "ingredients": [
+    "500 gr lait",
+    "500 gr eau",
+    "20 gr trimoline",
+    "20 gr sel",
+    "600 gr farine",
+    "1400 gr oeufs"
+  ],
+  "steps": [
+    "Bouillir lait, eau, beurre, trimoline, sel.",
+    "Verser farine hors du feu.",
+    "Dessécher 3 min avant de commencer à ajouter les oeufs.",
+    "Après avoir incorporer les oeufs, la pâte doit être lisse et brillante.",
+    "Pocher sur plaque légèrement graissée.",
+    "Poser le craquelin si besoin."
+  ],
+  "other_details": {
+    "cuisson": "180-200°C",
+    "temps": "15-20 min",
+    "craquelin": {
+      "beurre": "250 gr",
+      "farine": "310 gr",
+      "vergeoise": "310 gr",
+      "note": "Pour cacao ajouter 50 gr de poudre de cacao"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+### How to run this: 
+
+### Ingest Raw Recipes (convert DOCX/Excel/Images to JSON)
+
+Whenever you add new recipe files in data/raw/,
+you have to the ingestion commands:
+
+python -m cli.main ingest-docx
+python -m cli.main ingest-excel
+python -m cli.main ingest-image
+
+Each command:
+- pulls files from the corresponding data/raw/... folder
+- parses them with the correct parser
+- writes clean JSON recipes → data/parsed/
+
+### Build the FAISS Index (after ingestion)
+
+Any time new _parsed.json files appear in data/parsed/,
+you must rebuild the index:
+
+python -m cli.main build-index
+
+This creates:
+
+data/recipe_index/faiss.index
+data/recipe_index/docs.json
+
+### Query the RAG (Jupyter Notebook)
+
+Open:
+notebooks/playground.ipynb
+
+Inside the notebook you can query like:
+
+from src.query import answer_question
+
+index_dir = project_root / "data" / "recipe_index"
+answer = answer_question(
+    "How much sugar do I need for the matcha cookies?",
+    index_dir=str(index_dir)
+)
+print(answer)

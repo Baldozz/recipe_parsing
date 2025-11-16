@@ -1,0 +1,19 @@
+{
+  "name": "Flan al gorgonzola",
+  "ingredients": [
+    "450 gr di gorgonzola",
+    "60 gr di latte",
+    "60 gr di panna",
+    "6 uova intere"
+  ],
+  "steps": [
+    "Passare il gorgonzola al cutter con il latte.",
+    "Unire le uova e la panna e frullare per qualche secondo.",
+    "Mettere negli stampini e cuocere per 55 minuti a 100 gradi a bagnomaria."
+  ],
+  "other_details": {
+    "temperature": "100 gradi",
+    "cook_time": "55 minuti",
+    "note": "85 gradi vap per 20 minuti"
+  }
+}

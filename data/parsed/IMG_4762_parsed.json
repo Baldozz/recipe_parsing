@@ -1,0 +1,22 @@
+{
+  "name": "Muffin PDJ",
+  "ingredients": [
+    "1000 gr Oeufs",
+    "1000 gr Jaunes",
+    "Cassonade",
+    "Sel",
+    "Farine",
+    "Poudre a creme",
+    "Levure chimique",
+    "Creme",
+    "Huile"
+  ],
+  "steps": [
+    "Monter oeufs et jaunes 1000 gr vitesse maximum",
+    "Peser et fouetter les ingredients secs et les ajouter en plusieurs fois",
+    "Ajouter les liquides",
+    "Stocker",
+    "Cuire a 170°C, barre de ventilation 20-25 min"
+  ],
+  "other_details": {}
+}

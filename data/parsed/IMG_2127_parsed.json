@@ -1,0 +1,25 @@
+{
+  "name": "Caldo de malviz",
+  "ingredients": [
+    "900 g. huesos de malviz",
+    "850 g. cebolla caramelizada",
+    "70 g. brandy",
+    "30 g. aceite de oliva",
+    "40 g. tocino ibérico",
+    "2 l. caldo de ave",
+    "1 l. caldo del día",
+    "160 g. avellanas",
+    "160 g. almendras",
+    "7 g. perejil"
+  ],
+  "steps": [
+    "En una olla calentar el aceite de oliva y el tocino ibérico.",
+    "Dorar los huesos de malviz en la grasa.",
+    "Añadir la cebolla caramelizada y desglasar con el brandy.",
+    "Agregar el caldo de ave y el caldo del día.",
+    "Reducir hasta obtener un volumen de 1 l."
+  ],
+  "other_details": {
+    "anotacion_previa": "Se deben desplumar las malvices con mucho cuidado, intentando preservar al máximo la integridad de la piel de la pechuga. Eviscerar conservando los intestinos intactos para evitar la contaminación. Tanto las visceras como el cabeza, las patas y las puntas de las alas se desecharan. Las pechugas se destinaran al plato mientras y los huesos se usaran para el caldo."
+  }
+}

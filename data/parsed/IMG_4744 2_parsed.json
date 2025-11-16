@@ -1,0 +1,22 @@
+{
+  "name": "Coulis cacao",
+  "ingredients": [
+    "375 gr Eau",
+    "500 gr Sucre",
+    "40 gr Pectine NH",
+    "150 gr Creme",
+    "250 gr Cacao"
+  ],
+  "steps": [
+    "Chauffer l'eau et la creme",
+    "Melanger le sucre et la pectine",
+    "Ajouter en fouettant",
+    "Bouillir",
+    "Verser sur la poudre de cacao",
+    "Mixer au bamix",
+    "Chinoiser"
+  ],
+  "other_details": {
+    "note": "Sauce chocolat"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Pate a Cookies",
+  "ingredients": [
+    "1000 gr Beurre",
+    "1500 gr Cassonade",
+    "2000 gr Melanger au fouet et ajouter les oeufs",
+    "470 gr Oeufs",
+    "250 gr Melanger a la feuille",
+    "20 gr Fleur de sel",
+    "Bicarbonate"
+  ],
+  "steps": [
+    "Melanger au fouet et ajouter les oeufs.",
+    "Melanger a la feuille.",
+    "Cuire a 165C 8 min."
+  ],
+  "other_details": {
+    "notes": "Cookies ball 16 gr par sphere",
+    "temperature": "180C/12 min"
+  }
+}

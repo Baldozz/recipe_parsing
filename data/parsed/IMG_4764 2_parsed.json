@@ -1,0 +1,16 @@
+{
+  "name": "Panacotta",
+  "ingredients": [
+    "1000 gr Creme",
+    "320 gr Sucre poudre",
+    "280 gr Masse gelatine",
+    "3000 gr Creme froide"
+  ],
+  "steps": [
+    "Bouillir la creme sucre",
+    "Ajouter la masse gelatine",
+    "Couler dans les verrine",
+    "Au stocker"
+  ],
+  "other_details": {}
+}
