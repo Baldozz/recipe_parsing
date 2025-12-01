@@ -11,7 +11,11 @@
 *.xlsx
 *.xls
 
-!*.json
+# Generated data
+data/parsed/
+data/english_recipes/
+data/merged/
+*.json
 
 *.index
 

@@ -1,8 +1,8 @@
 openai
-faiss-cpu
-numpy
 python-docx
 pandas
 openpyxl
 python-dotenv
-pillow
+Pillow
+faiss-cpu
+numpy

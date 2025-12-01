@@ -5,6 +5,7 @@ from pathlib import Path
 from src.ingest import ingest_images, ingest_docx, ingest_excel
 from src.index import build_index
 from src.query import answer_question
+from src.merge_recipes import merge_recipes
 
 DATA_RAW = Path("data/raw")
 DATA_PARSED = Path("data/parsed")
@@ -18,6 +19,7 @@ def main():
     sub.add_parser("ingest-docx")
     sub.add_parser("ingest-excel")
     sub.add_parser("build-index")
+    sub.add_parser("merge-recipes")
 
     ask_p = sub.add_parser("ask")
     ask_p.add_argument("question", type=str)
@@ -32,9 +34,12 @@ def main():
         ingest_excel(DATA_RAW / "excel_recipes", DATA_PARSED)
     elif args.cmd == "build-index":
         build_index(str(DATA_PARSED), str(DATA_INDEX))
+    elif args.cmd == "merge-recipes":
+        merge_recipes(str(DATA_PARSED))
     elif args.cmd == "ask":
         ans = answer_question(args.question, str(DATA_INDEX))
         print(ans)
 
 if __name__ == "__main__":
     main()
+

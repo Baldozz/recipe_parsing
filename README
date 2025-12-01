@@ -3,7 +3,7 @@
 ### Ingest Raw Recipes (convert DOCX/Excel/Images to JSON)
 
 Whenever you add new recipe files in data/raw/,
-you have to the ingestion commands:
+you have to run the ingestion commands:
 
 python -m cli.main ingest-docx
 python -m cli.main ingest-excel
@@ -11,8 +11,32 @@ python -m cli.main ingest-image
 
 Each command:
 - pulls files from the corresponding data/raw/... folder
-- parses them with the correct parser
+- parses them with the correct parser (supports multiple recipes per document)
+- extracts recipe names and uses them for output filenames
 - writes clean JSON recipes → data/parsed/
+
+**New Features:**
+- Documents can contain multiple recipes (each saved separately)
+- Output files are named using the recipe name (e.g., "chocolate_chip_cookies_parsed.json")
+- Automatically handles duplicate recipe names by adding counters
+- **Duplicate detection**: Automatically skips recipes that are duplicates of existing ones (85% similarity threshold)
+- **Bilingual storage**: Recipes are saved in both original language and English translation
+  - Original: `recipe_name_it_parsed.json` (Italian example)
+  - English: `recipe_name_en_parsed.json`
+  - If already in English, only one file is saved
+
+### Merge Recipe Parts (optional)
+
+If you have recipes split across multiple documents (e.g., "Recipe Part 1", "Recipe Part 2"),
+run the merge command after ingestion:
+
+python -m cli.main merge-recipes
+
+This will:
+- Detect recipe parts by name patterns (Part 1, Part 2, continued, etc.)
+- Merge ingredients and steps from all parts
+- Save complete recipes to data/parsed/merged/
+- Generate a merge report
 
 ### Build the FAISS Index (after ingestion)
 

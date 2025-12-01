@@ -25,9 +25,12 @@ def encode_and_compress_image(image_path, max_size=1200, quality=75):
         return base64.b64encode(buffer.read()).decode("utf-8"), "jpeg"
 
 
-def parse_recipe_image(image_path: str, model: str | None = None) -> dict:
+def parse_recipe_image(image_path: str, model: str | None = None) -> list[dict]:
     """
-    1:1 port of your notebook version, but using get_chat_client().
+    Extract one or more recipes from an image.
+    
+    Returns:
+        list[dict]: List of recipe dictionaries found in the image.
     """
     client = get_chat_client()
     model = model or CHAT_MODEL
@@ -42,18 +45,34 @@ def parse_recipe_image(image_path: str, model: str | None = None) -> dict:
 
     print(f"Compressed image size (approx base64 length): {len(base64_image)} chars")
 
-    prompt = """You are a recipe extraction assistant. Analyze this recipe image and convert it into a structured JSON format.
+    prompt = """You are a recipe extraction assistant. Analyze this image and extract ALL recipes found.
 
-The JSON must have exactly these fields:
+IMPORTANT: The image may contain:
+- A single recipe
+- Multiple recipes (extract each one separately)
+- A partial recipe (part of a recipe split across images)
+
+For each recipe found, create a JSON object with exactly these fields:
 - "name": string (the recipe name/title)
 - "ingredients": array of strings (each ingredient as a separate item)
 - "steps": array of strings (each step as a separate item, in order)
 - "other_details": object (any additional information like cook time, servings, temperature, notes, etc.)
 
+If a recipe appears to be incomplete or partial (e.g., has "(Part 1)", "(continued)", or is missing ingredients/steps), still extract it but preserve any part indicators in the name.
+
+Return a JSON object with a "recipes" array containing all found recipes:
+{
+  "recipes": [
+    {"name": "...", "ingredients": [...], "steps": [...], "other_details": {...}},
+    {"name": "...", "ingredients": [...], "steps": [...], "other_details": {...}}
+  ]
+}
+
+If only one recipe is found, the array will have one element.
 Extract all information accurately from the image. If any field cannot be determined, use an empty array [] or empty object {} as appropriate.
 
 Output ONLY valid JSON, nothing else. If you read a special character, transform it into a character of the english language. Everything you output has to be 
-human readable. For example: this should not be in the output: ba\\u00f1o . Instead, write: bano.
+human readable. For example: this should not be in the output: ba\\u00f6o . Instead, write: bano.
 """
 
     response = client.chat.completions.create(
@@ -80,6 +99,12 @@ human readable. For example: this should not be in the output: ba\\u00f1o . Inst
         response_format={"type": "json_object"},
     )
 
-    recipe_json = json.loads(response.choices[0].message.content)
-    print("Recipe parsed successfully!\n")
-    return recipe_json
+    result = json.loads(response.choices[0].message.content)
+    print("Recipe(s) parsed successfully!\n")
+    
+    # Handle both new format (with "recipes" key) and potential old format
+    if "recipes" in result:
+        return result["recipes"]
+    else:
+        # If LLM returns single recipe object, wrap it in a list
+        return [result]
