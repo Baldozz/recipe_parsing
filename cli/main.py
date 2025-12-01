@@ -18,7 +18,8 @@ def main():
     sub.add_parser("ingest-images")
     sub.add_parser("ingest-docx")
     sub.add_parser("ingest-excel")
-    sub.add_parser("build-index")
+    build_p = sub.add_parser("build-index")
+    build_p.add_argument("--source", type=str, default=str(DATA_PARSED), help="Source directory for recipes")
     sub.add_parser("merge-recipes")
 
     ask_p = sub.add_parser("ask")
@@ -33,7 +34,7 @@ def main():
     elif args.cmd == "ingest-excel":
         ingest_excel(DATA_RAW / "excel_recipes", DATA_PARSED)
     elif args.cmd == "build-index":
-        build_index(str(DATA_PARSED), str(DATA_INDEX))
+        build_index(args.source, str(DATA_INDEX))
     elif args.cmd == "merge-recipes":
         merge_recipes(str(DATA_PARSED))
     elif args.cmd == "ask":
