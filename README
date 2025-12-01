@@ -75,16 +75,17 @@ python -m cli.main build-index --source data/english_recipes
 
 - **`src/check_translations.py`**: Verifies that every non-English recipe has a corresponding English version.
 - **`src/analyze_english_dataset.py`**: Generates statistics (count, translation ratio, quality metrics) for the final dataset.
+- **`src/check_english_quality.py`**: Verifies that all recipes in the English folder have both ingredients and steps.
 - **`src/count_detailed_recipes.py`**: Counts "full" recipes (with both ingredients and steps).
 
 ## 📊 Dataset Statistics (Current)
 
-- **Total Unique Recipes**: ~1,468 (High Quality)
-- **Translation Coverage**: 99.8%
-- **Content**: 
-  - ~58% Original English
-  - ~37% Translated
-  - ~5% Merged from parts
+- **Total High-Quality Recipes**: 1,468
+  - *Definition:* Contains both ingredients and steps.
+  - *Location:* `data/english_recipes/`
+- **Incomplete/Partial Recipes**: ~385
+  - *Location:* `data/parsed/incomplete/`
+- **Translation Coverage**: ~100%
 
 ## 🔎 Querying
 
