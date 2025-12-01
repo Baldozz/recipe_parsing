@@ -38,9 +38,9 @@ def calculate_recipe_similarity(recipe1: dict, recipe2: dict) -> float:
     Calculate overall similarity between two recipes.
     
     Compares:
-    - Recipe names (weight: 0.3)
-    - Ingredients (weight: 0.4)
-    - Steps (weight: 0.3)
+    - Recipe names (weight: 0.5)
+    - Ingredients (weight: 0.3)
+    - Steps (weight: 0.2)
     
     Args:
         recipe1: First recipe dictionary
@@ -54,6 +54,11 @@ def calculate_recipe_similarity(recipe1: dict, recipe2: dict) -> float:
     name2 = recipe2.get("name", "")
     name_similarity = calculate_similarity(name1, name2)
     
+    # Boost similarity if one name contains the other (and they are not too short)
+    if len(name1) > 5 and len(name2) > 5:
+        if name1.lower() in name2.lower() or name2.lower() in name1.lower():
+            name_similarity = max(name_similarity, 0.9)
+
     # Compare ingredients
     ingredients1 = " ".join(recipe1.get("ingredients", []))
     ingredients2 = " ".join(recipe2.get("ingredients", []))
@@ -66,22 +71,22 @@ def calculate_recipe_similarity(recipe1: dict, recipe2: dict) -> float:
     
     # Weighted average
     overall_similarity = (
-        name_similarity * 0.3 +
-        ingredients_similarity * 0.4 +
-        steps_similarity * 0.3
+        name_similarity * 0.5 +
+        ingredients_similarity * 0.3 +
+        steps_similarity * 0.2
     )
     
     return overall_similarity
 
 
-def is_duplicate(recipe1: dict, recipe2: dict, threshold: float = 0.85) -> bool:
+def is_duplicate(recipe1: dict, recipe2: dict, threshold: float = 0.80) -> bool:
     """
     Determine if two recipes are duplicates.
     
     Args:
         recipe1: First recipe dictionary
         recipe2: Second recipe dictionary
-        threshold: Similarity threshold (default: 0.85)
+        threshold: Similarity threshold (default: 0.80)
     
     Returns:
         True if recipes are considered duplicates
@@ -132,7 +137,7 @@ def choose_best_recipe(recipes: List[dict]) -> dict:
     return sorted_recipes[0]
 
 
-def find_duplicates(recipes: List[Tuple[str, dict]], threshold: float = 0.85) -> dict:
+def find_duplicates(recipes: List[Tuple[str, dict]], threshold: float = 0.80) -> dict:
     """
     Find duplicate recipes in a list.
     
@@ -188,7 +193,7 @@ def find_duplicates(recipes: List[Tuple[str, dict]], threshold: float = 0.85) ->
     return duplicate_groups
 
 
-def deduplicate_recipes(recipes: List[Tuple[str, dict]], threshold: float = 0.85) -> Tuple[List[Tuple[str, dict]], dict]:
+def deduplicate_recipes(recipes: List[Tuple[str, dict]], threshold: float = 0.80) -> Tuple[List[Tuple[str, dict]], dict]:
     """
     Remove duplicate recipes from a list, keeping only the best version.
     

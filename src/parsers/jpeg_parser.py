@@ -8,7 +8,7 @@ import json
 from src.config import get_chat_client, CHAT_MODEL
 
 
-def encode_and_compress_image(image_path, max_size=1200, quality=75):
+def encode_and_compress_image(image_path, max_size=2560, quality=75):
     """Resize and recompress image before base64 encoding."""
     with Image.open(image_path) as img:
         img = img.convert("RGB")  # ensure JPEG-compatible
@@ -45,9 +45,14 @@ def parse_recipe_image(image_path: str, model: str | None = None) -> list[dict]:
 
     print(f"Compressed image size (approx base64 length): {len(base64_image)} chars")
 
-    prompt = """You are a recipe extraction assistant. Analyze this image and extract ALL recipes found.
+    prompt = """You are a precise recipe extraction assistant. Analyze this image and extract ALL recipes found.
 
-IMPORTANT: The image may contain:
+CRITICAL INSTRUCTIONS:
+1. **VERBATIM EXTRACTION**: Extract ingredients and quantities EXACTLY as written. Do NOT guess or hallucinate numbers. If a number is "90", do not write "900".
+2. **Double-Check Numbers**: Pay extreme attention to quantities (grams, ml, etc.).
+3. **Unclear Text**: If a number or word is illegible, write "[unclear]" instead of guessing.
+
+The image may contain:
 - A single recipe
 - Multiple recipes (extract each one separately)
 - A partial recipe (part of a recipe split across images)

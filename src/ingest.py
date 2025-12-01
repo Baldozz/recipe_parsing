@@ -205,6 +205,13 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
             print(f"Found {len(recipes)} recipe(s) in this image")
 
             for recipe in recipes:
+                # Inject metadata
+                recipe["source_metadata"] = {
+                    "filename": image_file.name,
+                    "path": str(image_file),
+                    "type": "image"
+                }
+
                 recipe_name = recipe.get("name", "unknown_recipe")
                 
                 # Check for duplicates
@@ -338,6 +345,13 @@ def ingest_docx(input_dir: str, output_dir: str = "data/parsed", model: str = "g
             print(f"Found {len(recipes)} recipe(s) in this document")
 
             for recipe in recipes:
+                # Inject metadata
+                recipe["source_metadata"] = {
+                    "filename": docx_file.name,
+                    "path": str(docx_file),
+                    "type": "docx"
+                }
+
                 recipe_name = recipe.get("name", "unknown_recipe")
                 
                 # Check for duplicates
@@ -461,6 +475,14 @@ def ingest_excel(input_dir: str, output_dir: str = "data/parsed", model: str = "
                 print(f"  Sheet '{sheet_name}': Found {len(recipes)} recipe(s)")
                 
                 for recipe in recipes:
+                    # Inject metadata
+                    recipe["source_metadata"] = {
+                        "filename": xlsx_file.name,
+                        "path": str(xlsx_file),
+                        "type": "excel",
+                        "sheet": sheet_name
+                    }
+
                     recipe_name = recipe.get("name", "unknown_recipe")
                     
                     # Check for duplicates
