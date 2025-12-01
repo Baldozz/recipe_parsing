@@ -1,67 +1,102 @@
-### How to run this: 
+# Recipe RAG Pipeline
 
-### Ingest Raw Recipes (convert DOCX/Excel/Images to JSON)
+This project ingests, cleans, translates, and indexes a large collection of recipes (DOCX, Excel, Images) to build a RAG (Retrieval-Augmented Generation) system.
 
-Whenever you add new recipe files in data/raw/,
-you have to run the ingestion commands:
+## 🚀 Quick Start: The Full Pipeline
 
+To go from raw data to a clean, indexed dataset, run these commands in order:
+
+### 1. Ingest Raw Data
+Parses documents, extracts recipes (handling multiple per file), translates to English, and saves to `data/parsed`.
+```bash
 python -m cli.main ingest-docx
 python -m cli.main ingest-excel
-python -m cli.main ingest-image
+python -m cli.main ingest-images
+```
+*Features:*
+- **Resumable**: Skips already processed images.
+- **Bilingual**: Saves both original language and English versions.
+- **Multi-Recipe**: Handles documents with multiple recipes.
 
-Each command:
-- pulls files from the corresponding data/raw/... folder
-- parses them with the correct parser (supports multiple recipes per document)
-- extracts recipe names and uses them for output filenames
-- writes clean JSON recipes → data/parsed/
-
-**New Features:**
-- Documents can contain multiple recipes (each saved separately)
-- Output files are named using the recipe name (e.g., "chocolate_chip_cookies_parsed.json")
-- Automatically handles duplicate recipe names by adding counters
-- **Duplicate detection**: Automatically skips recipes that are duplicates of existing ones (85% similarity threshold)
-- **Bilingual storage**: Recipes are saved in both original language and English translation
-  - Original: `recipe_name_it_parsed.json` (Italian example)
-  - English: `recipe_name_en_parsed.json`
-  - If already in English, only one file is saved
-
-### Merge Recipe Parts (optional)
-
-If you have recipes split across multiple documents (e.g., "Recipe Part 1", "Recipe Part 2"),
-run the merge command after ingestion:
-
+### 2. Merge Split Recipes
+Detects and merges recipes split across multiple files (e.g., "Part 1", "Part 2").
+```bash
 python -m cli.main merge-recipes
+```
+*Output:* `data/parsed/merged/`
 
-This will:
-- Detect recipe parts by name patterns (Part 1, Part 2, continued, etc.)
-- Merge ingredients and steps from all parts
-- Save complete recipes to data/parsed/merged/
-- Generate a merge report
+### 3. Clean & Organize Dataset
+These scripts curate the dataset into a "Gold Standard" folder.
 
-### Build the FAISS Index (after ingestion)
+**A. Cleanup Artifacts**
+Moves incomplete (missing ingredients/steps) and empty files to `incomplete/` and `trash/`.
+```bash
+python3 src/cleanup_dataset.py
+```
 
-Any time new _parsed.json files appear in data/parsed/,
-you must rebuild the index:
+**B. Extract English Collection**
+Consolidates all English versions (original, translated, and merged) into one folder.
+```bash
+python3 src/extract_english.py
+```
+*Output:* `data/english_recipes/`
 
-python -m cli.main build-index
+**C. Advanced Deduplication**
+Removes near-duplicates (same content, different formatting) using fuzzy matching.
+```bash
+python3 src/advanced_dedupe.py
+```
 
-This creates:
+**D. Final Cleanup**
+Removes redundant "part" files if a merged version exists.
+```bash
+python3 src/cleanup_english.py
+```
 
-data/recipe_index/faiss.index
-data/recipe_index/docs.json
+### 4. Build Search Index
+Creates the FAISS vector index from the clean English dataset.
+```bash
+python -m cli.main build-index --source data/english_recipes
+```
 
-### Query the RAG (Jupyter Notebook)
+---
 
-Open:
-notebooks/playground.ipynb
+## 📂 Folder Structure
 
-Inside the notebook you can query like:
+- **`data/raw/`**: Input files (DOCX, Excel, Images).
+- **`data/parsed/`**: Raw JSON output from parsers (multilingual).
+  - `merged/`: Successfully merged recipes.
+  - `incomplete/`: Recipes missing ingredients or steps.
+  - `trash/`: Empty or unrecognizable files.
+- **`data/english_recipes/`**: **FINAL DATASET**. Contains only high-quality, unique English recipes ready for indexing.
+- **`data/recipe_index/`**: FAISS index and document store.
 
+## 🛠 Utility Scripts
+
+- **`src/check_translations.py`**: Verifies that every non-English recipe has a corresponding English version.
+- **`src/analyze_english_dataset.py`**: Generates statistics (count, translation ratio, quality metrics) for the final dataset.
+- **`src/count_detailed_recipes.py`**: Counts "full" recipes (with both ingredients and steps).
+
+## 📊 Dataset Statistics (Current)
+
+- **Total Unique Recipes**: ~1,468 (High Quality)
+- **Translation Coverage**: 99.8%
+- **Content**: 
+  - ~58% Original English
+  - ~37% Translated
+  - ~5% Merged from parts
+
+## 🔎 Querying
+
+Use the CLI or Notebook to query the RAG system:
+
+```bash
+python -m cli.main ask "How do I make basil pesto?"
+```
+
+Or in `notebooks/playground.ipynb`:
+```python
 from src.query import answer_question
-
-index_dir = project_root / "data" / "recipe_index"
-answer = answer_question(
-    "How much sugar do I need for the matcha cookies?",
-    index_dir=str(index_dir)
-)
+answer = answer_question("How do I make basil pesto?")
 print(answer)
+```
