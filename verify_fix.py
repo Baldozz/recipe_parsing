@@ -9,7 +9,7 @@ from src.parsers.jpeg_parser import parse_recipe_image
 
 def main():
     images = [
-        "data/raw/jpg_recipes/Image(106).jpeg"
+        "data/raw/jpg_recipes/thumb_IMG_2154_1024 (1).jpg"
     ]
     
     for image_path in images:
