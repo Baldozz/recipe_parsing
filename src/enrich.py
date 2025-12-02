@@ -25,6 +25,10 @@ Return a JSON object with ONLY the following extra metadata fields.
    - Use "International" for generic dishes that are not strictly associated with one country (e.g., "Vegetable Soup", "Grilled Chicken").
    - Do NOT use regions (e.g., do not use "Tuscany", use "Italy").
    - If Fusion, list the top 2 countries (e.g., ["Japan", "Peru"]).
+   - **FUSION DETECTION**: If a traditional dish (e.g., Aioli, Risotto, Taco) uses a defining ingredient from another culture (e.g., Yuzu, Miso, Kimchi, Curry), **YOU MUST LIST BOTH COUNTRIES**.
+     - "Ali Oli Yuzu" -> ["Spain", "Japan"]
+     - "Kimchi Pasta" -> ["Italy", "Korea"]
+     - "Miso Butter" -> ["France", "Japan"]
 ]
 
 2. "kitchen_style": [

@@ -132,7 +132,10 @@ def load_existing_recipes(output_dir: str) -> list[dict]:
     return existing_recipes
 
 
-def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = "gpt-4o", skip_duplicates: bool = True) -> None:
+from .config import CHAT_MODEL
+import time
+
+def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = CHAT_MODEL, skip_duplicates: bool = True) -> None:
     """
     Process all recipe images in a folder.
     Each image may contain multiple recipes, which will be saved as separate files.
@@ -140,7 +143,7 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
     Args:
         input_dir: Directory containing image files
         output_dir: Directory to save parsed recipes
-        model: LLM model to use for parsing
+        model: LLM model to use for parsing (default: configured CHAT_MODEL)
         skip_duplicates: If True, skip recipes that are duplicates of existing ones
     """
     os.makedirs(output_dir, exist_ok=True)
@@ -148,13 +151,18 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
     image_extensions = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"}
 
     input_path = Path(input_dir)
-    image_files = [f for f in input_path.iterdir() if f.suffix.lower() in image_extensions]
+    # Sort by creation time (or modification time if creation not available) to handle sequential photos
+    image_files = sorted(
+        [f for f in input_path.iterdir() if f.suffix.lower() in image_extensions],
+        key=lambda f: f.stat().st_birthtime if hasattr(f.stat(), 'st_birthtime') else f.stat().st_mtime
+    )
 
     if not image_files:
         print(f"No image files found in {input_dir}")
         return
 
-    print(f"Found {len(image_files)} recipe images\n")
+    print(f"Found {len(image_files)} recipe images")
+    print(f"Process ID: {os.getpid()}\n")
     
     # Load existing recipes for duplicate detection
     existing_recipes = []
@@ -183,15 +191,29 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
         except Exception as e:
             print(f"Warning: Could not load processing history: {e}")
 
+    # Keep track of recent recipes for context (memory)
+    recent_recipes = []
+
     for i, image_file in enumerate(image_files, 1):
         if image_file.name in processed_files:
             print(f"[{i}/{len(image_files)}] Skipping {image_file.name} (already processed)")
             continue
 
         print(f"[{i}/{len(image_files)}] Processing: {image_file.name}")
-
+        
+        # Rate Limiting for Free Tier (approx 15 RPM)
+        # Sleep 10 seconds between calls to be safe
+        time.sleep(10)
         try:
-            recipes = parse_recipe_image(str(image_file), model=model)
+            recipes = parse_recipe_image(str(image_file), model=model, previous_context=recent_recipes)
+            
+            # Update memory with new recipes
+            for r in recipes:
+                # Store a summary: Name + first few ingredients
+                summary = f"Recipe: {r.get('name', 'Unknown')}\nIngredients: {', '.join(r.get('ingredients', [])[:5])}..."
+                recent_recipes.append(summary)
+                if len(recent_recipes) > 5:
+                    recent_recipes.pop(0)
             
             if not recipes:
                 print(f"Warning: No recipes found in {image_file.name}\n")
@@ -296,7 +318,7 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
     print("=" * 50)
 
 
-def ingest_docx(input_dir: str, output_dir: str = "data/parsed", model: str = "gpt-4o", skip_duplicates: bool = True) -> None:
+def ingest_docx(input_dir: str, output_dir: str = "data/parsed", model: str = CHAT_MODEL, skip_duplicates: bool = True) -> None:
     """
     Process all DOCX recipe files in a folder.
     Each document may contain multiple recipes, which will be saved as separate files.
@@ -304,7 +326,7 @@ def ingest_docx(input_dir: str, output_dir: str = "data/parsed", model: str = "g
     Args:
         input_dir: Directory containing DOCX files
         output_dir: Directory to save parsed recipes
-        model: LLM model to use for parsing
+        model: LLM model to use for parsing (default: configured CHAT_MODEL)
         skip_duplicates: If True, skip recipes that are duplicates of existing ones
     """
     os.makedirs(output_dir, exist_ok=True)
@@ -429,7 +451,7 @@ def ingest_docx(input_dir: str, output_dir: str = "data/parsed", model: str = "g
     print("=" * 50)
 
 
-def ingest_excel(input_dir: str, output_dir: str = "data/parsed", model: str = "gpt-4o", skip_duplicates: bool = True) -> None:
+def ingest_excel(input_dir: str, output_dir: str = "data/parsed", model: str = CHAT_MODEL, skip_duplicates: bool = True) -> None:
     """
     Process all Excel files in a folder.
     Each sheet may contain multiple recipes, which will be saved as separate files.

@@ -15,13 +15,14 @@ PYTHONPATH=. python3 cli/main.py ingest-docx
 echo "[3/5] Ingesting Excel..."
 PYTHONPATH=. python3 cli/main.py ingest-excel
 
-# 2. Extraction
-echo "[4/5] Extracting English Recipes..."
-python3 src/extract_english.py
+# 2. Stitching
+echo "[4/5] Stitching Multi-Part Recipes..."
+# Note: Stitching runs on the initial parsed data before extraction
+python3 src/stitch_recipes.py
 
-# 3. Stitching
-echo "[5/5] Stitching Multi-Part Recipes..."
-python3 src/stitch_recipes.py --dir data/english_recipes --archive data/archived_parts --fix
+# 3. Extraction
+echo "[5/5] Extracting English Recipes..."
+python3 src/extract_english.py
 
 # 4. Deduplication
 echo "[6/5] Deduplicating Recipes..."
