@@ -8,9 +8,9 @@ from src.query import answer_question
 from src.merge_recipes import merge_recipes
 from src.enrich import enrich_all
 
-DATA_RAW = Path("data/raw")
-DATA_PARSED = Path("data/parsed")
-DATA_INDEX = Path("data/index")
+DATA_RAW = Path("recipe_parsing/data/raw")
+DATA_PARSED = Path("recipe_parsing/data/parsed")
+DATA_INDEX = Path("recipe_parsing/data/index")
 
 def main():
     parser = argparse.ArgumentParser("recipe-rag")
@@ -34,11 +34,11 @@ def main():
     args = parser.parse_args()
 
     if args.cmd == "ingest-images":
-        ingest_images(DATA_RAW / "jpg_recipes", DATA_PARSED)
+        ingest_images(DATA_RAW / "jpg_recipes", DATA_PARSED / "images")
     elif args.cmd == "ingest-docx":
-        ingest_docx(DATA_RAW / "docx_recipes", DATA_PARSED)
+        ingest_docx(DATA_RAW / "docx_recipes", DATA_PARSED / "docx")
     elif args.cmd == "ingest-excel":
-        ingest_excel(DATA_RAW / "excel_recipes", DATA_PARSED)
+        ingest_excel(DATA_RAW / "excel_recipes", DATA_PARSED / "excel")
     elif args.cmd == "build-index":
         build_index(args.source, str(DATA_INDEX))
     elif args.cmd == "merge-recipes":

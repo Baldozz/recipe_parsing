@@ -19,8 +19,10 @@ def sanitize_filename(name: str) -> str:
         "Pasta Carbonara (Part 1)" -> "pasta_carbonara_part_1"
         "Mom's Best Pie!" -> "moms_best_pie"
     """
+    if not name:
+        return "recipe"
     # Convert to lowercase
-    name = name.lower()
+    name = str(name).lower()
     # Replace spaces and hyphens with underscores
     name = re.sub(r'[\s\-]+', '_', name)
     # Remove special characters, keep only alphanumeric and underscores
@@ -134,11 +136,13 @@ def load_existing_recipes(output_dir: str) -> list[dict]:
 
 from .config import CHAT_MODEL
 import time
+from .utils.image_grouper import ImageGrouper
+from .parsers.multimodal_parser import parse_recipe_group
 
 def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = CHAT_MODEL, skip_duplicates: bool = True) -> None:
     """
     Process all recipe images in a folder.
-    Each image may contain multiple recipes, which will be saved as separate files.
+    Images are GROUPED by timestamp/sequence to handle multi-page recipes.
     
     Args:
         input_dir: Directory containing image files
@@ -151,17 +155,21 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
     image_extensions = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"}
 
     input_path = Path(input_dir)
-    # Sort by creation time (or modification time if creation not available) to handle sequential photos
-    image_files = sorted(
-        [f for f in input_path.iterdir() if f.suffix.lower() in image_extensions],
-        key=lambda f: f.stat().st_birthtime if hasattr(f.stat(), 'st_birthtime') else f.stat().st_mtime
-    )
+    # Get all image files
+    image_files = [f for f in input_path.iterdir() if f.suffix.lower() in image_extensions]
 
     if not image_files:
         print(f"No image files found in {input_dir}")
         return
 
-    print(f"Found {len(image_files)} recipe images")
+    print(f"Found {len(image_files)} images. Grouping by timestamp...")
+    
+    # GROUP IMAGES
+    grouper = ImageGrouper(time_gap_threshold_seconds=60)
+    image_groups = grouper.group_images(image_files)
+    
+    grouper.print_grouping_summary(image_groups)
+    print(f"Total Groups to Process: {len(image_groups)}")
     print(f"Process ID: {os.getpid()}\n")
     
     # Load existing recipes for duplicate detection
@@ -171,8 +179,8 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
         existing_recipes = load_existing_recipes(output_dir)
         print(f"Found {len(existing_recipes)} existing recipes\n")
 
-    # Load processing history to resume if interrupted
-    processed_files = set()
+    # Load processing history
+    processed_groups = set()
     results = []
     total_recipes = 0
     duplicates_skipped = 0
@@ -184,54 +192,50 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
                 history = json.load(f)
                 for entry in history:
                     if entry.get("status") == "success":
-                        processed_files.add(entry.get("source_file"))
-            print(f"Resuming: Found {len(processed_files)} already processed files")
-            # Initialize results with history so we don't lose previous records
+                        # Mark the group identifier as processed
+                        # We use the filename of the first image in the group as ID
+                        processed_groups.add(entry.get("group_id"))
+            print(f"Resuming: Found {len(processed_groups)} already processed groups")
             results = history
         except Exception as e:
             print(f"Warning: Could not load processing history: {e}")
 
-    # Keep track of recent recipes for context (memory)
-    recent_recipes = []
-
-    for i, image_file in enumerate(image_files, 1):
-        if image_file.name in processed_files:
-            print(f"[{i}/{len(image_files)}] Skipping {image_file.name} (already processed)")
+    for i, group in enumerate(image_groups, 1):
+        # Group ID is the first filename
+        group_id = group[0].name
+        
+        if group_id in processed_groups:
+            print(f"[{i}/{len(image_groups)}] Skipping Group {group_id} (already processed)")
             continue
 
-        print(f"[{i}/{len(image_files)}] Processing: {image_file.name}")
+        print(f"[{i}/{len(image_groups)}] Processing Group: {[f.name for f in group]}")
         
-        # Rate Limiting for Free Tier (approx 15 RPM)
-        # Sleep 10 seconds between calls to be safe
-        time.sleep(10)
+        # Rate Limiting
+        time.sleep(5) # Reduced slightly as we are doing fewer calls
+        
         try:
-            recipes = parse_recipe_image(str(image_file), model=model, previous_context=recent_recipes)
-            
-            # Update memory with new recipes
-            for r in recipes:
-                # Store a summary: Name + first few ingredients
-                summary = f"Recipe: {r.get('name', 'Unknown')}\nIngredients: {', '.join(r.get('ingredients', [])[:5])}..."
-                recent_recipes.append(summary)
-                if len(recent_recipes) > 5:
-                    recent_recipes.pop(0)
+            # Convert paths to strings
+            group_paths = [str(p) for p in group]
+            recipes = parse_recipe_group(group_paths, model=model)
             
             if not recipes:
-                print(f"Warning: No recipes found in {image_file.name}\n")
+                print(f"Warning: No recipes found in group {group_id}\n")
                 results.append({
-                    "source_file": image_file.name,
+                    "group_id": group_id,
+                    "source_files": [f.name for f in group],
                     "status": "warning",
                     "message": "No recipes found"
                 })
                 continue
 
-            print(f"Found {len(recipes)} recipe(s) in this image")
+            print(f"Found {len(recipes)} recipe(s) in this group")
 
             for recipe in recipes:
                 # Inject metadata
                 recipe["source_metadata"] = {
-                    "filename": image_file.name,
-                    "path": str(image_file),
-                    "type": "image"
+                    "source_files": [f.name for f in group],
+                    "group_id": group_id,
+                    "type": "image_group"
                 }
 
                 recipe_name = recipe.get("name", "unknown_recipe")
@@ -245,7 +249,8 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
                             print(f"  ⊘ {recipe_name} (duplicate, skipped)")
                             duplicates_skipped += 1
                             results.append({
-                                "source_file": image_file.name,
+                                "group_id": group_id,
+                                "source_files": [f.name for f in group],
                                 "status": "duplicate",
                                 "recipe_name": recipe_name,
                                 "message": "Skipped - duplicate of existing recipe"
@@ -255,7 +260,7 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
                 if is_dup:
                     continue
                 
-                # Save the recipe in both original and English
+                # Save the recipe
                 sanitized_name = sanitize_filename(recipe_name)
                 original_file, english_file, language = save_recipe_bilingual(
                     recipe, output_dir, sanitized_name
@@ -265,7 +270,8 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
                 if language == "en":
                     print(f"  ✓ {recipe_name} -> {original_file}")
                     results.append({
-                        "source_file": image_file.name,
+                        "group_id": group_id,
+                        "source_files": [f.name for f in group],
                         "output_file": original_file,
                         "status": "success",
                         "recipe_name": recipe_name,
@@ -274,7 +280,8 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
                 else:
                     print(f"  ✓ {recipe_name} ({language}) -> {original_file}, {english_file}")
                     results.append({
-                        "source_file": image_file.name,
+                        "group_id": group_id,
+                        "source_files": [f.name for f in group],
                         "output_file_original": original_file,
                         "output_file_english": english_file,
                         "status": "success",
@@ -284,34 +291,31 @@ def ingest_images(input_dir: str, output_dir: str = "data/parsed", model: str = 
                 
                 total_recipes += 1
                 
-                # Add to existing recipes for subsequent duplicate checks
                 if skip_duplicates:
                     existing_recipes.append(recipe)
 
-
             print()
 
-            # Periodic save of summary (every 10 images) to allow resuming
-            if i % 10 == 0:
-                summary_path = Path(output_dir) / "_processing_summary_images.json"
+            # Periodic save
+            if i % 5 == 0:
                 with open(summary_path, "w", encoding="utf-8") as f:
                     json.dump(results, indent=2, fp=f, ensure_ascii=False)
 
         except Exception as e:
             print(f"Error: {e}\n")
             results.append({
-                "source_file": image_file.name,
+                "group_id": group_id,
+                "source_files": [f.name for f in group],
                 "status": "error",
                 "error": str(e),
             })
 
-    summary_path = Path(output_dir) / "_processing_summary_images.json"
     with open(summary_path, "w", encoding="utf-8") as f:
         json.dump(results, indent=2, fp=f, ensure_ascii=False)
 
     successful = sum(1 for r in results if r["status"] == "success")
     print("=" * 50)
-    print(f"Image processing complete: {successful} recipes from {len(image_files)} images")
+    print(f"Image processing complete: {successful} recipes from {len(image_groups)} groups")
     if duplicates_skipped > 0:
         print(f"Duplicates skipped: {duplicates_skipped}")
     print(f"Results saved to: {output_dir}")
@@ -374,7 +378,7 @@ def ingest_docx(input_dir: str, output_dir: str = "data/parsed", model: str = CH
                     "type": "docx"
                 }
 
-                recipe_name = recipe.get("name", "unknown_recipe")
+                recipe_name = recipe.get("name") or "unknown_recipe"
                 
                 # Check for duplicates
                 is_dup = False
@@ -505,7 +509,7 @@ def ingest_excel(input_dir: str, output_dir: str = "data/parsed", model: str = C
                         "sheet": sheet_name
                     }
 
-                    recipe_name = recipe.get("name", "unknown_recipe")
+                    recipe_name = recipe.get("name") or "unknown_recipe"
                     
                     # Check for duplicates
                     is_dup = False

@@ -4,7 +4,7 @@ from src.parsers.text_parser import parse_recipe_text
 
 def extract_text_from_docx(path: str) -> str:
     doc = Document(path)
-    paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
+    paragraphs = [p.text for p in doc.paragraphs if p.text and p.text.strip()]
     return "\n".join(paragraphs)
 
 def parse_recipe_docx(path: str, model: str | None = None) -> list[dict]:

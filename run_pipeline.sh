@@ -3,40 +3,38 @@ set -e  # Exit on error
 
 echo "============================================"
 echo "Starting Recipe Processing Pipeline"
+echo "THREE-PHASE ARCHITECTURE"
 echo "============================================"
 
-# 1. Ingestion (Resumable)
-echo "[1/5] Ingesting Images..."
+# Phase 1: Extract with recipe_type classification
+echo "[1/6] Parsing Images (Phase 1: Extraction)..."
 PYTHONPATH=. python3 cli/main.py ingest-images
 
-echo "[2/5] Ingesting DOCX..."
+echo "[2/6] Parsing DOCX..."
 PYTHONPATH=. python3 cli/main.py ingest-docx
 
-echo "[3/5] Ingesting Excel..."
+echo "[3/6] Parsing Excel..."
 PYTHONPATH=. python3 cli/main.py ingest-excel
 
-# 2. Stitching
-echo "[4/5] Stitching Multi-Part Recipes..."
-# Note: Stitching runs on the initial parsed data before extraction
-python3 src/stitch_recipes.py
+# Phase 2: Merge continuations based on is_continuation_of flag
+echo "[4/6] Merging Recipe Continuations (Phase 2)..."
+python3 src/merge_continuations.py data/parsed data/stitched
 
-# 3. Extraction
-echo "[5/5] Extracting English Recipes..."
+# Phase 3: Detect global component links
+echo "[5/6] Detecting Component Links (Phase 3)..."
+python3 src/link_recipes.py data/stitched data/linked
+
+# Extract English recipes from linked data
+echo "[6/6] Extracting English Recipes..."
 python3 src/extract_english.py
 
-# 4. Deduplication
-echo "[6/5] Deduplicating Recipes..."
-python3 src/find_duplicates.py --dir data/english_recipes --archive data/archived_duplicates --fix
-
-# 5. Enrichment
-echo "[7/5] Enriching Recipes (LLM)..."
-# Clear destination first to ensure clean run? Or keep it resumable?
-# The user wanted a "clean run" earlier, but enrich is resumable.
-# If we want to force re-enrichment of everything, we should clear it.
-# But since we just cleared it in a previous step (before ingestion started), 
-# and ingestion is just adding files, we can just run enrich.
-PYTHONPATH=. python3 cli/main.py enrich --source data/english_recipes --dest data/enriched_recipes
-
 echo "============================================"
-echo "Pipeline Complete!"
+echo "Three-Phase Pipeline Complete!"
+echo " - Phase 1: Extracted recipes with recipe_type"
+echo " - Phase 2: Stitched continuations & merged assembly"
+echo " - Phase 3: Built component dependency graph"
+echo ""
+echo "Next: Run 'python3 src/review_titles.py' to review titles."
+echo "Then: './run_pipeline_part2.sh' for deduplication & enrichment."
 echo "============================================"
+

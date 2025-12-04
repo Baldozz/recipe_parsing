@@ -1,0 +1,237 @@
+Loaded 66 recipes
+Assigned session IDs based on 60s threshold.
+Grouped into 4 sessions.
+Session 1: Anchor is 'KOW CHOI OIL' (Type: component)
+Session 2: Anchor is 'BEEF SHORTRIB XIAN BING' (Type: main)
+  Processing 'CHILLI OIL DRESSING' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'CHILLI OIL DRESSING' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'chilli'}
+  Processing 'MUSHROOM DUMPLING' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'MUSHROOM DUMPLING' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'dumpling', 'mushroom'}
+  Processing 'PREPARATION OF THE GLASS NOODLES' (Type: preparation) - Continuation: None
+  -> Auto-linking orphaned 'PREPARATION OF THE GLASS NOODLES' to 'BEEF SHORTRIB XIAN BING' (Session 2)
+Merging 'PREPARATION OF THE GLASS NOODLES' into 'BEEF SHORTRIB XIAN BING'
+  Processing 'SPRING HERB MIX' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'SPRING HERB MIX' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'spring', 'herb', 'mix'}
+  Processing 'SALTED PLUM JUICE AND MIRIN DIP' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'SALTED PLUM JUICE AND MIRIN DIP' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'dip', 'juice', 'plum', 'salted', 'mirin'}
+  Processing 'PORK FILLING' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'PORK FILLING' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords=set()
+  Processing 'XIAN BING DOUGH' (Type: component) - Continuation: None
+  -> Auto-linking orphaned 'XIAN BING DOUGH' to 'BEEF SHORTRIB XIAN BING' (Session 2)
+Merging 'XIAN BING DOUGH' into 'BEEF SHORTRIB XIAN BING'
+  Processing 'TARO DOUGH' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'TARO DOUGH' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'taro'}
+  Processing 'TARO DUMPLING' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'TARO DUMPLING' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'dumpling', 'taro'}
+  Processing 'TARO PASTRY' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'TARO PASTRY' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'pastry', 'taro'}
+  Processing 'Sweet Milk' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Sweet Milk' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'milk', 'sweet'}
+  Processing 'Sweet Potato Filling' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Sweet Potato Filling' to 'BEEF SHORTRIB XIAN BING' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'xian', 'bing', 'shortrib'}, OrphanWords={'potato', 'sweet'}
+Session 3: Anchor is 'Bloody wong tong and fermented beetroot soup' (Type: main)
+  Processing 'To ferment the beetroot' (Type: preparation) - Continuation: Bloody wong tong and fermented beetroot soup
+Merging 'To ferment the beetroot' into 'Bloody wong tong and fermented beetroot soup'
+  Processing 'Bloody wong tong' (Type: main) - Continuation: Bloody wong tong and fermented beetroot soup
+Merging 'Bloody wong tong' into 'Bloody wong tong and fermented beetroot soup'
+  Processing 'Rabbit and pork dumpling in Jade soup' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'Rabbit and pork dumpling in Jade soup' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'dumpling', 'rabbit', 'jade'}
+  Processing 'Rabbit and pork dumpling in Jade soup' (Type: main) - Continuation: Rabbit and pork dumpling in Jade soup
+Merging 'Rabbit and pork dumpling in Jade soup' into 'Rabbit and pork dumpling in Jade soup'
+  Processing 'Rabbit and pork dumpling in Jade soup' (Type: assembly) - Continuation: Rabbit and pork dumpling in Jade soup
+Merging 'Rabbit and pork dumpling in Jade soup' into 'Rabbit and pork dumpling in Jade soup'
+  Processing 'Suckling pig recipe' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'Suckling pig recipe' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'recipe', 'suckling', 'pig'}
+  Processing 'Suckling pig recipe' (Type: main) - Continuation: Suckling pig recipe
+Merging 'Suckling pig recipe' into 'Suckling pig recipe'
+  Processing 'Pickled Quince' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Pickled Quince' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'quince', 'pickled'}
+  Processing 'PORK PAN-FRIED CAKE' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'PORK PAN-FRIED CAKE' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'pan-fried'}
+  Processing 'Mushroom puff filling' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Mushroom puff filling' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'mushroom', 'puff'}
+  Processing 'Black Sugar cake' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'Black Sugar cake' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'sugar', 'black'}
+  Processing 'Beancurd sauce' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Beancurd sauce' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'beancurd'}
+  Processing 'TAIWANESE SAUSAGE' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'TAIWANESE SAUSAGE' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'sausage', 'taiwanese'}
+  Processing 'Ma Lai Cake' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'Ma Lai Cake' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'lai'}
+  Processing 'Orange butterscotch sauce' (Type: component) - Continuation: Ma Lai Cake
+Merging 'Orange butterscotch sauce' into 'Ma Lai Cake'
+  Processing 'VEAL STUFFING' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'VEAL STUFFING' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'veal', 'stuffing'}
+  Processing 'Duck Filling Trompette' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Duck Filling Trompette' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'trompette'}
+  Processing 'Cheese and Spring onion Filling' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Cheese and Spring onion Filling' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'spring', 'onion', 'cheese'}
+  Processing 'WHITE PICKLING LIQUOR' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'WHITE PICKLING LIQUOR' to 'Bloody wong tong and fermented beetroot soup' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'wong', 'beetroot', 'fermented', 'tong', 'bloody'}, OrphanWords={'pickling', 'liquor', 'white'}
+Session 4: Anchor is 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Type: main)
+  Processing 'Hazelnut praline' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Hazelnut praline' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'hazelnut', 'praline'}
+  Processing 'Ma Jiang Lamb Sauce' (Type: assembly) - Continuation: None
+  -> Auto-linking orphaned 'Ma Jiang Lamb Sauce' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Session 4)
+Merging 'Ma Jiang Lamb Sauce' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'Ma Jiang Sauce for Lamb' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Ma Jiang Sauce for Lamb' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'jiang', 'lamb'}
+  Processing 'CHAR SIU PORK NECK' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'CHAR SIU PORK NECK' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'char', 'neck', 'siu'}
+  Processing 'CUCUMBER DRESSIN' (Type: component) - Continuation: CHAR SIU PORK NECK
+Merging 'CUCUMBER DRESSIN' into 'CHAR SIU PORK NECK'
+  Processing '3 CUPS DRESSING' (Type: component) - Continuation: CUCUMBER DRESSIN
+Merging '3 CUPS DRESSING' into 'CHAR SIU PORK NECK'
+  Processing 'YELLOW BEAN GARLIC' (Type: component) - Continuation: Masterstock poached Goose, Chinese Olive Green, Burned spring onion
+Merging 'YELLOW BEAN GARLIC' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'Yellow Chilli Marinade' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Yellow Chilli Marinade' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'yellow', 'marinade', 'chilli'}
+  Processing 'Tea Duck Brine' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Tea Duck Brine' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'brine', 'tea'}
+  Processing 'To Finish Duck' (Type: assembly) - Continuation: None
+  -> Auto-linking orphaned 'To Finish Duck' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Session 4)
+Merging 'To Finish Duck' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'FERMENTED PINEAPPLE SAUCE' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'FERMENTED PINEAPPLE SAUCE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'pineapple', 'fermented'}
+  Processing 'Asparagus Stock' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Asparagus Stock' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'asparagus'}
+  Processing 'Fermented Tofu Emulsion' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Fermented Tofu Emulsion' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'emulsion', 'tofu', 'fermented'}
+  Processing 'Confit White Asparagus' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Confit White Asparagus' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'confit', 'asparagus', 'white'}
+  Processing 'EMULSIFIED GOOSE FAT FOR SERVICE' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'EMULSIFIED GOOSE FAT FOR SERVICE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'fat', 'goose', 'emulsified', 'service'}
+  Processing 'GINGER FOR SERVICE' (Type: preparation) - Continuation: None
+  -> Auto-linking orphaned 'GINGER FOR SERVICE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Session 4)
+Merging 'GINGER FOR SERVICE' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'GOOSE BREASTS FOR SERVICE' (Type: assembly) - Continuation: None
+  -> Auto-linking orphaned 'GOOSE BREASTS FOR SERVICE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Session 4)
+Merging 'GOOSE BREASTS FOR SERVICE' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'GOOSE DIPPING SAUCE' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'GOOSE DIPPING SAUCE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'goose', 'dipping'}
+  Processing 'INFUSED GOOSE FAT' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'INFUSED GOOSE FAT' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'fat', 'goose', 'infused'}
+  Processing 'Chicken feet braised in soy stock' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'Chicken feet braised in soy stock' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'braised', 'soy', 'feet', 'chicken'}
+  Processing 'BEANCURD MARINADE' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'BEANCURD MARINADE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'beancurd', 'marinade'}
+  Processing 'XO Sauce' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'XO Sauce' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords=set()
+  Processing 'Peppercorn Sauce' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Peppercorn Sauce' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'peppercorn'}
+  Processing 'Fried Red Fermented Chilli' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Fried Red Fermented Chilli' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'fermented', 'red', 'chilli'}
+  Processing 'Deep Fried Spring Onion and Goose Fat' (Type: component) - Continuation: None
+  -> Auto-linking orphaned 'Deep Fried Spring Onion and Goose Fat' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Session 4)
+Merging 'Deep Fried Spring Onion and Goose Fat' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'Sweet Soy Glaze' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Sweet Soy Glaze' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'glaze', 'soy', 'sweet'}
+  Processing 'SWEET CHILI SAUCE' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'SWEET CHILI SAUCE' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'chili', 'sweet'}
+  Processing 'Goose Poaching Liquid' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Goose Poaching Liquid' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'goose', 'poaching', 'liquid'}
+  Processing 'Quince Paste and Vinegar' (Type: component) - Continuation: None
+  -> Skipping auto-link for 'Quince Paste and Vinegar' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'quince', 'vinegar'}
+  Processing 'Lap Yuk and Sweet Soy' (Type: assembly) - Continuation: None
+  -> Auto-linking orphaned 'Lap Yuk and Sweet Soy' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (Session 4)
+Merging 'Lap Yuk and Sweet Soy' into 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion'
+  Processing 'Suckling Pork' (Type: main) - Continuation: None
+  -> Skipping auto-link for 'Suckling Pork' to 'Masterstock poached Goose, Chinese Olive Green, Burned spring onion' (No name overlap/type match)
+     Debug: AssemblyAnchor=False, Overlap=False, PrepOrphan=False, AssemblyOrphan=False
+     Debug: AnchorWords={'masterstock', 'olive', 'burned', 'spring', 'chinese', 'poached', 'goose,', 'onion', 'green,'}, OrphanWords={'suckling'}
+
+================================================================================
+Merging complete:
+  Input: 66 recipes
+  Merged: 17 continuations
+  Output: 49 final recipes
+================================================================================
+

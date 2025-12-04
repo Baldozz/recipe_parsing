@@ -50,7 +50,10 @@ Return ONLY the 2-letter language code, nothing else."""
         max_tokens=10
     )
     
-    lang_code = response.choices[0].message.content.strip().lower()
+    content = response.choices[0].message.content
+    if not content:
+        return "en"
+    lang_code = content.strip().lower()
     
     # Validate it's a 2-letter code
     if len(lang_code) == 2 and lang_code.isalpha():
