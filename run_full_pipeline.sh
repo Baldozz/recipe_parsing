@@ -25,6 +25,14 @@ echo "[Phase 4] Extracting English Recipes..."
 # extract_english.py now uses rglob to find all json files in data/linked recursively
 python3 recipe_parsing/src/extract_english.py
 
+# Phase 5: Classification
+echo "[Phase 5] Classifying Recipes..."
+python3 recipe_parsing/src/classify_recipes.py
+
+# Phase 6: Indexing (RAG)
+echo "[Phase 6] Building RAG Index..."
+python3 -m src.index recipe_parsing/data/classified recipe_parsing/data/index
+
 echo "============================================"
 echo "Pipeline Complete!"
 echo "============================================"
