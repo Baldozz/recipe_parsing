@@ -14,10 +14,20 @@ def recipe_to_document(recipe: dict, recipe_id: str) -> dict:
     ingredients = recipe.get("ingredients", [])
     steps = recipe.get("steps", [])
     other = recipe.get("other_details", {})
+    classifications = recipe.get("classifications", {})
 
     ingredients_text = "\n".join(f"- {ing}" for ing in ingredients)
     steps_text = "\n".join(f"{i+1}. {step}" for i, step in enumerate(steps))
     other_text = "\n".join(f"{k}: {v}" for k, v in other.items())
+    
+    # Format classification text
+    class_text = ""
+    if classifications:
+        class_text = "Classifications:\n"
+        for k, v in classifications.items():
+            if isinstance(v, list):
+                v = ", ".join(v)
+            class_text += f"- {k.replace('_', ' ').title()}: {v}\n"
 
     text = f"""Recipe ID: {recipe_id}
 Name: {name}
@@ -30,6 +40,8 @@ Steps:
 
 Other details:
 {other_text}
+
+{class_text}
 """
 
     return {
@@ -52,7 +64,7 @@ def load_recipes_from_dir(dir_path: str):
     - a top-level list of recipe dicts
     """
     recipes = []
-    for path in Path(dir_path).glob("*.json"):
+    for path in Path(dir_path).rglob("*.json"):
         try:
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)

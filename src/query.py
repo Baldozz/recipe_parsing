@@ -18,7 +18,7 @@ def load_index(index_dir: str):
     return faiss_index, docs
 
 
-def retrieve(docs, faiss_index, query: str, k: int = 5):
+def retrieve(docs, faiss_index, query: str, k: int = 20):
     """
     Embed ONLY the query, then search the FAISS index.
     """
@@ -41,8 +41,8 @@ def retrieve(docs, faiss_index, query: str, k: int = 5):
 
 # ------- prompt-size-safe answer function -------
 
-MAX_CHARS_PER_DOC = 4000 
-MAX_TOTAL_CHARS = 20000   
+MAX_CHARS_PER_DOC = 8000 
+MAX_TOTAL_CHARS = 200000   
 
 
 def _truncate_for_prompt(text: str, max_chars: int) -> str:
@@ -55,7 +55,7 @@ def answer_question(
     query: str,
     index_dir: str,
     model: str | None = None,
-    k: int = 5,
+    k: int = 20,
 ) -> str:
     """
     Answer a question using the indexed recipes, while keeping the prompt

@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 
-CHAT_MODEL = "gemini-2.5-pro"
+CHAT_MODEL = "gemini-2.0-flash"
 
 EMBEDDING_MODEL = "text-embedding-3-small"
 

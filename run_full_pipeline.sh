@@ -12,21 +12,13 @@ echo "============================================"
 # PYTHONPATH=. python3 cli/main.py ingest-excel
 
 # Phase 2: Stitching (Merge Continuations)
+# Phase 2: Stitching (Merge Continuations)
 echo "[Phase 2] Stitching Recipes..."
-
-echo "  - Stitching Images..."
-python3 recipe_parsing/src/merge_continuations.py recipe_parsing/data/parsed/images recipe_parsing/data/stitched/images
-
-echo "  - Stitching DOCX..."
-python3 recipe_parsing/src/merge_continuations.py recipe_parsing/data/parsed/docx recipe_parsing/data/stitched/docx
-
-echo "  - Stitching Excel..."
-python3 recipe_parsing/src/merge_continuations.py recipe_parsing/data/parsed/excel recipe_parsing/data/stitched/excel
+python3 -m src.stitch_recipes recipe_parsing/data/parsed recipe_parsing/data/merged
 
 # Phase 3: Linking (Global Component Detection)
 echo "[Phase 3] Detecting Component Links..."
-# link_recipes.py now uses rglob to find all json files in data/stitched recursively
-python3 recipe_parsing/src/link_recipes.py recipe_parsing/data/stitched recipe_parsing/data/linked
+python3 recipe_parsing/src/link_recipes.py recipe_parsing/data/merged recipe_parsing/data/linked
 
 # Phase 4: Extraction
 echo "[Phase 4] Extracting English Recipes..."
