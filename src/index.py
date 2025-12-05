@@ -2,6 +2,9 @@ from pathlib import Path
 import json
 import numpy as np
 import faiss
+import sys
+import pickle
+from rank_bm25 import BM25Okapi
 
 from src.config import get_embedding_client, EMBEDDING_MODEL
 
@@ -176,4 +179,22 @@ def build_index(parsed_dir: str, index_dir: str) -> None:
     with open(index_path / "docs.json", "w", encoding="utf-8") as f:
         json.dump(docs, f, ensure_ascii=False, indent=2)
 
-    print(f"Indexed {len(docs)} recipes into {index_dir}.")
+    # --- BM25 Indexing ---
+    print("Building BM25 index...")
+    tokenized_corpus = [doc["text"].lower().split() for doc in docs]
+    bm25 = BM25Okapi(tokenized_corpus)
+    
+    with open(index_path / "bm25.pkl", "wb") as f:
+        pickle.dump(bm25, f)
+    # ---------------------
+
+    print(f"Indexed {len(docs)} recipes into {index_dir} (FAISS + BM25).")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print("Usage: python3 -m src.index <input_dir> <output_dir>")
+        sys.exit(1)
+    
+    input_dir = sys.argv[1]
+    output_dir = sys.argv[2]
+    build_index(input_dir, output_dir)

@@ -35,7 +35,7 @@ def organize_recipes():
             has_ingredients = bool(data.get('ingredients'))
             has_steps = bool(data.get('steps'))
             
-            if not has_ingredients or not has_steps:
+            if not has_ingredients and not has_steps:
                 target_dir = INCOMPLETE_DIR / file_path.parent.relative_to(PARSED_DIR)
                 target_dir.mkdir(parents=True, exist_ok=True)
                 shutil.move(str(file_path), str(target_dir / file_path.name))
