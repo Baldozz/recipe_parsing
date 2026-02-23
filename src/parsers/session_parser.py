@@ -1,28 +1,10 @@
 from pathlib import Path
 import os
-import base64
-from PIL import Image
-import io
 import json
 from typing import List, Dict, Any
 
 from src.config import get_chat_client, CHAT_MODEL
-
-def encode_and_compress_image(image_path, max_size=4096, quality=95):
-    """Resize and recompress image before base64 encoding."""
-    with Image.open(image_path) as img:
-        img = img.convert("RGB")  # ensure JPEG-compatible
-
-        # Resize while keeping aspect ratio, max width/height = max_size
-        img.thumbnail((max_size, max_size))
-
-        # Save to memory as JPEG
-        buffer = io.BytesIO()
-        img.save(buffer, format="JPEG", quality=quality, optimize=True)
-        buffer.seek(0)
-
-        # Base64 encode
-        return base64.b64encode(buffer.read()).decode("utf-8"), "jpeg"
+from src.utils.image_utils import encode_and_compress_image
 
 def parse_recipe_session(image_paths: List[str], model: str | None = None) -> List[Dict[str, Any]]:
     """

@@ -1,151 +1,63 @@
-"""
-Recipe translation module for converting recipes to English.
-
-This module provides functionality to:
-1. Detect the language of a recipe
-2. Translate recipes to English
-3. Preserve original recipe data
-"""
-
 import json
-from src.config import get_chat_client, CHAT_MODEL
+import time
+import google.generativeai as genai
+from src.config import CHAT_MODEL
+from src.utils.json_utils import extract_json_from_text
 
-
-def detect_language(recipe: dict) -> str:
+def detect_language(text: str) -> str:
     """
-    Detect the language of a recipe.
-    
-    Args:
-        recipe: Recipe dictionary
-    
-    Returns:
-        Language code (e.g., 'en', 'it', 'es', 'fr', 'de')
+    Detect language using Gemini.
+    Returns ISO 639-1 code (e.g., 'en', 'it', 'fr').
     """
-    client = get_chat_client()
-    
-    # Sample text from recipe for language detection
-    sample_text = f"{recipe.get('name', '')} {' '.join(recipe.get('ingredients', [])[:3])}"
-    
-    prompt = f"""Detect the language of this recipe text and return ONLY the ISO 639-1 language code (2 letters).
+    if not text or len(text) < 10:
+        return 'en'
+        
+    try:
+        model = genai.GenerativeModel('gemini-2.0-flash')
+        response = model.generate_content(
+            f"Detect the language of this text. Return ONLY the 2-letter ISO code (e.g. en, it, fr).\n\nText: {text[:200]}"
+        )
+        return response.text.strip().lower()[:2]
+    except:
+        return 'en'
 
-Examples:
-- English: en
-- Italian: it
-- Spanish: es
-- French: fr
-- German: de
-- Portuguese: pt
-
-Recipe text: {sample_text}
-
-Return ONLY the 2-letter language code, nothing else."""
-
-    response = client.chat.completions.create(
-        model=CHAT_MODEL,
-        messages=[
-            {"role": "system", "content": "You are a language detection assistant. Return only ISO 639-1 language codes."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0,
-        max_tokens=10
-    )
-    
-    content = response.choices[0].message.content
-    if not content:
-        return "en"
-    lang_code = content.strip().lower()
-    
-    # Validate it's a 2-letter code
-    if len(lang_code) == 2 and lang_code.isalpha():
-        return lang_code
-    
-    # Default to English if detection fails
-    return "en"
-
-
-def translate_recipe_to_english(recipe: dict, source_language: str = None) -> dict:
+def translate_recipe_to_english(recipe: dict) -> dict:
     """
-    Translate a recipe to English.
-    
-    Args:
-        recipe: Recipe dictionary to translate
-        source_language: Optional source language code (auto-detected if not provided)
-    
-    Returns:
-        Translated recipe dictionary
+    Translate a recipe dictionary to English using LLM.
     """
-    # Detect language if not provided
-    if source_language is None:
-        source_language = detect_language(recipe)
-    
-    # If already in English, return as-is
-    if source_language == "en":
+    try:
+        model = genai.GenerativeModel('gemini-2.0-flash')
+        prompt = f"""
+        Translate this recipe to English. Keep JSON structure.
+        
+        INPUT:
+        {json.dumps(recipe, ensure_ascii=False)}
+        
+        OUTPUT JSON:
+        """
+        response = model.generate_content(prompt)
+        return json.loads(extract_json_from_text(response.text))
+    except Exception as e:
+        print(f"Translation failed: {e}")
         return recipe
-    
-    client = get_chat_client()
-    
-    # Prepare recipe for translation
-    recipe_json = json.dumps(recipe, ensure_ascii=False, indent=2)
-    
-    prompt = f"""Translate this recipe from {source_language} to English. 
-
-IMPORTANT:
-1. Translate the recipe name, ingredients, steps, and all text in other_details
-2. Keep the same JSON structure
-3. Preserve measurements and numbers exactly as they are
-4. Use natural, fluent English
-5. Keep cooking terminology accurate
-
-Original recipe (in {source_language}):
-{recipe_json}
-
-Return ONLY the translated JSON, nothing else."""
-
-    response = client.chat.completions.create(
-        model=CHAT_MODEL,
-        messages=[
-            {"role": "system", "content": "You are a professional recipe translator. Translate recipes accurately while preserving structure and measurements."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0,
-        response_format={"type": "json_object"}
-    )
-    
-    translated_recipe = json.loads(response.choices[0].message.content)
-    
-    # Add metadata about translation
-    if "other_details" not in translated_recipe:
-        translated_recipe["other_details"] = {}
-    
-    translated_recipe["other_details"]["translated_from"] = source_language
-    translated_recipe["other_details"]["original_language"] = source_language
-    
-    return translated_recipe
-
 
 def create_bilingual_recipe(recipe: dict) -> tuple[dict, dict, str]:
     """
-    Create both original and English versions of a recipe.
-    
-    Args:
-        recipe: Original recipe dictionary
-    
-    Returns:
-        Tuple of (original_recipe, english_recipe, language_code)
+    Returns (original_recipe, english_recipe, detected_language).
     """
-    # Detect language
-    language = detect_language(recipe)
+    # Detect language from name + steps
+    sample_text = recipe.get('name', '') + " " + " ".join(recipe.get('steps', [])[:3])
+    lang = detect_language(sample_text)
     
-    # Add language metadata to original
-    original_recipe = recipe.copy()
-    if "other_details" not in original_recipe:
-        original_recipe["other_details"] = {}
-    original_recipe["other_details"]["language"] = language
+    recipe['language'] = lang
     
-    # Translate to English if needed
-    if language == "en":
-        english_recipe = original_recipe
+    if lang == 'en':
+        return recipe, recipe, 'en'
     else:
-        english_recipe = translate_recipe_to_english(recipe, language)
-    
-    return original_recipe, english_recipe, language
+        english_recipe = translate_recipe_to_english(recipe)
+        english_recipe['language'] = 'en'
+        english_recipe['translated_from'] = lang
+        english_recipe['other_details'] = recipe.get('other_details', {})
+        english_recipe['other_details']['original_language'] = lang
+        
+        return recipe, english_recipe, lang

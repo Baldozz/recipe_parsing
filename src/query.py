@@ -1,12 +1,16 @@
+import os
+import time
 from pathlib import Path
 import json
 import numpy as np
 import faiss
 import pickle
+import google.generativeai as genai
 from rank_bm25 import BM25Okapi
 
 from src.config import get_chat_client, CHAT_MODEL
 from src.index import l2_normalize, get_embeddings  # reuse
+from src.utils.retry import call_model_with_retry
 
 
 def load_index(index_dir: str):
@@ -110,27 +114,26 @@ def retrieve(docs, faiss_index, bm25, query: str, k: int = 20, filters: dict = N
 
 # ------- prompt-size-safe answer function -------
 
-MAX_CHARS_PER_DOC = 8000 
-MAX_TOTAL_CHARS = 200000   
-
+MAX_CHARS_PER_DOC = 8000
+MAX_TOTAL_CHARS = 200000
 
 def _truncate_for_prompt(text: str, max_chars: int) -> str:
     if len(text) <= max_chars:
         return text
     return text[:max_chars] + "\n...[truncated]"
 
+# Configure GenAI
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 def answer_question(
     query: str,
     index_dir: str,
-    model: str | None = None,
+    model: str = "gemini-2.0-flash", # Default to Flash for RAG
     k: int = 20,
     filters: dict = None,
 ) -> str:
     """
-    Answer a question using the indexed recipes, while keeping the prompt
-    under the model's context limit by truncating docs and enforcing a
-    total character budget.
+    Answer a question using the indexed recipes using Gemini.
     """
     faiss_index, bm25, docs = load_index(index_dir)
     retrieved = retrieve(docs, faiss_index, bm25, query, k=k, filters=filters)
@@ -158,29 +161,22 @@ def answer_question(
 
     context_text = "\n\n".join(context_blocks)
 
-    client = get_chat_client()
-    model = model or CHAT_MODEL
+    # Use Gemini
+    genai_model = genai.GenerativeModel(model)
 
-    system_msg = """
-You are a helpful cooking assistant. Answer user questions using ONLY the provided recipes.
-If the answer is not clearly supported by the recipes, say that you are not sure.
-"""
+    prompt = f"""
+    You are a helpful cooking assistant. Answer user questions using ONLY the provided recipes.
+    If the answer is not clearly supported by the recipes, say that you are not sure.
+    
+    User question:
+    {query}
+    
+    Here are some potentially relevant recipes from the database:
+    {context_text}
+    """
 
-    user_msg = f"""User question:
-{query}
-
-Here are some potentially relevant recipes from the database:
-
-{context_text}
-"""
-
-    resp = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": system_msg},
-            {"role": "user", "content": user_msg},
-        ],
-        temperature=0.3,
-    )
-
-    return resp.choices[0].message.content
+    try:
+        response = call_model_with_retry(genai_model, prompt)
+        return response.text
+    except Exception as e:
+        return f"Error answering question: {e}"

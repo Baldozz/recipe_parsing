@@ -5,12 +5,10 @@ from pathlib import Path
 from src.ingest import ingest_images, ingest_docx, ingest_excel
 from src.index import build_index
 from src.query import answer_question
-from src.merge_recipes import merge_recipes
-from src.enrich import enrich_all
 
-DATA_RAW = Path("recipe_parsing/data/raw")
-DATA_PARSED = Path("recipe_parsing/data/parsed")
-DATA_INDEX = Path("recipe_parsing/data/index")
+DATA_RAW = Path("data/raw")
+DATA_PARSED = Path("data/parsed")
+DATA_INDEX = Path("data/indices")
 
 def main():
     parser = argparse.ArgumentParser("recipe-rag")
@@ -21,12 +19,6 @@ def main():
     sub.add_parser("ingest-excel")
     build_p = sub.add_parser("build-index")
     build_p.add_argument("--source", type=str, default=str(DATA_PARSED), help="Source directory for recipes")
-    sub.add_parser("merge-recipes")
-
-    enrich_p = sub.add_parser("enrich")
-    enrich_p.add_argument("--source", type=str, default="data/english_recipes", help="Source directory for recipes")
-    enrich_p.add_argument("--dest", type=str, default="data/enriched_recipes", help="Destination directory for enriched recipes")
-    enrich_p.add_argument("--limit", type=int, default=0, help="Limit number of recipes to process (0 for all)")
 
     ask_p = sub.add_parser("ask")
     ask_p.add_argument("question", type=str)
@@ -41,10 +33,6 @@ def main():
         ingest_excel(DATA_RAW / "excel_recipes", DATA_PARSED / "excel")
     elif args.cmd == "build-index":
         build_index(args.source, str(DATA_INDEX))
-    elif args.cmd == "merge-recipes":
-        merge_recipes(str(DATA_PARSED))
-    elif args.cmd == "enrich":
-        enrich_all(args.source, args.dest, args.limit)
     elif args.cmd == "ask":
         ans = answer_question(args.question, str(DATA_INDEX))
         print(ans)

@@ -7,7 +7,8 @@ import pickle
 from rank_bm25 import BM25Okapi
 
 from src.config import get_embedding_client, EMBEDDING_MODEL
-
+from dotenv import load_dotenv
+load_dotenv()
 
 # ---------- recipe → document ----------
 
@@ -126,23 +127,43 @@ def l2_normalize(vectors: np.ndarray) -> np.ndarray:
     return vectors / norms
 
 
+import google.generativeai as genai
+import time
+
 def get_embeddings(texts):
-    """Call OpenAI embeddings in batches, truncating long docs."""
-    client = get_embedding_client()
+    """Call Gemini API embeddings in batches, truncating long docs."""
     all_vectors = []
 
     if not texts:
         raise ValueError("No texts provided to get_embeddings()")
+        
+    # Configure the client if not already configured
+    import os
+    if "GEMINI_API_KEY" in os.environ:
+        genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
     for i in range(0, len(texts), BATCH_SIZE):
         batch = texts[i : i + BATCH_SIZE]
         batch = [_truncate_for_embedding(t) for t in batch]
 
-        resp = client.embeddings.create(
-            model=EMBEDDING_MODEL,
-            input=batch,
-        )
-        all_vectors.extend([d.embedding for d in resp.data])
+        # Use retry logic for API limits
+        retries = 3
+        for attempt in range(retries):
+            try:
+                # Gemini handles batching itself via embed_content when given a list
+                resp = genai.embed_content(
+                    model="models/gemini-embedding-001",
+                    content=batch,
+                    task_type="retrieval_document"
+                )
+                all_vectors.extend(resp['embedding'])
+                break
+            except Exception as e:
+                print(f"Embedding failed, attempt {attempt+1}: {e}")
+                time.sleep(2 * (attempt + 1))
+                if attempt == retries - 1:
+                    raise e
+                    
 
     arr = np.array(all_vectors, dtype="float32")
     if arr.ndim == 1:

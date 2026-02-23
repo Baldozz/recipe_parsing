@@ -8,22 +8,17 @@ from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
+from src.utils.retry import call_model_with_retry
+from src.utils.json_utils import extract_json_from_text
+
 # Load environment variables
 load_dotenv()
 
 # Configuration
-PARSED_DIR = Path("recipe_parsing/data/parsed")
-CLASSIFIED_DIR = Path("recipe_parsing/data/classified")
-API_KEY = os.environ.get("GEMINI_API_KEY")
+PARSED_DIR = Path("data/english_dataset")
+CLASSIFIED_DIR = Path("data/final_classified_english")
 
-# Fallback to the key found in config.py if not in env
-if not API_KEY:
-    API_KEY = "REDACTED" 
-
-if not API_KEY:
-    raise ValueError("GEMINI_API_KEY not found. Please set it in .env")
-
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 CATEGORIES_PROMPT = """
 Classify the recipe based on the following 8 categories. Choose the BEST fit.
@@ -120,11 +115,20 @@ def classify_recipe(file_path: Path) -> Optional[str]:
         relative_path = file_path.relative_to(PARSED_DIR)
         output_path = CLASSIFIED_DIR / relative_path
         
-        if output_path.exists():
-            return f"Skipped (Exists): {file_path.name}"
-
         with open(file_path, 'r') as f:
             data = json.load(f)
+
+        # Check if already classified in the SOURCE file
+        if 'classifications' in data and data['classifications']:
+            # Just copy to output if valid
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            return f"Copied (Already Classified): {file_path.name}"
+            
+        # Check if we already processed it in OUTPUT (restart partial run)
+        if output_path.exists():
+             return f"Skipped (Output Exists): {file_path.name}"
         
         if not isinstance(data, dict) or 'name' not in data:
             return f"Skipped (Invalid): {file_path.name}"
@@ -145,14 +149,8 @@ def classify_recipe(file_path: Path) -> Optional[str]:
         {recipe_text}
         """
         
-        response = model.generate_content(prompt)
-        text = response.text
-        
-        if "```json" in text:
-            text = text.split("```json")[1].split("```")[0]
-        elif "```" in text:
-            text = text.split("```")[1].split("```")[0]
-            
+        response = call_model_with_retry(model, prompt)
+        text = extract_json_from_text(response.text)
         classification = json.loads(text)
         
         if classification:
@@ -171,7 +169,8 @@ def main():
     print("Starting Parallel Recipe Classification...")
     CLASSIFIED_DIR.mkdir(parents=True, exist_ok=True)
     
-    files = list(PARSED_DIR.rglob("*.json"))
+    files = list(PARSED_DIR.rglob("*.json")) # Process ALL json files
+        
     print(f"Found {len(files)} recipes to process.")
     
     # Use 10 threads for speed (Gemini Flash has high throughput)
@@ -180,8 +179,8 @@ def main():
         
         for future in tqdm(as_completed(futures), total=len(files)):
             result = future.result()
-            # if result and "Error" in result:
-            #     print(result)
+            if result and "Error" in result:
+                print(result)
 
     print("Classification Complete.")
 

@@ -4,19 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 
+# CHAT_MODEL = "gemini-2.5-pro"
 CHAT_MODEL = "gemini-2.0-flash"
+EMBEDDING_MODEL = "text-embedding-004"
 
-EMBEDDING_MODEL = "text-embedding-3-small"
+_GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
-# llimteml proxy
 def get_chat_client() -> OpenAI:
-    return OpenAI(
-        api_key="REDACTED",
-        base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
-    )
+    return OpenAI(api_key=os.environ["GEMINI_API_KEY"], base_url=_GEMINI_BASE)
 
 def get_embedding_client() -> OpenAI:
-    return OpenAI(
-        api_key="REDACTED", #os.environ["OPENAI_EMBEDDING_KEY", os.environ["OPENAI_API_KEY"]],
-        base_url="https://api.openai.com/v1",
-    )
+    return OpenAI(api_key=os.environ["GEMINI_API_KEY"], base_url=_GEMINI_BASE)

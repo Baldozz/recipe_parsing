@@ -1,7 +1,7 @@
 from src.query import answer_question
 import time
 
-INDEX_DIR = "data/index"
+INDEX_DIR = "data/indices"
 
 def run_tests():
     print("🔥 Running Challenging RAG Tests...\n")

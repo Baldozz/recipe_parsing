@@ -8,8 +8,10 @@ class ImageGrouper:
     Groups images into 'documents' based on timestamps and filename patterns.
     """
     
-    def __init__(self, time_gap_threshold_seconds: int = 60):
+    
+    def __init__(self, time_gap_threshold_seconds: int = 60, max_group_size: int = 8):
         self.time_gap_threshold = timedelta(seconds=time_gap_threshold_seconds)
+        self.max_group_size = max_group_size
         # Regex for YYYYMMDD_HHMMSS format (e.g., 20190828_185157.jpg)
         self.timestamp_pattern = re.compile(r"(\d{8})_(\d{6})")
 
@@ -93,12 +95,18 @@ class ImageGrouper:
                         should_group = True
 
             if should_group:
-                current_group.append(img_path)
-                # Update trackers
-                if current_timestamp: last_timestamp = current_timestamp
-                if current_sequence is not None: last_sequence = current_sequence
-                # prefix stays same
-            else:
+                # Check Size Limit
+                if len(current_group) >= self.max_group_size:
+                     # Force split
+                     should_group = False
+                else:
+                    current_group.append(img_path)
+                    # Update trackers
+                    if current_timestamp: last_timestamp = current_timestamp
+                    if current_sequence is not None: last_sequence = current_sequence
+                    # prefix stays same
+            
+            if not should_group:
                 # Close current group and start new one
                 groups.append(current_group)
                 current_group = [img_path]
