@@ -16,8 +16,11 @@ data/parsed/
 data/english_recipes/
 data/merged/
 *.json
+!web_app/package.json
+!web_app/package-lock.json
 
 *.index
+
 
 .env
 *.env
