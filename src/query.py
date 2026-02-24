@@ -145,7 +145,19 @@ def answer_question(
 
     for r in retrieved:
         d = r["doc"]
-        block = f"### Recipe: {d['name']} (ID: {d['id']})\n{d['text']}"
+        
+        # Extract source file metadata
+        raw = d.get("raw", {})
+        source_files = raw.get("source_files", [])
+        source_meta_file = raw.get("source_metadata", {}).get("filename", "")
+        if source_files:
+            source = ", ".join(source_files)
+        elif source_meta_file:
+            source = source_meta_file
+        else:
+            source = "Unknown source file"
+
+        block = f"### Recipe: {d['name']} (Source File: {source})\n{d['text']}"
 
         # truncate a single recipe if it's huge
         block = _truncate_for_prompt(block, MAX_CHARS_PER_DOC)
@@ -171,7 +183,9 @@ def answer_question(
     User question:
     {query}
     
-    Here are some potentially relevant recipes from the database:
+    Here are some potentially relevant recipes from the database. Each recipe lists its (Source File).
+    When mentioning a recipe in your answer, PLEASE include the name of the source file it came from so the user can look it up.
+    
     {context_text}
     """
 

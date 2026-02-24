@@ -1,10 +1,15 @@
 # cli/main.py
 import argparse
 from pathlib import Path
+import sys
+
+# Ensure the root of the project is in the PYTHONPATH so we can import 'src'
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.ingest import ingest_images, ingest_docx, ingest_excel
 from src.index import build_index
 from src.query import answer_question
+from src.menu_builder import generate_menu
 
 DATA_RAW = Path("data/raw")
 DATA_PARSED = Path("data/parsed")
@@ -23,6 +28,9 @@ def main():
     ask_p = sub.add_parser("ask")
     ask_p.add_argument("question", type=str)
 
+    menu_p = sub.add_parser("menu")
+    menu_p.add_argument("query", type=str, help="Describe the type of menu you want")
+
     args = parser.parse_args()
 
     if args.cmd == "ingest-images":
@@ -36,6 +44,22 @@ def main():
     elif args.cmd == "ask":
         ans = answer_question(args.question, str(DATA_INDEX))
         print(ans)
+    elif args.cmd == "menu":
+        ans = generate_menu(
+            args.query,
+            recipe_index_dir=str(DATA_INDEX),
+            menu_index_dir="data/indices_menus",
+            style_guide_path="data/chef_style_guide.md"
+        )
+        print("\n=== MENU CONCEPTS ===\n")
+        
+        # Check if ans is a string (error) or a stream
+        if isinstance(ans, str):
+            print(ans)
+        else:
+            for chunk in ans:
+                print(chunk.text, end="", flush=True)
+            print()
 
 if __name__ == "__main__":
     main()
