@@ -1,0 +1,4638 @@
+[
+  {
+    "id": "2025.02.18",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.18\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.18.pdf\n\nCourses:\n[Course 1]\n  - Steak tartare: brioche and trufﬂe\n\n[Course 2]\n  - Quail scotch eggs: champignon parfait and morels sauce\n\n[Course 3]\n  - Crispy porc belly: miso coliﬂower, kale\n\n[Dessert]\n  - Chocolat: orange and pistachio\n\n",
+    "raw": {
+      "filename": "2025.02.18.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Steak tartare",
+              "description": "brioche and trufﬂe"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Quail scotch eggs",
+              "description": "champignon parfait and morels sauce"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Crispy porc belly",
+              "description": "miso coliﬂower, kale"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat",
+              "description": "orange and pistachio"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 3",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 3\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 3.pdf\n\nCourses:\n[Course 1]\n  - Scotch egg de caille: artichaut et sauce moutarde\n\n[Course 2]\n  - Côtelette d’agneau: asperge verte, morilles, sauce à l’ail des ours\n\n[Course 3]\n  - Espuma de chocolat chaud: pistache et orange\n\n",
+    "raw": {
+      "filename": "Menu 3.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Scotch egg de caille",
+              "description": "artichaut et sauce moutarde"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Côtelette d’agneau",
+              "description": "asperge verte, morilles, sauce à l’ail des ours"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Espuma de chocolat chaud",
+              "description": "pistache et orange"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Alba",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Alba\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Alba.pdf\n\nCourses:\n[Course 1]\n  - Tartare di manzo, gambero rosso e tartufo\n\n[Course 2]\n  - Crudo di cappesante, vinaigrette al tartufo\n\n[Course 3]\n  - Uovo, finferli, spuma di vecchio comté, tartuufo bianco\n\n[Course 4]\n  - Tagliolini 40 tuorli e tartufo\n\n[Course 5]\n  - Wellington di cervo fois gras e tartufo\n\n[Dessert]\n  - Basque cheeskake  alla nocciola e tartufo\n\n",
+    "raw": {
+      "filename": "Menu Alba.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tartare di manzo, gambero rosso e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Crudo di cappesante, vinaigrette al tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Uovo, finferli, spuma di vecchio comté, tartuufo bianco",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Tagliolini 40 tuorli e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Wellington di cervo fois gras e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Basque cheeskake  alla nocciola e tartufo",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.03-1",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.03-1\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.03-1.pdf\n\nCourses:\n[Course 1]\n  - Tartare de boeuf: condiment au gingembre et pommes allumettes\n\n[Course 2]\n  - Poitrine de porc croustillante: puntarelle et orange sanguine\n\n[Dessert]\n  - Gâteau fondant au chocolat: glace vanille\n\n",
+    "raw": {
+      "filename": "2025.03-1.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tartare de boeuf",
+              "description": "condiment au gingembre et pommes allumettes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Poitrine de porc croustillante",
+              "description": "puntarelle et orange sanguine"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Gâteau fondant au chocolat",
+              "description": "glace vanille"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine 12:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine 12:09\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine 12:09.pdf\n\nCourses:\n[Course 1]\n  - thon rouge: condiments vierge\n\n[Course 2]\n  - pitivier de canard: fois etchou\n\n[Dessert]\n  - tarte tatin au prunes\n\n",
+    "raw": {
+      "filename": "Menu Twentywine 12:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "thon rouge",
+              "description": "condiments vierge"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "pitivier de canard",
+              "description": "fois etchou"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "tarte tatin au prunes",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine 31:10",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine 31:10\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine 31:10.pdf\n\nCourses:\n[Course 1]\n  - St jaques, ceps, châtaigne\n\n[Course 2]\n  - Rack d’agneau, courge et oseille\n\n[Course 3]\n  - Poire,vanille,caramel\n\n",
+    "raw": {
+      "filename": "Menu Twentywine 31:10.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "St jaques, ceps, châtaigne",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Rack d’agneau, courge et oseille",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Poire,vanille,caramel",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.07",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.07\nEvent: Private Dinner\nDate: unknown\nFilename: unknown\n\nCourses:\n[Course 1]\n  - Risotto à la courge: vieux comté\n\n[Course 2]\n  - Chevreuil: betteraves, endives\n\n[Course 3]\n  - Poire: vanille, caramel\n\n",
+    "raw": {
+      "filename": "unknown",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Risotto à la courge",
+              "description": "vieux comté"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Chevreuil",
+              "description": "betteraves, endives"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Poire",
+              "description": "vanille, caramel"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 06.05.2025 midi",
+    "name": "Private Dinner (2025-05-06)",
+    "text": "Menu ID: Menu 06.05.2025 midi\nEvent: Private Dinner\nDate: 2025-05-06\nFilename: Menu 06.05.2025 midi.pdf\n\nCourses:\n[Course 1]\n  - Salade de tomates, pesto d’ail des ours, espuma de mozzarella di bufala, échalotes crispy\n\n[Course 2]\n  - Sole, beure blanc, ikura, petits pois et patates boulangères\n\n[Dessert]\n  - Basque cheesecake et fraises\n\n",
+    "raw": {
+      "filename": "Menu 06.05.2025 midi.pdf",
+      "event_date": "2025-05-06",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Salade de tomates, pesto d’ail des ours, espuma de mozzarella di bufala, échalotes crispy",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Sole, beure blanc, ikura, petits pois et patates boulangères",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Basque cheesecake et fraises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.14",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.14\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.14.pdf\n\nCourses:\n[Course 1]\n  - Foccacia caponata et burrata\n  - Pain brioche, jambon et gruyère\n  - Tartare de sériole épicé et navets\n  - Beignets de ﬂeurs de courgettes farcies à l’Italienne\n  - Tartelette boeuf et caviar fumé\n  - Raviolo Ricotta et jaune d’oeuf conﬁt, sauce aux morilles\n\n",
+    "raw": {
+      "filename": "2025.02.14.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Foccacia caponata et burrata",
+              "description": null
+            },
+            {
+              "dish_name": "Pain brioche, jambon et gruyère",
+              "description": null
+            },
+            {
+              "dish_name": "Tartare de sériole épicé et navets",
+              "description": null
+            },
+            {
+              "dish_name": "Beignets de ﬂeurs de courgettes farcies à l’Italienne",
+              "description": null
+            },
+            {
+              "dish_name": "Tartelette boeuf et caviar fumé",
+              "description": null
+            },
+            {
+              "dish_name": "Raviolo Ricotta et jaune d’oeuf conﬁt, sauce aux morilles",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 8 julliet",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 8 julliet\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 8 julliet.pdf\n\nCourses:\n[Course 1]\n  - Fleur de courgette farcie a la mozzarella et anchois fumé\n\n[Course 2]\n  - Gambas Rolls, sucrine et condiment épicé\n\n[Course 3]\n  - Farinata croustillante, caponata et pesto\n\n[Course 4]\n  - Carpaccio de veau fumé, espuma de sauce tonnato, pickles\n\n[Course 5]\n  - Turbot sauvage rôti, sauce de bouillabaisse réduit et courgettes\n\n[Course 6]\n  - Abricots conﬁt au vin blanc, praliné croustillant à la pistache et glace a la pistache\n\n",
+    "raw": {
+      "filename": "Menu 8 julliet.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Fleur de courgette farcie a la mozzarella et anchois fumé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Gambas Rolls, sucrine et condiment épicé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Farinata croustillante, caponata et pesto",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de veau fumé, espuma de sauce tonnato, pickles",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Turbot sauvage rôti, sauce de bouillabaisse réduit et courgettes",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 6",
+          "dishes": [
+            {
+              "dish_name": "Abricots conﬁt au vin blanc, praliné croustillant à la pistache et glace a la pistache",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine 5",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine 5\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine 5.pdf\n\nCourses:\n[Course 1]\n  - Paccheri au homard bretonne\n\n[Course 2]\n  - Cote de veau, jus\n  - Chanterelles et ceps\n\n[Course 3]\n  - Fromages\n\n",
+    "raw": {
+      "filename": "Menu Twentywine 5.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Paccheri au homard bretonne",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Cote de veau, jus",
+              "description": null
+            },
+            {
+              "dish_name": "Chanterelles et ceps",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Fromages",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu truffe 2024.12.12",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu truffe 2024.12.12\nEvent: Private Dinner\nDate: unknown\nFilename: Menu truffe 2024.12.12.pdf\n\nCourses:\n[Course 1]\n  - Taglioni à la piémontaise: espuma de vieux parmesan et truffe blanche\n\n[Course 2]\n  - Filet de veau à la truffe blanche: jus et topinambour\n\n[Course 3]\n  - Soufﬂé au chocolat noir guanaja\n\n",
+    "raw": {
+      "filename": "Menu truffe 2024.12.12.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Taglioni à la piémontaise",
+              "description": "espuma de vieux parmesan et truffe blanche"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Filet de veau à la truffe blanche",
+              "description": "jus et topinambour"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Soufﬂé au chocolat noir guanaja",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine 4",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine 4\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine 4.pdf\n\nCourses:\n[Course 1]\n  - Homard à la catalane\n\n[Course 2]\n  - Iberico porc, mirabelles et guanciale\n\n[Course 3]\n  - Pain perdu aux mûres\n\n",
+    "raw": {
+      "filename": "Menu Twentywine 4.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Homard à la catalane",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Iberico porc, mirabelles et guanciale",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Pain perdu aux mûres",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.04.10",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.04.10\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.04.10.pdf\n\nCourses:\n[Starters]\n  - Cannoli, tartare de thon et betterave\n  - Tartelette petit pois et fromage de chèvre\n  - Foccacia, pesto et tomate conﬁtes\n  - Reuben sandwich\n  - Chips de riz noir, truite fumé et émulsion d’ail des ours\n  - Poulet satay\n  - Rösti, tartare de boeuf\n\n",
+    "raw": {
+      "filename": "2025.04.10.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Cannoli, tartare de thon et betterave",
+              "description": null
+            },
+            {
+              "dish_name": "Tartelette petit pois et fromage de chèvre",
+              "description": null
+            },
+            {
+              "dish_name": "Foccacia, pesto et tomate conﬁtes",
+              "description": null
+            },
+            {
+              "dish_name": "Reuben sandwich",
+              "description": null
+            },
+            {
+              "dish_name": "Chips de riz noir, truite fumé et émulsion d’ail des ours",
+              "description": null
+            },
+            {
+              "dish_name": "Poulet satay",
+              "description": null
+            },
+            {
+              "dish_name": "Rösti, tartare de boeuf",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Mani's birthday ",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Mani's birthday \nEvent: Private Dinner\nDate: unknown\nFilename: Menu Mani's birthday .pdf\n\nCourses:\n[Course 1]\n  - Crab brioche\n  - Crispy rice with spicy tuna\n  - Spicy corn ribs\n  - Craquetas de cecina\n  - Spinach salad: parmesan leeks and miso dressing\n  - Corvina ceviche\n  - Yellowtail tiradito: salty plums and ginger dressing\n  - Turbot pil-pil\n  - Fire roasted Lamb\n  - Gallican beef\n  - Bbq Sweetbreads: Lemon dressing\n  - Bbq seasonal veggies: cashews mayo\n  - Chocolate,passion fruit and meringue\n\n",
+    "raw": {
+      "filename": "Menu Mani's birthday .pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Crab brioche",
+              "description": null
+            },
+            {
+              "dish_name": "Crispy rice with spicy tuna",
+              "description": null
+            },
+            {
+              "dish_name": "Spicy corn ribs",
+              "description": null
+            },
+            {
+              "dish_name": "Craquetas de cecina",
+              "description": null
+            },
+            {
+              "dish_name": "Spinach salad",
+              "description": "parmesan leeks and miso dressing"
+            },
+            {
+              "dish_name": "Corvina ceviche",
+              "description": null
+            },
+            {
+              "dish_name": "Yellowtail tiradito",
+              "description": "salty plums and ginger dressing"
+            },
+            {
+              "dish_name": "Turbot pil-pil",
+              "description": null
+            },
+            {
+              "dish_name": "Fire roasted Lamb",
+              "description": null
+            },
+            {
+              "dish_name": "Gallican beef",
+              "description": null
+            },
+            {
+              "dish_name": "Bbq Sweetbreads",
+              "description": "Lemon dressing"
+            },
+            {
+              "dish_name": "Bbq seasonal veggies",
+              "description": "cashews mayo"
+            },
+            {
+              "dish_name": "Chocolate,passion fruit and meringue",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 15.08",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 15.08\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 15.08.pdf\n\nCourses:\n[Course 1]\n  - Salade de tomates,fraises,ricotta\n\n[Course 2]\n  - Ribs de mais, colombo, koji\n\n[Course 3]\n  - Seriole, endives, tarama au yuzu\n\n[Course 4]\n  - Turbot sauce miso, caviar\n\n[Course 5]\n  - Cote de cochon sauce moutarde, jus de cochon\n\n[Course 6]\n  - Carrots, curcuma, quinoa\n\n[Dessert]\n  - Pistache, chocolat, orange\n  - Basque cheesecake\n\n",
+    "raw": {
+      "filename": "Menu 15.08.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Salade de tomates,fraises,ricotta",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Ribs de mais, colombo, koji",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Seriole, endives, tarama au yuzu",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Turbot sauce miso, caviar",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Cote de cochon sauce moutarde, jus de cochon",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 6",
+          "dishes": [
+            {
+              "dish_name": "Carrots, curcuma, quinoa",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Pistache, chocolat, orange",
+              "description": null
+            },
+            {
+              "dish_name": "Basque cheesecake",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.10",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.10\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.10.pdf\n\nCourses:\n[Course 1]\n  - Pappardelle au ragout de sanglier et chanterelles grises\n\n[Course 2]\n  - Filet de veau: topinambour rôties au miel et thym, châtaignes et jus\n\n[Dessert]\n  - Mousse au chocolat: crumble de noisettes et kaki\n\n",
+    "raw": {
+      "filename": "2024.12.10.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Pappardelle au ragout de sanglier et chanterelles grises",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Filet de veau",
+              "description": "topinambour rôties au miel et thym, châtaignes et jus"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mousse au chocolat",
+              "description": "crumble de noisettes et kaki"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.01 végé",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.01 végé\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.01 végé.pdf\n\nCourses:\n[Course 1]\n  - Crème de piquillos, endives\n\n[Course 2]\n  - Pain brioche, tartare de betterave épicé\n\n[Course 3]\n  - Risotto au safran, réglisse, jus végétal, pleurotes rôties, cime di rapa, sauce moutarde et pickles de saison\n\n[Dessert]\n  - Espunma de chocolat chaud, pistache et orange\n\n",
+    "raw": {
+      "filename": "2025.02.01 végé.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Crème de piquillos, endives",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Pain brioche, tartare de betterave épicé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Risotto au safran, réglisse, jus végétal, pleurotes rôties, cime di rapa, sauce moutarde et pickles de saison",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Espunma de chocolat chaud, pistache et orange",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 2025.05.24",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 2025.05.24\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 2025.05.24.pdf\n\nCourses:\n[Course 1]\n  - Asperges blanches: sauce macadamia, nasturzium et caviar\n\n[Course 2]\n  - Pavé de maigre: palourdes, sauce au gambas rouge et salicorne, salade de tomates, pèches et basilic violet\n\n[Dessert]\n  - Flan de dulce de leche de chèvre: fraises\n\n",
+    "raw": {
+      "filename": "Menu 2025.05.24.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Asperges blanches",
+              "description": "sauce macadamia, nasturzium et caviar"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Pavé de maigre",
+              "description": "palourdes, sauce au gambas rouge et salicorne, salade de tomates, pèches et basilic violet"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Flan de dulce de leche de chèvre",
+              "description": "fraises"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.01.05",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.01.05\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.01.05.pdf\n\nCourses:\n[Course 1]\n  - Raviolo épinard, ricotta, oeuf conﬁt et petits pois frais\n\n[Course 2]\n  - Côte de veau, artichaut croustillant et sauce bordelaise\n\n[Dessert]\n  - Millefeuille et mascarpone\n\n",
+    "raw": {
+      "filename": "2025.01.05.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Raviolo épinard, ricotta, oeuf conﬁt et petits pois frais",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Côte de veau, artichaut croustillant et sauce bordelaise",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Millefeuille et mascarpone",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.06",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.06\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.06.pdf\n\nCourses:\n[Entrée]\n  - Crudo de sériole, orange sanguine et trévise\n\n[Plats]\n  - Wellington de boeuf: millefeuilles de pommes de terre, gratin de cardons, choux de bruxelles et lardons\n\n[Dessert]\n  - Mont Blanc\n\n",
+    "raw": {
+      "filename": "2024.12.06.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Entrée",
+          "dishes": [
+            {
+              "dish_name": "Crudo de sériole, orange sanguine et trévise",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Plats",
+          "dishes": [
+            {
+              "dish_name": "Wellington de boeuf",
+              "description": "millefeuilles de pommes de terre, gratin de cardons, choux de bruxelles et lardons"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mont Blanc",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 10 pax 7:08",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 10 pax 7:08\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 10 pax 7:08.pdf\n\nCourses:\n[Amouse Bouches]\n  - Potato mille-feuille: veal tartare and chives\n  - Goat cheese and beetroot tartelette\n  - Gaufre: red prawns, yuzu and caviar\n\n[Starters]\n  - Roasted porcini mushrooms: guanciale, black garlic\n  - Pumpkin tortelli: smoked cheese and veal sauce\n\n[Main courses]\n  - Glazed beef shortribs: roasted celeriac, hazelnut and spinach\n  - Venison wellington style: with red cabbage and black berries\n  - Turbot: safran sauce, salicorne et ﬁnger lime\n\n[Desserts]\n  - Burnt salted caramel tarte: and yogourt ice cream\n  - Chocolate crémeux: passion fruit and savoury meringue\n\n",
+    "raw": {
+      "filename": "Menu 10 pax 7:08.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Amouse Bouches",
+          "dishes": [
+            {
+              "dish_name": "Potato mille-feuille",
+              "description": "veal tartare and chives"
+            },
+            {
+              "dish_name": "Goat cheese and beetroot tartelette",
+              "description": null
+            },
+            {
+              "dish_name": "Gaufre",
+              "description": "red prawns, yuzu and caviar"
+            }
+          ]
+        },
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Roasted porcini mushrooms",
+              "description": "guanciale, black garlic"
+            },
+            {
+              "dish_name": "Pumpkin tortelli",
+              "description": "smoked cheese and veal sauce"
+            }
+          ]
+        },
+        {
+          "course_name": "Main courses",
+          "dishes": [
+            {
+              "dish_name": "Glazed beef shortribs",
+              "description": "roasted celeriac, hazelnut and spinach"
+            },
+            {
+              "dish_name": "Venison wellington style",
+              "description": "with red cabbage and black berries"
+            },
+            {
+              "dish_name": "Turbot",
+              "description": "safran sauce, salicorne et ﬁnger lime"
+            }
+          ]
+        },
+        {
+          "course_name": "Desserts",
+          "dishes": [
+            {
+              "dish_name": "Burnt salted caramel tarte",
+              "description": "and yogourt ice cream"
+            },
+            {
+              "dish_name": "Chocolate crémeux",
+              "description": "passion fruit and savoury meringue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 2\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 2.pdf\n\nCourses:\n[Course 1]\n  - Ceviche de noix de St. Jacques et rhubarbe: pickles de radis et livèche\n\n[Course 2]\n  - Ravioli Del Plin à la ricotta: fèves, guanciale et sauce au laurier\n\n[Dessert]\n  - Crème caramel au dulce de leche de chèvre\n\n",
+    "raw": {
+      "filename": "Menu 2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Ceviche de noix de St. Jacques et rhubarbe",
+              "description": "pickles de radis et livèche"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Ravioli Del Plin à la ricotta",
+              "description": "fèves, guanciale et sauce au laurier"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Crème caramel au dulce de leche de chèvre",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 2025.05.28",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 2025.05.28\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 2025.05.28.pdf\n\nCourses:\n[Course 1]\n  - Olives all’ascolana: lime mayonnaise\n\n[Course 2]\n  - Asperges vertes: gribiche fumé et échalotes frittes\n\n[Course 3]\n  - Pappardelle cacio e pepe: morilles et guanciale\n\n[Course 4]\n  - Flan de Dulce de lèche de chèvres: crèmes à la tonka\n\n",
+    "raw": {
+      "filename": "Menu 2025.05.28.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Olives all’ascolana",
+              "description": "lime mayonnaise"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Asperges vertes",
+              "description": "gribiche fumé et échalotes frittes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Pappardelle cacio e pepe",
+              "description": "morilles et guanciale"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Flan de Dulce de lèche de chèvres",
+              "description": "crèmes à la tonka"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 2 copie",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 2 copie\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 2 copie.pdf\n\nCourses:\n[Course 1]\n  - Gauﬀre de houmous et levure de bière\n\n[Course 2]\n  - Brochettes de champignons en escabeche et sauce satay\n\n[Course 3]\n  - Salade de tomates, pèche, ajo blanco d’amandes et basilic\n\n[Course 4]\n  - Asperges vertes et petits pois rôti avec sauce miso\n\n[Dessert]\n  - Coulant au chocolat vegan et cerises\n\n",
+    "raw": {
+      "filename": "Menu 2 copie.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Gauﬀre de houmous et levure de bière",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Brochettes de champignons en escabeche et sauce satay",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Salade de tomates, pèche, ajo blanco d’amandes et basilic",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Asperges vertes et petits pois rôti avec sauce miso",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Coulant au chocolat vegan et cerises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.19",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.19\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.19.pdf\n\nCourses:\n[Course 1]\n  - Foccacia caponata et burrata\n  - Pain brioche, jambon et gruyère\n  - Tartare de sériole épicé et navets\n  - Beignets de ﬂeurs de courgettes farcies à l’Italienne\n  - Tartelette boeuf et caviar fumé\n  - Raviolo Ricotta et jaune d’oeuf conﬁt: sauce aux morilles\n  - Tarte au caramel: glace vanille\n\n",
+    "raw": {
+      "filename": "2025.02.19.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Foccacia caponata et burrata",
+              "description": null
+            },
+            {
+              "dish_name": "Pain brioche, jambon et gruyère",
+              "description": null
+            },
+            {
+              "dish_name": "Tartare de sériole épicé et navets",
+              "description": null
+            },
+            {
+              "dish_name": "Beignets de ﬂeurs de courgettes farcies à l’Italienne",
+              "description": null
+            },
+            {
+              "dish_name": "Tartelette boeuf et caviar fumé",
+              "description": null
+            },
+            {
+              "dish_name": "Raviolo Ricotta et jaune d’oeuf conﬁt",
+              "description": "sauce aux morilles"
+            },
+            {
+              "dish_name": "Tarte au caramel",
+              "description": "glace vanille"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.06.06",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.06.06\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.06.06.pdf\n\nCourses:\n[Course 1]\n  - Pain brioche, tartare\n\n[Course 2]\n  - Pasta alla gracia avec artichauts\n\n[Course 3]\n  - Rib eye, sauce bordelaise avec os à moelle, gratin d’artichauts pommes de terre\n\n[Course 4]\n  - Basque cheesecake et fruits rouges\n\n",
+    "raw": {
+      "filename": "2025.06.06.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Pain brioche, tartare",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Pasta alla gracia avec artichauts",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Rib eye, sauce bordelaise avec os à moelle, gratin d’artichauts pommes de terre",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Basque cheesecake et fruits rouges",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 3:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 3:09\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 3:09.pdf\n\nCourses:\n[Course 1]\n  - Risotto carnaroli Riserva aux ceps et fondue de taleggio\n\n[Course 2]\n  - Poitrine de porc confit, émulsion des poivron et sauce aigre douce\n\n[Dessert]\n  - Tiramisù\n\n",
+    "raw": {
+      "filename": "Menu 3:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Risotto carnaroli Riserva aux ceps et fondue de taleggio",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Poitrine de porc confit, émulsion des poivron et sauce aigre douce",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tiramisù",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 16:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 16:09\nEvent: Private Dinner\nDate: unknown\nFilename: menu 16:09.pdf\n\nCourses:\n[Amouse bouche]\n  - Maqueraux laqué à la japonais: pruneaux et amandes\n\n[Course 2]\n  - Tagliatelle aux ceps et vieux parmesan\n\n[Course 3]\n  - Basque cheesecake et framboises\n\n",
+    "raw": {
+      "filename": "menu 16:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Amouse bouche",
+          "dishes": [
+            {
+              "dish_name": "Maqueraux laqué à la japonais",
+              "description": "pruneaux et amandes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Tagliatelle aux ceps et vieux parmesan",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Basque cheesecake et framboises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.17",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.17\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.17.pdf\n\nCourses:\n[Course 1]\n  - Pain brioche, tartare de boeuf épicé\n\n[Course 2]\n  - Saint Jacques poêlées: beurre blanc miso, guanciale et cresson\n\n[Main Course]\n  - Tournedos a la Rossini: truffe noire, sauce madère\n\n[Dessert]\n  - Mont Blanc\n\n",
+    "raw": {
+      "filename": "2024.12.17.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Pain brioche, tartare de boeuf épicé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Saint Jacques poêlées",
+              "description": "beurre blanc miso, guanciale et cresson"
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Tournedos a la Rossini",
+              "description": "truffe noire, sauce madère"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mont Blanc",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 24.12.2024",
+    "name": "Private Dinner (2024-12-24)",
+    "text": "Menu ID: Menu 24.12.2024\nEvent: Private Dinner\nDate: 2024-12-24\nFilename: Menu 24.12.2024.pdf\n\nCourses:\n[Course 1]\n  - Cocktail di gamberi\n\n[Course 2]\n  - Cappesante gratinate al forno\n\n[Course 3]\n  - Cardi in tempura, spuma di yuzu\n\n[Course 4]\n  - Risotto gambero rosso e limone\n\n[Main Course]\n  - San Pietro al forno con la patate, salsa al caviale\n\n[Dessert]\n  - Mont Blanc\n\n",
+    "raw": {
+      "filename": "Menu 24.12.2024.pdf",
+      "event_date": "2024-12-24",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Cocktail di gamberi",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Cappesante gratinate al forno",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Cardi in tempura, spuma di yuzu",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Risotto gambero rosso e limone",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "San Pietro al forno con la patate, salsa al caviale",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mont Blanc",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 14:05 soir",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 14:05 soir\nEvent: Private Dinner\nDate: unknown\nFilename: menu 14:05 soir.pdf\n\nCourses:\n[Course 1]\n  - Crab toast\n\n[Course 2]\n  - Crudo de paigre sauvage, rhubarbe et livége\n\n[Course 3]\n  - Barbue, sauce petit pois et caviar fumé, artichauts conﬁts\n\n[Dessert]\n  - Tarte soufﬂé au chocolat noir et fraises\n\n",
+    "raw": {
+      "filename": "menu 14:05 soir.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Crab toast",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Crudo de paigre sauvage, rhubarbe et livége",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Barbue, sauce petit pois et caviar fumé, artichauts conﬁts",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte soufﬂé au chocolat noir et fraises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.19.03",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.19.03\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.19.03.pdf\n\nCourses:\n[Course 1]\n  - Beignets de ﬂeurs de courgettes: émulsions à l’ail des ours\n\n[Course 2]\n  - Tartelette de veau\n\n[Course 3]\n  - Risotto safran croustillant: jus de boeuf conﬁt\n\n[Dessert]\n  - Chocolat blanc caramélisé et bergamote\n\n",
+    "raw": {
+      "filename": "2025.19.03.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Beignets de ﬂeurs de courgettes",
+              "description": "émulsions à l’ail des ours"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Tartelette de veau",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Risotto safran croustillant",
+              "description": "jus de boeuf conﬁt"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat blanc caramélisé et bergamote",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 5-6:9 1",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 5-6:9 1\nEvent: Private Dinner\nDate: unknown\nFilename: menu 5-6:9 1.pdf\n\nCourses:\n[Course 1]\n  - Carpaccio de boef en sauce tonnata, câpres et girolles\n\n[Course 2]\n  - Cote de porc de jussy, poireaux conﬁt et vinaigrette a la moutarde\n\n[Dessert]\n  - Pain perdu maison, ﬁgues caramélisée au vermouth et crème double\n\n",
+    "raw": {
+      "filename": "menu 5-6:9 1.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de boef en sauce tonnata, câpres et girolles",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Cote de porc de jussy, poireaux conﬁt et vinaigrette a la moutarde",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Pain perdu maison, ﬁgues caramélisée au vermouth et crème double",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu gibier",
+    "name": "Private Dinner (2024-12-11)",
+    "text": "Menu ID: Menu gibier\nEvent: Private Dinner\nDate: 2024-12-11\nFilename: Menu gibier.pdf\n\nCourses:\n[Course 1]\n  - Œuf parfait, champignons sauvage, espuma de vieux gruyère\n\n[Course 2]\n  - Carpaccio de faon fumé, panais, betterave\n\n[Course 3]\n  - Pappardelle au ragout de sanglier, et gremolata\n\n[Course 4]\n  - Selle de chevreuil rôtie, mûres et jus, millefeuilles de pommes de terre, choux de Bruxelles rôtis et guanciale\n\n[Dessert]\n  - Tarte aux noisettes ou tarte au caramel et crème double\n\n",
+    "raw": {
+      "filename": "Menu gibier.pdf",
+      "event_date": "2024-12-11",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Œuf parfait, champignons sauvage, espuma de vieux gruyère",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de faon fumé, panais, betterave",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Pappardelle au ragout de sanglier, et gremolata",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Selle de chevreuil rôtie, mûres et jus, millefeuilles de pommes de terre, choux de Bruxelles rôtis et guanciale",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte aux noisettes ou tarte au caramel et crème double",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu ",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu \nEvent: Private Dinner\nDate: unknown\nFilename: Menu .pdf\n\nCourses:\n[Course 1]\n  - Aile de raie à la sauce genobloise\n\n[Course 2]\n  - Crudo de sériole, tarama fumé et pêches\n\n[Course 3]\n  - Côte de veau, jus et sauce moutarde\n\n[Course 4]\n  - Artichaut conﬁt, guanciale et sauce pollen\n\n",
+    "raw": {
+      "filename": "Menu .pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Aile de raie à la sauce genobloise",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Crudo de sériole, tarama fumé et pêches",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Côte de veau, jus et sauce moutarde",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Artichaut conﬁt, guanciale et sauce pollen",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine (1)",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine (1)\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine (1).pdf\n\nCourses:\n[Course 1]\n  - carcpaccio de veau, ceps,oef confit\n\n[Course 2]\n  - sole, beurre blanc aucaviar fumè\n\n[Course 3]\n  - salade de concombre thai\n\n[Dessert]\n  - chocolat-noisette\n\n",
+    "raw": {
+      "filename": "Menu Twentywine (1).pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "carcpaccio de veau, ceps,oef confit",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "sole, beurre blanc aucaviar fumè",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "salade de concombre thai",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "chocolat-noisette",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.04-2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.04-2\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.04-2.pdf\n\nCourses:\n[Course 1]\n  - Cardon Genevois rôti: os à moelle, espuma gratiné et truffe blanche\n\n[Course 2]\n  - Magret de canard laqué au miel: panais rôti et truffe blanche\n\n[Dessert]\n  - Soufflé au chocolat noir V alrhona\n\n",
+    "raw": {
+      "filename": "2024.12.04-2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Cardon Genevois rôti",
+              "description": "os à moelle, espuma gratiné et truffe blanche"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Magret de canard laqué au miel",
+              "description": "panais rôti et truffe blanche"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Soufflé au chocolat noir V alrhona",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.11.13-3",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.11.13-3\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.11.13-3.pdf\n\nCourses:\n[Course 1]\n  - Betterave, sabayon au yuzu\n\n[Course 2]\n  - Gnocchi de courge, vieux compté, endive rouge\n\n[Dessert]\n  - Poire, vanille, caramel\n\n",
+    "raw": {
+      "filename": "2024.11.13-3.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Betterave, sabayon au yuzu",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Gnocchi de courge, vieux compté, endive rouge",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Poire, vanille, caramel",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.04-3",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.04-3\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.04-3.pdf\n\nCourses:\n[Course 1]\n  - Taglioni à la piémontaise: espuma de vieux parmesan et truffe blanche\n\n[Course 2]\n  - Filet de veau à la truffe blanche: jus et topinambour\n\n[Dessert]\n  - Soufflé au chocolat noir guanaja\n\n",
+    "raw": {
+      "filename": "2024.12.04-3.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Taglioni à la piémontaise",
+              "description": "espuma de vieux parmesan et truffe blanche"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Filet de veau à la truffe blanche",
+              "description": "jus et topinambour"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Soufflé au chocolat noir guanaja",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.11.13-2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.11.13-2\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.11.13-2.pdf\n\nCourses:\n[Course 1]\n  - Enoki: sauce levure, ail noir\n\n[Course 2]\n  - Risotto au safran: réglisse\n\n[Course 3]\n  - Panna cotta de chèvre: kiwi, menthe verte\n\n",
+    "raw": {
+      "filename": "2024.11.13-2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Enoki",
+              "description": "sauce levure, ail noir"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Risotto au safran",
+              "description": "réglisse"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Panna cotta de chèvre",
+              "description": "kiwi, menthe verte"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.03.13-2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.03.13-2\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.03.13-2.pdf\n\nCourses:\n[Course 1]\n  - Tarte tatin oignon, gruyère et lardons\n\n[Course 2]\n  - Joues de boeuf conﬁts à basse température, polenta croustillante, pickles et gremolada\n\n[Dessert]\n  - Tarte orange sanguine meringué\n\n",
+    "raw": {
+      "filename": "2025.03.13-2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tarte tatin oignon, gruyère et lardons",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Joues de boeuf conﬁts à basse température, polenta croustillante, pickles et gremolada",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte orange sanguine meringué",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.14 ",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.14 \nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.14 .pdf\n\nCourses:\n[Starters]\n  - Ricotta, câpres et tomates séchées\n  - Cevice de sériole aux agrumes, pignons, radis et huile au gingembre\n  - Polenta croustillante, brandade de morue et émulsion de piquillos\n  - Cime di rapa snacké, beurre blanc à la betterave, miso et caviar fumé\n  - Côte de veau, enocki, condiment à l’ail noir, vinaigrette de veau et romarin\n\n[Dessert]\n  - Chocolat et bergamote\n\n",
+    "raw": {
+      "filename": "2025.02.14 .pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Ricotta, câpres et tomates séchées",
+              "description": null
+            },
+            {
+              "dish_name": "Cevice de sériole aux agrumes, pignons, radis et huile au gingembre",
+              "description": null
+            },
+            {
+              "dish_name": "Polenta croustillante, brandade de morue et émulsion de piquillos",
+              "description": null
+            },
+            {
+              "dish_name": "Cime di rapa snacké, beurre blanc à la betterave, miso et caviar fumé",
+              "description": null
+            },
+            {
+              "dish_name": "Côte de veau, enocki, condiment à l’ail noir, vinaigrette de veau et romarin",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat et bergamote",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu caviar 12:06",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu caviar 12:06\nEvent: Private Dinner\nDate: unknown\nFilename: menu caviar 12:06.pdf\n\nCourses:\n[Course 1]\n  - Gaufre de patate, crème au ciboulette, tartare de gambas rouge et caviar\n\n[Course 2]\n  - Carpaccio de seriole, ﬁnger lime et caviar\n\n[Course 3]\n  - Turbot rôti aux herbes , beurre noisettes au câpres et vinaigrette des tomates\n\n[Dessert]\n  - Tatin d’abricots et glace vanille\n\n",
+    "raw": {
+      "filename": "menu caviar 12:06.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Gaufre de patate, crème au ciboulette, tartare de gambas rouge et caviar",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de seriole, ﬁnger lime et caviar",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Turbot rôti aux herbes , beurre noisettes au câpres et vinaigrette des tomates",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tatin d’abricots et glace vanille",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine 2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine 2\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine 2.pdf\n\nCourses:\n[Course 1]\n  - Scocth eggs de caille: salade de cèpes\n\n[Course 2]\n  - Spaghettone aux moules: citron et caviar\n\n[Dessert]\n  - Chocolat et noisettes\n\n",
+    "raw": {
+      "filename": "Menu Twentywine 2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Scocth eggs de caille",
+              "description": "salade de cèpes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Spaghettone aux moules",
+              "description": "citron et caviar"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat et noisettes",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 2   15.08 - ",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 2   15.08 - \nEvent: Private Dinner\nDate: unknown\nFilename: Menu 2   15.08 - .pdf\n\nCourses:\n[Course 1]\n  - Salade de tomates,fraises,ricotta\n  - Tartare de veau, condiment gingembre, pommes allumettes\n  - Seriole, endives, tarama au yuzu\n  - Paccheri au homard, pesto et burrata\n  - Cote de Boef (rubia gallega) jus de boef\n  - Pommes de terres feuilletté\n  - Carrots, curcuma, quinoa\n  - Pistache, chocolat, orange\n  - Basque cheesecake\n\n",
+    "raw": {
+      "filename": "Menu 2   15.08 - .pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Salade de tomates,fraises,ricotta",
+              "description": null
+            },
+            {
+              "dish_name": "Tartare de veau, condiment gingembre, pommes allumettes",
+              "description": null
+            },
+            {
+              "dish_name": "Seriole, endives, tarama au yuzu",
+              "description": null
+            },
+            {
+              "dish_name": "Paccheri au homard, pesto et burrata",
+              "description": null
+            },
+            {
+              "dish_name": "Cote de Boef (rubia gallega) jus de boef",
+              "description": null
+            },
+            {
+              "dish_name": "Pommes de terres feuilletté",
+              "description": null
+            },
+            {
+              "dish_name": "Carrots, curcuma, quinoa",
+              "description": null
+            },
+            {
+              "dish_name": "Pistache, chocolat, orange",
+              "description": null
+            },
+            {
+              "dish_name": "Basque cheesecake",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": " 2025.01.29",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID:  2025.01.29\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.01.29.pdf\n\nCourses:\n[Course 1]\n  - Carpaccio de sériole, clémentine et grenade\n\n[Course 2]\n  - Saint Pierre en croute de pomme de terre, condiment vierge\n\n[Dessert]\n  - Millefeuilles poire et vanille\n\n",
+    "raw": {
+      "filename": "2025.01.29.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de sériole, clémentine et grenade",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Saint Pierre en croute de pomme de terre, condiment vierge",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Millefeuilles poire et vanille",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.16",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.16\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.16.pdf\n\nCourses:\n[Course 1]\n  - Crispy rice, tartare de sériole, tarama et ikura\n\n[Course 2]\n  - Risotto à la courge et comté\n\n[Course 3]\n  - Côte de cochon rôtie: pommes de terre rôties, hollandaise épicé\n\n[Dessert]\n  - Tarte à la noisette\n\n",
+    "raw": {
+      "filename": "2024.12.16.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Crispy rice, tartare de sériole, tarama et ikura",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Risotto à la courge et comté",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Côte de cochon rôtie",
+              "description": "pommes de terre rôties, hollandaise épicé"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte à la noisette",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.04.10 copie",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.04.10 copie\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.04.10 copie.pdf\n\nCourses:\n[Course 1]\n  - Ceviche de thon épicé: fèves et pommes allumettes\n\n[Course 2]\n  - Linguine au pesto d’ail des ours: burrata et tomates conﬁtes\n\n[Dessert]\n  - Meringue: fraise et citron\n\n",
+    "raw": {
+      "filename": "2025.04.10 copie.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Ceviche de thon épicé",
+              "description": "fèves et pommes allumettes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Linguine au pesto d’ail des ours",
+              "description": "burrata et tomates conﬁtes"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Meringue",
+              "description": "fraise et citron"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu viande 15:05",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu viande 15:05\nEvent: Private Dinner\nDate: unknown\nFilename: menu viande 15:05.pdf\n\nCourses:\n[Course 1]\n  - Chips de polenta: espuma au comté\n\n[Course 2]\n  - Carpaccio de veau fumé: artichauts et oef conﬁt\n\n[Main Course]\n  - Rib eye de boef maturée: sauce au poivre et fèves\n\n[Dessert]\n  - Tiramisu\n\n",
+    "raw": {
+      "filename": "menu viande 15:05.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Chips de polenta",
+              "description": "espuma au comté"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de veau fumé",
+              "description": "artichauts et oef conﬁt"
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Rib eye de boef maturée",
+              "description": "sauce au poivre et fèves"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tiramisu",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.19-2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.19-2\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.19-2.pdf\n\nCourses:\n[Course 1]\n  - Tartelette boeuf et caviar fumé\n\n[Course 2]\n  - Raviolo ricotta et jaune d’oeuf conﬁt, sauce aux morilles\n\n[Main Course]\n  - Wellington de veau à la Rossini\n  - Purée de pommes de terres truffé\n  - Cime di rapa snacké, beurre blanc à la betterave\n\n[Dessert]\n  - Chocolat et bergamotte\n\n",
+    "raw": {
+      "filename": "2025.02.19-2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tartelette boeuf et caviar fumé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Raviolo ricotta et jaune d’oeuf conﬁt, sauce aux morilles",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Wellington de veau à la Rossini",
+              "description": null
+            },
+            {
+              "dish_name": "Purée de pommes de terres truffé",
+              "description": null
+            },
+            {
+              "dish_name": "Cime di rapa snacké, beurre blanc à la betterave",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat et bergamotte",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine ",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine \nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine .pdf\n\nCourses:\n[Course 1]\n  - crudo de maigre, ajo blanco et aubergine\n\n[Course 2]\n  - terrine des pommes, crèmediplomat\n\n[Course 3]\n  - porc laqué, poivrons, almendrado\n\n",
+    "raw": {
+      "filename": "Menu Twentywine .pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "crudo de maigre, ajo blanco et aubergine",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "terrine des pommes, crèmediplomat",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "porc laqué, poivrons, almendrado",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Tartufo Bianco",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Tartufo Bianco\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Tartufo Bianco.pdf\n\nCourses:\n[Course 1]\n  - Battuta di manzo nocciole e tartufo\n\n[Course 2]\n  - Soufﬂé all’Etivaz e tartufo\n\n[Course 3]\n  - Tajarin 40 tuorli e tartufo\n\n[Course 4]\n  - Filetto di vitello topinambur e tartufo\n\n[Course 5]\n  - Mousse al cioccolato fondente e gelato al tartufo\n\n",
+    "raw": {
+      "filename": "Menu Tartufo Bianco.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Battuta di manzo nocciole e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Soufﬂé all’Etivaz e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Tajarin 40 tuorli e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Filetto di vitello topinambur e tartufo",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Mousse al cioccolato fondente e gelato al tartufo",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "MENU 19.10.2024",
+    "name": "Private Dinner (2024-10-19)",
+    "text": "Menu ID: MENU 19.10.2024\nEvent: Private Dinner\nDate: 2024-10-19\nFilename: MENU 19.10.2024.pdf\n\nCourses:\n[Course 1]\n  - Tartelette girolles et guanciale\n\n[Course 2]\n  - Crudo de rascasse, pignons et pruneau\n\n[Course 3]\n  - Pappardelle faisan et cèpes\n\n[Course 4]\n  - Pithivier, courge\n\n[Course 5]\n  - Fromages\n\n",
+    "raw": {
+      "filename": "MENU 19.10.2024.pdf",
+      "event_date": "2024-10-19",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tartelette girolles et guanciale",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Crudo de rascasse, pignons et pruneau",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Pappardelle faisan et cèpes",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Pithivier, courge",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Fromages",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.06",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.06\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.06.pdf\n\nCourses:\n[Course 1]\n  - Soufﬂé au gruyère et salade d’artichaut\n\n[Course 2]\n  - Poitrine de porc croustillante: patate douce, puntarelle et orange sanguine\n\n[Course 3]\n  - Millefeuilles poire et vanille\n\n",
+    "raw": {
+      "filename": "2025.02.06.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Soufﬂé au gruyère et salade d’artichaut",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Poitrine de porc croustillante",
+              "description": "patate douce, puntarelle et orange sanguine"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Millefeuilles poire et vanille",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu base",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu base\nEvent: Private Dinner\nDate: unknown\nFilename: Menu base.pdf\n\nCourses:\n[Course 1]\n  - Gazpacho de melon, cecina et ciboulette\n\n[Course 2]\n  - Brioche à la tartare de boef relevé\n\n[Course 3]\n  - Espuma de parmesan, salade mêlée\n\n[Course 4]\n  - Tomates, nectarines et amandes\n\n[Course 5]\n  - Baozii de porc belly et pickles\n\n[Course 6]\n  - Pillet de boef maturée, artichaut conﬁts et pommes de terres dattes, sauce moutarde\n\n[Course 7]\n  - Espuma de chocolat noir Guanaja, pistaches et cerises\n\n",
+    "raw": {
+      "filename": "Menu base.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Gazpacho de melon, cecina et ciboulette",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Brioche à la tartare de boef relevé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Espuma de parmesan, salade mêlée",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Tomates, nectarines et amandes",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Baozii de porc belly et pickles",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 6",
+          "dishes": [
+            {
+              "dish_name": "Pillet de boef maturée, artichaut conﬁts et pommes de terres dattes, sauce moutarde",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 7",
+          "dishes": [
+            {
+              "dish_name": "Espuma de chocolat noir Guanaja, pistaches et cerises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Chris 18:9",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Chris 18:9\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Chris 18:9.pdf\n\nCourses:\n[Amouse Bouches]\n  - Potato mille-feuille: veal tartare and chives\n  - Goat cheese and beetroot tartelette\n  - Gaufre: red prawns, yuzu and caviar\n\n[Starters]\n  - Roasted porcini mushrooms: guanciale, black garlic\n  - Pumpkin tortelli: smoked cheese and veal sauce\n\n[Main courses]\n  - Glazed beef shortribs: roasted celeriac, hazelnut and spinach\n  - Venison wellington style: with red cabbage and black berries\n  - Turbot: safran sauce, salicorne et ﬁnger lime\n\n[Desserts]\n  - Burnt salted caramel tarte: and yogourt ice cream\n  - Chocolate crémeux: passion fruit and savoury meringue\n\n",
+    "raw": {
+      "filename": "Menu Chris 18:9.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Amouse Bouches",
+          "dishes": [
+            {
+              "dish_name": "Potato mille-feuille",
+              "description": "veal tartare and chives"
+            },
+            {
+              "dish_name": "Goat cheese and beetroot tartelette",
+              "description": null
+            },
+            {
+              "dish_name": "Gaufre",
+              "description": "red prawns, yuzu and caviar"
+            }
+          ]
+        },
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Roasted porcini mushrooms",
+              "description": "guanciale, black garlic"
+            },
+            {
+              "dish_name": "Pumpkin tortelli",
+              "description": "smoked cheese and veal sauce"
+            }
+          ]
+        },
+        {
+          "course_name": "Main courses",
+          "dishes": [
+            {
+              "dish_name": "Glazed beef shortribs",
+              "description": "roasted celeriac, hazelnut and spinach"
+            },
+            {
+              "dish_name": "Venison wellington style",
+              "description": "with red cabbage and black berries"
+            },
+            {
+              "dish_name": "Turbot",
+              "description": "safran sauce, salicorne et ﬁnger lime"
+            }
+          ]
+        },
+        {
+          "course_name": "Desserts",
+          "dishes": [
+            {
+              "dish_name": "Burnt salted caramel tarte",
+              "description": "and yogourt ice cream"
+            },
+            {
+              "dish_name": "Chocolate crémeux",
+              "description": "passion fruit and savoury meringue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 2025.05.21",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 2025.05.21\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 2025.05.21.pdf\n\nCourses:\n[Course 1]\n  - Salade de crabe, fèves, leche de tigre d’avocats et pain brioche\n\n[Course 2]\n  - Boeuf maturé, asperges vertes, morilles et jus au poivre long\n\n[Course 3]\n  - Flan de dulce de leche de chèvre et fraises\n\n",
+    "raw": {
+      "filename": "Menu 2025.05.21.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Salade de crabe, fèves, leche de tigre d’avocats et pain brioche",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Boeuf maturé, asperges vertes, morilles et jus au poivre long",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Flan de dulce de leche de chèvre et fraises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 12:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 12:09\nEvent: Private Dinner\nDate: unknown\nFilename: menu 12:09.pdf\n\nCourses:\n[Course 1]\n  - Panzanella des tomates et ﬁgues, burrata\n\n[Course 2]\n  - Agnolotti à la courge, sauge et espuma de scamorza affumicata\n\n[Course 3]\n  - Poulpe croustillant, passatina di ceci et Nduja\n\n[Dessert]\n  - Maritozzi al pistacchio\n\n",
+    "raw": {
+      "filename": "menu 12:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Panzanella des tomates et ﬁgues, burrata",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Agnolotti à la courge, sauge et espuma de scamorza affumicata",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Poulpe croustillant, passatina di ceci et Nduja",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Maritozzi al pistacchio",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 5.06.2025",
+    "name": "Private Dinner (2025-06-05)",
+    "text": "Menu ID: Menu 5.06.2025\nEvent: Private Dinner\nDate: 2025-06-05\nFilename: Menu 5.06.2025.pdf\n\nCourses:\n[Starters]\n  - Salade de pâtes au pesto de basilic, burrata et thon\n  - Salade de pois chiches, légumes de saison et fromage de chèvre\n  - Gazpacho de melon, jambon séché et ciboulette\n  - Salade de tomates, concombre, olives et anchois fumés\n  - Tiradito de sériole, pêche et vinaigrette Thai\n  - Foaccacia\n  - Reuben sandwich\n\n[Main Course]\n  - Entrecôte, demi glace et salade de pommes de terres\n\n[Dessert]\n  - Millefeuilles  et fraises fraiches\n  - Quenelle de mousse au chocolat, huile d’olive\n\n",
+    "raw": {
+      "filename": "Menu 5.06.2025.pdf",
+      "event_date": "2025-06-05",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Salade de pâtes au pesto de basilic, burrata et thon",
+              "description": null
+            },
+            {
+              "dish_name": "Salade de pois chiches, légumes de saison et fromage de chèvre",
+              "description": null
+            },
+            {
+              "dish_name": "Gazpacho de melon, jambon séché et ciboulette",
+              "description": null
+            },
+            {
+              "dish_name": "Salade de tomates, concombre, olives et anchois fumés",
+              "description": null
+            },
+            {
+              "dish_name": "Tiradito de sériole, pêche et vinaigrette Thai",
+              "description": null
+            },
+            {
+              "dish_name": "Foaccacia",
+              "description": null
+            },
+            {
+              "dish_name": "Reuben sandwich",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Entrecôte, demi glace et salade de pommes de terres",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Millefeuilles  et fraises fraiches",
+              "description": null
+            },
+            {
+              "dish_name": "Quenelle de mousse au chocolat, huile d’olive",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.03",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.03\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.03.pdf\n\nCourses:\n[Course 1]\n  - Carpaccio de maigre: tarama, vinaigrette à l’orange et radicchio\n\n[Course 2]\n  - Filet mignon de porc: topinambour rôti au miel et thym, chanterelles et jus\n\n[Dessert]\n  - Mousse au chocolat: crumble de noisettes et kaki\n\n",
+    "raw": {
+      "filename": "2024.12.03.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Carpaccio de maigre",
+              "description": "tarama, vinaigrette à l’orange et radicchio"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Filet mignon de porc",
+              "description": "topinambour rôti au miel et thym, chanterelles et jus"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mousse au chocolat",
+              "description": "crumble de noisettes et kaki"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.11.13-1",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.11.13-1\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.11.13-1.pdf\n\nCourses:\n[Course 1]\n  - Saint-Jacques, navets, jus de cresson, caviar fumé\n\n[Course 2]\n  - Côtelettes d’agneau rôties, courge, gremolata sauce\n\n[Dessert]\n  - Soufflé aux noisettes, glace vanille\n\n",
+    "raw": {
+      "filename": "2024.11.13-1.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Saint-Jacques, navets, jus de cresson, caviar fumé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Côtelettes d’agneau rôties, courge, gremolata sauce",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Soufflé aux noisettes, glace vanille",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.03",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.03\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.03.pdf\n\nCourses:\n[Course 1]\n  - Beignets de ﬂeurs de courgettes: émulsions à l’ail des ours\n\n[Course 2]\n  - Risotto croustillant safran: joues de boeuf conﬁte\n\n[Dessert]\n  - Chocolat blanc caramélisé et bergamote\n\n",
+    "raw": {
+      "filename": "2025.03.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Beignets de ﬂeurs de courgettes",
+              "description": "émulsions à l’ail des ours"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Risotto croustillant safran",
+              "description": "joues de boeuf conﬁte"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat blanc caramélisé et bergamote",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu apero 17:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu apero 17:09\nEvent: Private Dinner\nDate: unknown\nFilename: menu apero 17:09.pdf\n\nCourses:\n[Apero]\n  - Gambas rolls: Sucrine et mayo pimenté\n  - Scotch eggs de caille: et moutard\n  - Tacos de Spicy tuna: en feuille de shiso\n  - Mini cheeseburgers: et oignon caramélisée\n  - Focaccia: avec aubergine et burrata\n  - Brochettes de poulet satay\n  - Millefeuille: avec anchois fumée et citron\n  - Chips au vinaigre et sel maison\n  - Pain perdu caramélisées: et ﬁgues\n  - Chesecake basque: et framboises\n\n",
+    "raw": {
+      "filename": "menu apero 17:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Apero",
+          "dishes": [
+            {
+              "dish_name": "Gambas rolls",
+              "description": "Sucrine et mayo pimenté"
+            },
+            {
+              "dish_name": "Scotch eggs de caille",
+              "description": "et moutard"
+            },
+            {
+              "dish_name": "Tacos de Spicy tuna",
+              "description": "en feuille de shiso"
+            },
+            {
+              "dish_name": "Mini cheeseburgers",
+              "description": "et oignon caramélisée"
+            },
+            {
+              "dish_name": "Focaccia",
+              "description": "avec aubergine et burrata"
+            },
+            {
+              "dish_name": "Brochettes de poulet satay",
+              "description": null
+            },
+            {
+              "dish_name": "Millefeuille",
+              "description": "avec anchois fumée et citron"
+            },
+            {
+              "dish_name": "Chips au vinaigre et sel maison",
+              "description": null
+            },
+            {
+              "dish_name": "Pain perdu caramélisées",
+              "description": "et ﬁgues"
+            },
+            {
+              "dish_name": "Chesecake basque",
+              "description": "et framboises"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.03.13-1",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.03.13-1\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.03.13-1.pdf\n\nCourses:\n[Course 1]\n  - Tataki de thon rouge: pomelo, sauce ponzu et puntarelle\n\n[Course 2]\n  - Pâte calamarata: cime di rapa, burrata et curable aux amandes\n\n[Dessert]\n  - Mousse au chocolat noisette: espuma au citron et glace bergamote\n\n",
+    "raw": {
+      "filename": "2025.03.13-1.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tataki de thon rouge",
+              "description": "pomelo, sauce ponzu et puntarelle"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Pâte calamarata",
+              "description": "cime di rapa, burrata et curable aux amandes"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mousse au chocolat noisette",
+              "description": "espuma au citron et glace bergamote"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu bbq Chris",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu bbq Chris\nEvent: Private Dinner\nDate: unknown\nFilename: menu bbq Chris.pdf\n\nCourses:\n[Starters]\n  - Hummus and guacamole\n  - Focaccia ligure\n  - Mini cheeseburgers: caramelised oinion and bacon\n  - Spicy corn ribs\n\n[Main Course]\n  - Chicken tights: bbq sauce\n  - Crispy porc belly\n  - Galician beef t-bone steak\n\n[Sides]\n  - Sweet potatoes: chimichurri\n  - Spinach salad: parmesan leeks and miso dressing\n  - Thai cocumber salad\n\n[Dessert]\n  - Basque cheesecake\n\n",
+    "raw": {
+      "filename": "menu bbq Chris.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Hummus and guacamole",
+              "description": null
+            },
+            {
+              "dish_name": "Focaccia ligure",
+              "description": null
+            },
+            {
+              "dish_name": "Mini cheeseburgers",
+              "description": "caramelised oinion and bacon"
+            },
+            {
+              "dish_name": "Spicy corn ribs",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Chicken tights",
+              "description": "bbq sauce"
+            },
+            {
+              "dish_name": "Crispy porc belly",
+              "description": null
+            },
+            {
+              "dish_name": "Galician beef t-bone steak",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Sides",
+          "dishes": [
+            {
+              "dish_name": "Sweet potatoes",
+              "description": "chimichurri"
+            },
+            {
+              "dish_name": "Spinach salad",
+              "description": "parmesan leeks and miso dressing"
+            },
+            {
+              "dish_name": "Thai cocumber salad",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Basque cheesecake",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.19",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.19\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.19.pdf\n\nCourses:\n[Course 1]\n  - Pain brioche, tartare de boeuf épicé\n\n[Course 2]\n  - Saint Jacques poêlées, beurre blanc miso, guanciale et cresson\n\n[Course 3]\n  - Tournedos a la Rossini, truffe noire, sauce madère\n\n[Dessert]\n  - Mont Blanc\n\n",
+    "raw": {
+      "filename": "2024.12.19.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Pain brioche, tartare de boeuf épicé",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Saint Jacques poêlées, beurre blanc miso, guanciale et cresson",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Tournedos a la Rossini, truffe noire, sauce madère",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mont Blanc",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine.pdf\n\nCourses:\n[Course 1]\n  - scotch eggs de caille: salade de ceps\n\n[Course 2]\n  - Spaghettone aux mules: citron etcaviar\n\n[Course 3]\n  - chocolat: noisettes\n\n",
+    "raw": {
+      "filename": "Menu Twentywine.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "scotch eggs de caille",
+              "description": "salade de ceps"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Spaghettone aux mules",
+              "description": "citron etcaviar"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "chocolat",
+              "description": "noisettes"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu\nEvent: Private Dinner\nDate: unknown\nFilename: Menu.pdf\n\nCourses:\n[Course 1]\n  - Artichaut en croûte, guanciale et sauce moutarde\n\n[Course 2]\n  - Côtelette d’agneau et son jus, artichaut conﬁts et salsa verde\n\n[Dessert]\n  - Meringue, fraise, orange sanguine et basilic\n\n",
+    "raw": {
+      "filename": "Menu.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Artichaut en croûte, guanciale et sauce moutarde",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Côtelette d’agneau et son jus, artichaut conﬁts et salsa verde",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Meringue, fraise, orange sanguine et basilic",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 25.12.2024 ",
+    "name": "Menu Natale 2024 (2024-12-25)",
+    "text": "Menu ID: Menu 25.12.2024 \nEvent: Menu Natale 2024\nDate: 2024-12-25\nFilename: Menu 25.12.2024 .pdf\n\nCourses:\n[Antipasto]\n  - Terrina di foie gras al tartufo nero: marmellata di Mirabelles\n  - Gravlax di trota: rösti, emlusione di lime e aneto\n  - Insalata di radiccio mele  nocci e tête de moine\n\n[Primo]\n  - Raviolo aperto con zucca e zola e fondo di vitello\n\n[Secondo]\n  - Faraona farcita alle castagne: patate arrosto al rosmarrino, cavolini e guanciale\n\n[Dessert]\n  - Crema catalana croccante e frutti rossi\n\n",
+    "raw": {
+      "filename": "Menu 25.12.2024 .pdf",
+      "event_date": "2024-12-25",
+      "event_name": "Menu Natale 2024",
+      "courses": [
+        {
+          "course_name": "Antipasto",
+          "dishes": [
+            {
+              "dish_name": "Terrina di foie gras al tartufo nero",
+              "description": "marmellata di Mirabelles"
+            },
+            {
+              "dish_name": "Gravlax di trota",
+              "description": "rösti, emlusione di lime e aneto"
+            },
+            {
+              "dish_name": "Insalata di radiccio mele  nocci e tête de moine",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Primo",
+          "dishes": [
+            {
+              "dish_name": "Raviolo aperto con zucca e zola e fondo di vitello",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Secondo",
+          "dishes": [
+            {
+              "dish_name": "Faraona farcita alle castagne",
+              "description": "patate arrosto al rosmarrino, cavolini e guanciale"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Crema catalana croccante e frutti rossi",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "13.11.2024 Menu Végé",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 13.11.2024 Menu Végé\nEvent: Private Dinner\nDate: unknown\nFilename: 13.11.2024 Menu Végé.pdf\n\nCourses:\n[Course 1]\n  - Poireaux, vinaigrette au cresson\n\n[Course 2]\n  - Risotto à la courge, gremolata sauce\n\n[Course 3]\n  - Soufflé aux noisettes, glace vanille\n\n",
+    "raw": {
+      "filename": "13.11.2024 Menu Végé.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Poireaux, vinaigrette au cresson",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Risotto à la courge, gremolata sauce",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Soufflé aux noisettes, glace vanille",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Los Tacos",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Los Tacos\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Los Tacos.pdf\n\nCourses:\n[Appetizers]\n  - Mezcalitas\n  - Totopos y guacamole\n  - Aguachile de Camaron\n  - Tosta de Tartar de atún\n  - Tortillas de maíz con pollo a la yucateca\n  - Quesadillas de ﬂor de calabacín\n\n[Main Course]\n  - Tacos de res con salsa verde\n  - Tacos de cochinita pibil\n  - Tacos de pastor con piña\n\n[Sides]\n  - Guacamole para acompañar los tacos y frijoles\n\n[Dessert]\n  - Flan de dulce de leche\n\n",
+    "raw": {
+      "filename": "Menu Los Tacos.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Appetizers",
+          "dishes": [
+            {
+              "dish_name": "Mezcalitas",
+              "description": null
+            },
+            {
+              "dish_name": "Totopos y guacamole",
+              "description": null
+            },
+            {
+              "dish_name": "Aguachile de Camaron",
+              "description": null
+            },
+            {
+              "dish_name": "Tosta de Tartar de atún",
+              "description": null
+            },
+            {
+              "dish_name": "Tortillas de maíz con pollo a la yucateca",
+              "description": null
+            },
+            {
+              "dish_name": "Quesadillas de ﬂor de calabacín",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Tacos de res con salsa verde",
+              "description": null
+            },
+            {
+              "dish_name": "Tacos de cochinita pibil",
+              "description": null
+            },
+            {
+              "dish_name": "Tacos de pastor con piña",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Sides",
+          "dishes": [
+            {
+              "dish_name": "Guacamole para acompañar los tacos y frijoles",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Flan de dulce de leche",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu lunch poisson 15:05",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu lunch poisson 15:05\nEvent: Private Dinner\nDate: unknown\nFilename: menu lunch poisson 15:05.pdf\n\nCourses:\n[Course 1]\n  - Chips de polenta, espuma au comté\n\n[Course 2]\n  - Crudo de paigre sauvage, sauce rhubarbe, livége\n\n[Course 3]\n  - Turbot, sauce pilpil basque et salicorne\n\n[Dessert]\n  - Tiramisu\n\n",
+    "raw": {
+      "filename": "menu lunch poisson 15:05.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Chips de polenta, espuma au comté",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Crudo de paigre sauvage, sauce rhubarbe, livége",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Turbot, sauce pilpil basque et salicorne",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tiramisu",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 5-6:9 2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 5-6:9 2\nEvent: Private Dinner\nDate: unknown\nFilename: menu 5-6:9 2.pdf\n\nCourses:\n[Course 1]\n  - Maquereau laqué a la japonais: émulsion d’amandes et pruneaux\n\n[Course 2]\n  - Spaghetti Fumé: tartare de gambero rosso, bisque et pesto\n\n[Dessert]\n  - Tarte au caramel salé: sorbet yogourt\n\n",
+    "raw": {
+      "filename": "menu 5-6:9 2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Maquereau laqué a la japonais",
+              "description": "émulsion d’amandes et pruneaux"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Spaghetti Fumé",
+              "description": "tartare de gambero rosso, bisque et pesto"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte au caramel salé",
+              "description": "sorbet yogourt"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.04-1",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.04-1\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.04-1.pdf\n\nCourses:\n[Course 1]\n  - Ravioli del Plin du veau: courge et vieux gruyère\n\n[Course 2]\n  - Tournedos Rossini\n\n[Dessert]\n  - Mont blanc\n\n",
+    "raw": {
+      "filename": "2024.12.04-1.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Ravioli del Plin du veau",
+              "description": "courge et vieux gruyère"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Tournedos Rossini",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mont blanc",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu midi",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu midi\nEvent: Private Dinner\nDate: unknown\nFilename: Menu midi.pdf\n\nCourses:\n[Course 1]\n  - Croquette de Cecina\n\n[Course 2]\n  - Salade de pâtes, burrata et pesto de basilic\n\n[Course 3]\n  - Salade de crevettes épicé\n\n[Course 4]\n  - Roast beef avec pommes de terre, artichauts et gravy\n\n[Course 5]\n  - Salade de fraises, cerises, mousse de fève tonka  et chocolat blanc\n\n",
+    "raw": {
+      "filename": "Menu midi.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Croquette de Cecina",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Salade de pâtes, burrata et pesto de basilic",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Salade de crevettes épicé",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Roast beef avec pommes de terre, artichauts et gravy",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Salade de fraises, cerises, mousse de fève tonka  et chocolat blanc",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 2 lulliet",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 2 lulliet\nEvent: Private Dinner\nDate: unknown\nFilename: menu 2 lulliet.pdf\n\nCourses:\n[Course 1]\n  - Gazpacho de melon, cecina et ciboulette\n\n[Course 2]\n  - Brioche à la tartare de boef relevé\n  - Espuma de parmesan, salade mêlée\n  - Tomates, nectarines et amandes\n\n[Course 3]\n  - Filet de boef maturée, artichaut conﬁts et pommes de terres rattes, sauce moutarde\n\n[Course 4]\n  - Espuma de chocolat noir Guanaja, pistaches et cerises\n\n",
+    "raw": {
+      "filename": "menu 2 lulliet.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Gazpacho de melon, cecina et ciboulette",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Brioche à la tartare de boef relevé",
+              "description": null
+            },
+            {
+              "dish_name": "Espuma de parmesan, salade mêlée",
+              "description": null
+            },
+            {
+              "dish_name": "Tomates, nectarines et amandes",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Filet de boef maturée, artichaut conﬁts et pommes de terres rattes, sauce moutarde",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Espuma de chocolat noir Guanaja, pistaches et cerises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 27:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 27:09\nEvent: Private Dinner\nDate: unknown\nFilename: menu 27:09.pdf\n\nCourses:\n[Snacks]\n  - Savoury cannoli with ricotta and pistachio\n  - Tomato beignet\n  - Polenta chips and aged parmesan\n\n[Starters]\n  - Veal carpaccio, ceps, girolles, seasonal herbs\n  - Courgettes and aubergines, goat cheese, hazelnut and sauce verde\n\n[Main courses]\n  - Pumpkin and smoked cheese\n  - Ravioli with veal sauce\n  - Roast porc stuffed with plums and chestnuts\n\n[Dessert]\n  - Sbrisolona cake, figs and warm Zabaglione\n  - Ice cream\n\n",
+    "raw": {
+      "filename": "menu 27:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Snacks",
+          "dishes": [
+            {
+              "dish_name": "Savoury cannoli with ricotta and pistachio",
+              "description": null
+            },
+            {
+              "dish_name": "Tomato beignet",
+              "description": null
+            },
+            {
+              "dish_name": "Polenta chips and aged parmesan",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Veal carpaccio, ceps, girolles, seasonal herbs",
+              "description": null
+            },
+            {
+              "dish_name": "Courgettes and aubergines, goat cheese, hazelnut and sauce verde",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main courses",
+          "dishes": [
+            {
+              "dish_name": "Pumpkin and smoked cheese",
+              "description": null
+            },
+            {
+              "dish_name": "Ravioli with veal sauce",
+              "description": null
+            },
+            {
+              "dish_name": "Roast porc stuffed with plums and chestnuts",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Sbrisolona cake, figs and warm Zabaglione",
+              "description": null
+            },
+            {
+              "dish_name": "Ice cream",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 5.07.2025",
+    "name": "Private Dinner (2025-07-05)",
+    "text": "Menu ID: Menu 5.07.2025\nEvent: Private Dinner\nDate: 2025-07-05\nFilename: Menu 5.07.2025.pdf\n\nCourses:\n[Starters]\n  - Salade de pâtes au pesto de basilic, burrata et thon\n  - Salade de pois chiches, légumes de saison et fromage de chèvre\n  - Gazpacho de melon, jambon séché et ciboulette\n  - Salade de tomates, concombre, olives et anchois fumés\n  - Ceviche de maigre et patate douce\n  - Tiradito de sériole, pêche et vinaigrette Thai\n  - Foaccacia\n  - Reuben sandwich\n\n[Main Course]\n  - Entrecôte, demi glace et salade de pommes de terres\n\n[Dessert]\n  - Millefeuilles  et fraises fraiches\n  - Quenelle de mousse au chocolat, huile d’olive\n\n",
+    "raw": {
+      "filename": "Menu 5.07.2025.pdf",
+      "event_date": "2025-07-05",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Salade de pâtes au pesto de basilic, burrata et thon",
+              "description": null
+            },
+            {
+              "dish_name": "Salade de pois chiches, légumes de saison et fromage de chèvre",
+              "description": null
+            },
+            {
+              "dish_name": "Gazpacho de melon, jambon séché et ciboulette",
+              "description": null
+            },
+            {
+              "dish_name": "Salade de tomates, concombre, olives et anchois fumés",
+              "description": null
+            },
+            {
+              "dish_name": "Ceviche de maigre et patate douce",
+              "description": null
+            },
+            {
+              "dish_name": "Tiradito de sériole, pêche et vinaigrette Thai",
+              "description": null
+            },
+            {
+              "dish_name": "Foaccacia",
+              "description": null
+            },
+            {
+              "dish_name": "Reuben sandwich",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Main Course",
+          "dishes": [
+            {
+              "dish_name": "Entrecôte, demi glace et salade de pommes de terres",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Millefeuilles  et fraises fraiches",
+              "description": null
+            },
+            {
+              "dish_name": "Quenelle de mousse au chocolat, huile d’olive",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 1",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 1\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 1.pdf\n\nCourses:\n[Course 1]\n  - Asperges, sauce gribiche fumé et échalotes croustillantes\n\n[Course 2]\n  - Côte de porc rôtie, fèves, ail noir et sauce poivré\n\n[Course 3]\n  - Basque cheesecake et fraises\n\n",
+    "raw": {
+      "filename": "Menu 1.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Asperges, sauce gribiche fumé et échalotes croustillantes",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Côte de porc rôtie, fèves, ail noir et sauce poivré",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Basque cheesecake et fraises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.01.27-2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.01.27-2\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.01.27-2.pdf\n\nCourses:\n[Course 1]\n  - Tartare de boeuf: épices, gingembre, pommes allumettes et pain brioche\n\n[Course 2]\n  - Gnocchi croustillants à la courge: cime di papa et saucisse, sauce au gorgonzola\n\n[Dessert]\n  - Tarte au chocolat et noix: crème à l’amaretto\n\n",
+    "raw": {
+      "filename": "2025.01.27-2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tartare de boeuf",
+              "description": "épices, gingembre, pommes allumettes et pain brioche"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Gnocchi croustillants à la courge",
+              "description": "cime di papa et saucisse, sauce au gorgonzola"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte au chocolat et noix",
+              "description": "crème à l’amaretto"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 1 copie",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 1 copie\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 1 copie.pdf\n\nCourses:\n[Course 1]\n  - Gaufre de pommes de terres, crème au yuzu, gambas rouge et caviar\n\n[Course 2]\n  - Brochette de poulet satay et sauce matcha\n\n[Course 3]\n  - Pain souﬄé, boeuf et cecina\n\n[Course 4]\n  - Salade de crabe, lèche de tigre de rhubarbe, fèves et ﬁnger lime\n\n[Course 5]\n  - Filet d’agneau rôti, asperges vertes, petits pois et demi glace poivré\n\n[Course 6]\n  - Tarte souﬄé au chocolat et cerises\n\n",
+    "raw": {
+      "filename": "Menu 1 copie.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Gaufre de pommes de terres, crème au yuzu, gambas rouge et caviar",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Brochette de poulet satay et sauce matcha",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Pain souﬄé, boeuf et cecina",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Salade de crabe, lèche de tigre de rhubarbe, fèves et ﬁnger lime",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Filet d’agneau rôti, asperges vertes, petits pois et demi glace poivré",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 6",
+          "dishes": [
+            {
+              "dish_name": "Tarte souﬄé au chocolat et cerises",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 10 pax 7",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 10 pax 7\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 10 pax 7.pdf\n\nCourses:\n[Starters]\n  - Crudo de seriole: vinaigrette aux tomates et agrumes\n  - Carciofo alla giudia: espuma de pecorino et balsamique\n  - Tartare de boef a l’italienne: avec noisette, parmesan et focaccia maison\n\n[Entrée chaudes]\n  - Paccheri a l’homard bleu\n  - Spaghetti fumé: vongole et poutargue\n  - Gnudi aux épinards: sauce de pain et anchois, vieux parmesan\n\n[Main courses]\n  - Turbot rôti: courgettes et ﬂeurs de courgettes\n  - Maigre de ligne: artichaut et salsa verde\n  - Fillet de veau: girolles et sauce moutarde\n\n[Desserts]\n  - Millefeuille: crème pistache et fruits rouges\n  - Meringata au citron\n  - Tiramisù\n\n",
+    "raw": {
+      "filename": "Menu 10 pax 7.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Crudo de seriole",
+              "description": "vinaigrette aux tomates et agrumes"
+            },
+            {
+              "dish_name": "Carciofo alla giudia",
+              "description": "espuma de pecorino et balsamique"
+            },
+            {
+              "dish_name": "Tartare de boef a l’italienne",
+              "description": "avec noisette, parmesan et focaccia maison"
+            }
+          ]
+        },
+        {
+          "course_name": "Entrée chaudes",
+          "dishes": [
+            {
+              "dish_name": "Paccheri a l’homard bleu",
+              "description": null
+            },
+            {
+              "dish_name": "Spaghetti fumé",
+              "description": "vongole et poutargue"
+            },
+            {
+              "dish_name": "Gnudi aux épinards",
+              "description": "sauce de pain et anchois, vieux parmesan"
+            }
+          ]
+        },
+        {
+          "course_name": "Main courses",
+          "dishes": [
+            {
+              "dish_name": "Turbot rôti",
+              "description": "courgettes et ﬂeurs de courgettes"
+            },
+            {
+              "dish_name": "Maigre de ligne",
+              "description": "artichaut et salsa verde"
+            },
+            {
+              "dish_name": "Fillet de veau",
+              "description": "girolles et sauce moutarde"
+            }
+          ]
+        },
+        {
+          "course_name": "Desserts",
+          "dishes": [
+            {
+              "dish_name": "Millefeuille",
+              "description": "crème pistache et fruits rouges"
+            },
+            {
+              "dish_name": "Meringata au citron",
+              "description": null
+            },
+            {
+              "dish_name": "Tiramisù",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu soir",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu soir\nEvent: Private Dinner\nDate: unknown\nFilename: Menu soir.pdf\n\nCourses:\n[Course 1]\n  - Bao de poulet frit\n  - Ceviche de sériole, tarama et totopos\n  - Salade de tomates, pêches et amandes\n  - Olives ascolanes\n  - Pork belly, patate douce et chimichurri\n  - Basque cheesecake avec coulis de fruits rouges\n\n",
+    "raw": {
+      "filename": "Menu soir.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Bao de poulet frit",
+              "description": null
+            },
+            {
+              "dish_name": "Ceviche de sériole, tarama et totopos",
+              "description": null
+            },
+            {
+              "dish_name": "Salade de tomates, pêches et amandes",
+              "description": null
+            },
+            {
+              "dish_name": "Olives ascolanes",
+              "description": null
+            },
+            {
+              "dish_name": "Pork belly, patate douce et chimichurri",
+              "description": null
+            },
+            {
+              "dish_name": "Basque cheesecake avec coulis de fruits rouges",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.02.01",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.02.01\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.02.01.pdf\n\nCourses:\n[Course 1]\n  - Tarama au yuzu fumé et endives: Pain brioche\n  - Tartare de boeuf épicé\n  - Risotto au safran, réglisse, jus de veau\n  - Presa Iberica: conﬁt, cime di rapa , sauce moutarde et pickles de saison\n  - Espunma de chocolat chaud, pistache et orange\n\n",
+    "raw": {
+      "filename": "2025.02.01.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tarama au yuzu fumé et endives",
+              "description": "Pain brioche"
+            },
+            {
+              "dish_name": "Tartare de boeuf épicé",
+              "description": null
+            },
+            {
+              "dish_name": "Risotto au safran, réglisse, jus de veau",
+              "description": null
+            },
+            {
+              "dish_name": "Presa Iberica",
+              "description": "conﬁt, cime di rapa , sauce moutarde et pickles de saison"
+            },
+            {
+              "dish_name": "Espunma de chocolat chaud, pistache et orange",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine12:09",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine12:09\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine12:09.pdf\n\nCourses:\n[Course 1]\n  - homarde à la catalane\n\n[Course 2]\n  - iberico porc: mirabelles etguanciale\n\n[Course 3]\n  - pain perdu aux mûres\n\n",
+    "raw": {
+      "filename": "Menu Twentywine12:09.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "homarde à la catalane",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "iberico porc",
+              "description": "mirabelles etguanciale"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "pain perdu aux mûres",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2024.12.12",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2024.12.12\nEvent: Private Dinner\nDate: unknown\nFilename: 2024.12.12.pdf\n\nCourses:\n[Course 1]\n  - Saint Jacques poêlées: beurre blanc au miso, guanciale et cresson\n\n[Course 2]\n  - Filet de boeuf à la Rossini\n\n[Dessert]\n  - Mousse au chocolat: crumble noisette et kaki\n\n",
+    "raw": {
+      "filename": "2024.12.12.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Saint Jacques poêlées",
+              "description": "beurre blanc au miso, guanciale et cresson"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Filet de boeuf à la Rossini",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Mousse au chocolat",
+              "description": "crumble noisette et kaki"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "menu 1:10 uncommon",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: menu 1:10 uncommon\nEvent: Private Dinner\nDate: unknown\nFilename: menu 1:10 uncommon.pdf\n\nCourses:\n[Course 1]\n  - Paté en croûte de porc et ceps\n  - Reuben sandwich, jambon gruyère\n  - Spicy thon tartare en feuille de shiso\n  - Chps de polenta, espuma de comté\n  - Focaccia a la courge et romarin\n  - Gambas rolls\n  - Gildas d’anchois fumé et olives\n  - Crispy rice et tarare de seriole\n  - Tarama au yuzu et endive\n\n",
+    "raw": {
+      "filename": "menu 1:10 uncommon.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Paté en croûte de porc et ceps",
+              "description": ""
+            },
+            {
+              "dish_name": "Reuben sandwich, jambon gruyère",
+              "description": ""
+            },
+            {
+              "dish_name": "Spicy thon tartare en feuille de shiso",
+              "description": ""
+            },
+            {
+              "dish_name": "Chps de polenta, espuma de comté",
+              "description": ""
+            },
+            {
+              "dish_name": "Focaccia a la courge et romarin",
+              "description": ""
+            },
+            {
+              "dish_name": "Gambas rolls",
+              "description": ""
+            },
+            {
+              "dish_name": "Gildas d’anchois fumé et olives",
+              "description": ""
+            },
+            {
+              "dish_name": "Crispy rice et tarare de seriole",
+              "description": ""
+            },
+            {
+              "dish_name": "Tarama au yuzu et endive",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 06.05. 2025 soir",
+    "name": "Private Dinner (2025-05-06)",
+    "text": "Menu ID: Menu 06.05. 2025 soir\nEvent: Private Dinner\nDate: 2025-05-06\nFilename: Menu 06.05. 2025 soir.pdf\n\nCourses:\n[Starters]\n  - Paté en croute\n  - Polenta chips, comté foam\n  - Deviled eggs and puntarelle salad\n  - Fried mozarella, wild garlic pesto, tomatoes\n  - Piemontese-style tartare and rosmarin focaccia\n  - Pork rillette sando\n\n[Dessert]\n  - Basque cheeskake,strawberies\n\n",
+    "raw": {
+      "filename": "Menu 06.05. 2025 soir.pdf",
+      "event_date": "2025-05-06",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Starters",
+          "dishes": [
+            {
+              "dish_name": "Paté en croute",
+              "description": null
+            },
+            {
+              "dish_name": "Polenta chips, comté foam",
+              "description": null
+            },
+            {
+              "dish_name": "Deviled eggs and puntarelle salad",
+              "description": null
+            },
+            {
+              "dish_name": "Fried mozarella, wild garlic pesto, tomatoes",
+              "description": null
+            },
+            {
+              "dish_name": "Piemontese-style tartare and rosmarin focaccia",
+              "description": null
+            },
+            {
+              "dish_name": "Pork rillette sando",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Basque cheeskake,strawberies",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.05.01 - 2",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.05.01 - 2\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.05.01 - 2.pdf\n\nCourses:\n[Course 1]\n  - Ceviche de thon épicé: fèves et pommes allumettes\n\n[Course 2]\n  - Sole, sauce au miso: ikura et ail des ours, aspergés vertes grillées\n\n[Dessert]\n  - Pain perdu caramélisé: glace vanille\n\n",
+    "raw": {
+      "filename": "2025.05.01 - 2.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Ceviche de thon épicé",
+              "description": "fèves et pommes allumettes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Sole, sauce au miso",
+              "description": "ikura et ail des ours, aspergés vertes grillées"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Pain perdu caramélisé",
+              "description": "glace vanille"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.04.04",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.04.04\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.04.04.pdf\n\nCourses:\n[Course 1]\n  - Tartare de thon épicé: petits pois, pommes allumettes\n\n[Course 2]\n  - Spaghetti fumé: vongole et poutargue\n\n[Dessert]\n  - Tarte soufﬂé au chocolat: glace vanille\n\n",
+    "raw": {
+      "filename": "2025.04.04.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Tartare de thon épicé",
+              "description": "petits pois, pommes allumettes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Spaghetti fumé",
+              "description": "vongole et poutargue"
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Tarte soufﬂé au chocolat",
+              "description": "glace vanille"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 28.05.2025",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu 28.05.2025\nEvent: Private Dinner\nDate: unknown\nFilename: Menu 28.05.2025.pdf\n\nCourses:\n[Course 1]\n  - Olives all’ascolana: lime mayonnaise\n\n[Course 2]\n  - Asperges vertes: gribiche fumé et échalotes frittes\n\n[Course 3]\n  - Pappardelle cacio e pepe: morilles et guanciale\n\n[Course 4]\n  - Flan de Dulce de lèche de chèvres: crèmes à la tonka\n\n",
+    "raw": {
+      "filename": "Menu 28.05.2025.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Olives all’ascolana",
+              "description": "lime mayonnaise"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Asperges vertes",
+              "description": "gribiche fumé et échalotes frittes"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Pappardelle cacio e pepe",
+              "description": "morilles et guanciale"
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Flan de Dulce de lèche de chèvres",
+              "description": "crèmes à la tonka"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine 6",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: Menu Twentywine 6\nEvent: Private Dinner\nDate: unknown\nFilename: Menu Twentywine 6.pdf\n\nCourses:\n[Course 1]\n  - Crudo de maigre, ajo blanco et aubergine\n\n[Course 2]\n  - Porc laqué, poivrons, almendrado\n\n[Course 3]\n  - Terrine de pommes, crème diplomate\n\n",
+    "raw": {
+      "filename": "Menu Twentywine 6.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Crudo de maigre, ajo blanco et aubergine",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Porc laqué, poivrons, almendrado",
+              "description": null
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Terrine de pommes, crème diplomate",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu 19.05.2025",
+    "name": "Private Dinner (2025-05-19)",
+    "text": "Menu ID: Menu 19.05.2025\nEvent: Private Dinner\nDate: 2025-05-19\nFilename: Menu 19.05.2025.pdf\n\nCourses:\n[Course 1]\n  - Gauffre, crème yuzu, tartare de gambas rouge et caviar oscietra\n\n[Course 2]\n  - Tiradito de truite suisse, rhubarbe et livèche\n\n[Course 3]\n  - Quenelles de broché, petits pois, sauce miso fumé\n\n[Course 4]\n  - Artichaut, sauce au poivre et foie gras\n\n[Course 5]\n  - Canard roulé façon porchetta aux herbes, jus et côte de blettes au balsamique\n\n[Dessert]\n  - Chocolat, whisky et cerises\n\n",
+    "raw": {
+      "filename": "Menu 19.05.2025.pdf",
+      "event_date": "2025-05-19",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Gauffre, crème yuzu, tartare de gambas rouge et caviar oscietra",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Tiradito de truite suisse, rhubarbe et livèche",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Quenelles de broché, petits pois, sauce miso fumé",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 4",
+          "dishes": [
+            {
+              "dish_name": "Artichaut, sauce au poivre et foie gras",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 5",
+          "dishes": [
+            {
+              "dish_name": "Canard roulé façon porchetta aux herbes, jus et côte de blettes au balsamique",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Dessert",
+          "dishes": [
+            {
+              "dish_name": "Chocolat, whisky et cerises",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "Menu Twentywine cocktail",
+    "name": "Apero-cocktail (2023-08-28)",
+    "text": "Menu ID: Menu Twentywine cocktail\nEvent: Apero-cocktail\nDate: 2023-08-28\nFilename: Menu Twentywine cocktail.pdf\n\nCourses:\n[Appetizers]\n  - Potato pavè: reifort/truit\n  - Blinis: taramà/ikura\n  - Focaccia stracchino: pesto\n  - Croquettas de mortadella a la truffe\n  - Ribs de maiis epicée\n  - Hummus de haricots blancs et radicchio\n  - Baby gem lettuce tacos: gambas et sauce cocktail\n  - Focaccia genovese\n\n",
+    "raw": {
+      "filename": "Menu Twentywine cocktail.pdf",
+      "event_date": "2023-08-28",
+      "event_name": "Apero-cocktail",
+      "courses": [
+        {
+          "course_name": "Appetizers",
+          "dishes": [
+            {
+              "dish_name": "Potato pavè",
+              "description": "reifort/truit"
+            },
+            {
+              "dish_name": "Blinis",
+              "description": "taramà/ikura"
+            },
+            {
+              "dish_name": "Focaccia stracchino",
+              "description": "pesto"
+            },
+            {
+              "dish_name": "Croquettas de mortadella a la truffe",
+              "description": null
+            },
+            {
+              "dish_name": "Ribs de maiis epicée",
+              "description": null
+            },
+            {
+              "dish_name": "Hummus de haricots blancs et radicchio",
+              "description": null
+            },
+            {
+              "dish_name": "Baby gem lettuce tacos",
+              "description": "gambas et sauce cocktail"
+            },
+            {
+              "dish_name": "Focaccia genovese",
+              "description": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2025.01.27",
+    "name": "Private Dinner (unknown)",
+    "text": "Menu ID: 2025.01.27\nEvent: Private Dinner\nDate: unknown\nFilename: 2025.01.27.pdf\n\nCourses:\n[Course 1]\n  - Risotto au citron, carpaccio de gambas rouge et bisque\n\n[Course 2]\n  - Queue de lotte conﬁte au beurre noisette, sauce safran et navets\n\n[Course 3]\n  - Tartelette au yuzu meringuée\n\n",
+    "raw": {
+      "filename": "2025.01.27.pdf",
+      "event_date": "unknown",
+      "event_name": "Private Dinner",
+      "courses": [
+        {
+          "course_name": "Course 1",
+          "dishes": [
+            {
+              "dish_name": "Risotto au citron, carpaccio de gambas rouge et bisque",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 2",
+          "dishes": [
+            {
+              "dish_name": "Queue de lotte conﬁte au beurre noisette, sauce safran et navets",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "course_name": "Course 3",
+          "dishes": [
+            {
+              "dish_name": "Tartelette au yuzu meringuée",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

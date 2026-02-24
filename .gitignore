@@ -41,3 +41,9 @@ env/
 .LSOverride
 
 data/raw/
+
+# Allow indices for deployment
+!data/indices/
+!data/indices/*
+!data/indices_menus/
+!data/indices_menus/*
