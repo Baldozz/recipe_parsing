@@ -75,6 +75,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
         source_path = source_meta.get("path", "")
         
         source = "Unknown source file"
+        json_url = ""
         if base_url:
             import urllib.parse
             import re
@@ -91,13 +92,17 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
             json_url = f"{base_url}/data/final_classified_english/{urllib.parse.quote(json_filename)}"
             
             display_name = source_filename or d['name']
-            source = f"[{display_name}]({json_url})"
+            source = display_name
         elif source_files:
             source = ", ".join(source_files)
         elif source_filename:
             source = source_filename
 
-        block = f"### Recipe: {d['name']} (Source File: {source})\n{d['text']}"
+        if json_url:
+            block = f"### Recipe: {d['name']}\nRaw Source Link: {json_url}\nSource File name: {source}\n{d['text']}"
+        else:
+            block = f"### Recipe: {d['name']}\nSource File name: {source}\n{d['text']}"
+            
         block = _truncate_for_prompt(block, MAX_CHARS_PER_DOC)
         
         # Ensure we do not blow past the context window limits
@@ -139,7 +144,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
     5. Each menu should have a clear progression of courses (e.g., Starters, Main Course, Dessert) depending on the request and your style guide.
     6. Make the menus sound highly professional and elegant. Format the output beautifully in Markdown.
     7. For each menu, provide a short 1-sentence description of the concept/theme, followed by the courses.
-    8. VERY IMPORTANT: Next to each dish in the menu, explicitly cite the original file it came from exactly as provided in the Source File field. If it contains a markdown link (e.g., [Name](http...)), copy the markdown link verbatim. If you used a past menu for inspiration, mention that too.
+    8. VERY IMPORTANT: Next to each dish in the menu, you MUST provide a markdown clickable link. Format it exactly like this template: `[Source Name Here](Raw Source Link Here)`. Only use the exact `Raw Source Link` string verbatim if one is provided in the recipe text. Do not omit the `https` or the `http` schema.
     """
 
     try:
