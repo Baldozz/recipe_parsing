@@ -75,34 +75,30 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
         source_path = source_meta.get("path", "")
         
         source = "Unknown source file"
-        json_url = ""
+        markdown_link = ""
         if base_url:
             import urllib.parse
             import re
             
             # The id is typically the stem of the original JSON file.
-            # Check for multiple recipes per file convention (e.g. name_0)
-            base_id = d["id"]
-            if re.search(r'_\d+$', base_id):
-                base_id = base_id.rsplit('_', 1)[0]
-                
-            json_filename = f"{base_id}.json"
+            recipe_id = d["id"]
             
             # Use urllib.parse.quote for spaces and special characters.
-            json_url = f"{base_url}/data/final_classified_english/{urllib.parse.quote(json_filename)}"
+            json_url = f"{base_url}/api/recipe/{urllib.parse.quote(recipe_id)}"
             
             display_name = source_filename or d['name']
+            markdown_link = f"[[View Recipe JSON]({json_url})]"
             source = display_name
         elif source_files:
             source = ", ".join(source_files)
         elif source_filename:
             source = source_filename
 
-        if json_url:
-            block = f"### Recipe: {d['name']}\nRaw Source Link: {json_url}\nSource File name: {source}\n{d['text']}"
+        if markdown_link:
+            block = f"### Recipe: {d['name']}\nMARKDOWN_LINK: {markdown_link}\nOriginal File: {source}\n{d['text']}"
         else:
-            block = f"### Recipe: {d['name']}\nSource File name: {source}\n{d['text']}"
-            
+            block = f"### Recipe: {d['name']}\nOriginal File: {source}\n{d['text']}"
+
         block = _truncate_for_prompt(block, MAX_CHARS_PER_DOC)
         
         # Ensure we do not blow past the context window limits
@@ -144,7 +140,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
     5. Each menu should have a clear progression of courses (e.g., Starters, Main Course, Dessert) depending on the request and your style guide.
     6. Make the menus sound highly professional and elegant. Format the output beautifully in Markdown.
     7. For each menu, provide a short 1-sentence description of the concept/theme, followed by the courses.
-    8. VERY IMPORTANT: Next to each dish in the menu, you MUST provide a markdown clickable link. Format it exactly like this template: `[Source Name Here](Raw Source Link Here)`. Only use the exact `Raw Source Link` string verbatim if one is provided in the recipe text. Do not omit the `https` or the `http` schema.
+    8. VERY IMPORTANT LINKING RULE: Next to EACH dish you list in the menus, you MUST paste the exact `MARKDOWN_LINK` provided for that recipe exactly as written (e.g. `[[View Recipe JSON](http...)]`). If no `MARKDOWN_LINK` is provided, print the `Original File` name in brackets. DO NOT strip or re-format the urls.
     """
 
     try:

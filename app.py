@@ -57,6 +57,19 @@ async def create_menu(request: Request, body: MenuRequest):
 
     return StreamingResponse(event_generator(), media_type="text/plain")
 
+@app.get("/api/recipe/{recipe_id}")
+async def get_recipe(recipe_id: str):
+    docs_path = DATA_INDEX / "docs.json"
+    if docs_path.exists():
+        import json
+        with open(docs_path, "r", encoding="utf-8") as f:
+            docs = json.load(f)
+        for d in docs:
+            if d.get("id") == recipe_id:
+                return d.get("raw", {})
+    
+    return {"error": "Recipe not found"}
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
