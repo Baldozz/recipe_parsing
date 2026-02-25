@@ -5,11 +5,12 @@ import google.generativeai as genai
 from src.query import load_index, retrieve, MAX_CHARS_PER_DOC, MAX_TOTAL_CHARS, _truncate_for_prompt
 from src.utils.retry import call_model_with_retry
 import json
+import random
 
 # Removed strictly-typed extraction to prevent over-filtering.
 # Relying purely on FAISS / BM25 semantic hybrid search instead.
 
-def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_guide_path: str):
+def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_guide_path: str, base_url: str = ""):
     """Generate menus based on past menus, style guide, and available recipes."""
     
     # 1. Load Style Guide
@@ -59,6 +60,8 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
                 unique_recipes[recipe_id] = r
                 
     retrieved_recipes = list(unique_recipes.values())
+    # Shuffle to introduce variety and prevent the exact same recipes from always appearing at the top
+    random.shuffle(retrieved_recipes)
     
     recipe_context_blocks = []
     total_len = len(past_menus_text) + len(style_guide)
@@ -67,13 +70,32 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
         d = r["doc"]
         raw = d.get("raw", {})
         source_files = raw.get("source_files", [])
-        source_meta = raw.get("source_metadata", {}).get("filename", "")
-        if source_files:
+        source_meta = raw.get("source_metadata", {})
+        source_filename = source_meta.get("filename", "")
+        source_path = source_meta.get("path", "")
+        
+        source = "Unknown source file"
+        if base_url:
+            import urllib.parse
+            import re
+            
+            # The id is typically the stem of the original JSON file.
+            # Check for multiple recipes per file convention (e.g. name_0)
+            base_id = d["id"]
+            if re.search(r'_\d+$', base_id):
+                base_id = base_id.rsplit('_', 1)[0]
+                
+            json_filename = f"{base_id}.json"
+            
+            # Use urllib.parse.quote for spaces and special characters.
+            json_url = f"{base_url}/data/final_classified_english/{urllib.parse.quote(json_filename)}"
+            
+            display_name = source_filename or d['name']
+            source = f"[{display_name}]({json_url})"
+        elif source_files:
             source = ", ".join(source_files)
-        elif source_meta:
-            source = source_meta
-        else:
-            source = "Unknown source file"
+        elif source_filename:
+            source = source_filename
 
         block = f"### Recipe: {d['name']} (Source File: {source})\n{d['text']}"
         block = _truncate_for_prompt(block, MAX_CHARS_PER_DOC)
@@ -117,7 +139,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
     5. Each menu should have a clear progression of courses (e.g., Starters, Main Course, Dessert) depending on the request and your style guide.
     6. Make the menus sound highly professional and elegant. Format the output beautifully in Markdown.
     7. For each menu, provide a short 1-sentence description of the concept/theme, followed by the courses.
-    8. VERY IMPORTANT: Next to each dish in the menu, explicitly cite the original file it came from (e.g., "[Source: IMG_4824.jpeg]"). If you used a past menu for inspiration, mention that too.
+    8. VERY IMPORTANT: Next to each dish in the menu, explicitly cite the original file it came from exactly as provided in the Source File field. If it contains a markdown link (e.g., [Name](http...)), copy the markdown link verbatim. If you used a past menu for inspiration, mention that too.
     """
 
     try:

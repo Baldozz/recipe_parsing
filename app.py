@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import asyncio
 from pathlib import Path
@@ -12,6 +13,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from src.menu_builder import generate_menu
 
 app = FastAPI(title="Ludo's Kitchen API")
+
+# Mount the static data directory
+app.mount("/data", StaticFiles(directory="data"), name="data")
 
 # Setup CORS for the frontend
 app.add_middleware(
@@ -28,13 +32,15 @@ class MenuRequest(BaseModel):
     query: str
 
 @app.post("/api/menu")
-async def create_menu(request: MenuRequest):
+async def create_menu(request: Request, body: MenuRequest):
+    base_url = str(request.base_url).rstrip('/')
     # This runs generate_menu which takes the query
     ans = generate_menu(
-        request.query,
+        body.query,
         recipe_index_dir=str(DATA_INDEX),
         menu_index_dir="data/indices_menus",
-        style_guide_path="data/chef_style_guide.md"
+        style_guide_path="data/chef_style_guide.md",
+        base_url=base_url
     )
 
     # Check if ans is a string (error) or a stream
