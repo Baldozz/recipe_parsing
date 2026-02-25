@@ -87,7 +87,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
             json_url = f"{base_url}/api/recipe/{urllib.parse.quote(recipe_id)}"
             
             display_name = source_filename or d['name']
-            markdown_link = f"[[View Recipe JSON]({json_url})]"
+            markdown_link = f"[View Recipe JSON]({json_url})"
             source = display_name
         elif source_files:
             source = ", ".join(source_files)
@@ -95,7 +95,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
             source = source_filename
 
         if markdown_link:
-            block = f"### Recipe: {d['name']}\nMARKDOWN_LINK: {markdown_link}\nOriginal File: {source}\n{d['text']}"
+            block = f"### Recipe: {d['name']} {markdown_link}\nOriginal File: {source}\n{d['text']}"
         else:
             block = f"### Recipe: {d['name']}\nOriginal File: {source}\n{d['text']}"
 
@@ -140,7 +140,7 @@ def generate_menu(query: str, recipe_index_dir: str, menu_index_dir: str, style_
     5. Each menu should have a clear progression of courses (e.g., Starters, Main Course, Dessert) depending on the request and your style guide.
     6. Make the menus sound highly professional and elegant. Format the output beautifully in Markdown.
     7. For each menu, provide a short 1-sentence description of the concept/theme, followed by the courses.
-    8. VERY IMPORTANT LINKING RULE: Next to EACH dish you list in the menus, you MUST paste the exact `MARKDOWN_LINK` provided for that recipe exactly as written (e.g. `[[View Recipe JSON](http...)]`). If no `MARKDOWN_LINK` is provided, print the `Original File` name in brackets. DO NOT strip or re-format the urls.
+    8. VERY IMPORTANT LINKING RULE: Next to EACH dish you list in the menus, you MUST paste the exact `[View Recipe JSON](...)` markdown link exactly as it is provided next to the Recipe's name in the `AVAILABLE RECIPES` text. Do not omit the link, and do not modify the URL inside it!
     """
 
     try:
